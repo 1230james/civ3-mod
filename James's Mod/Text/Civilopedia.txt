@@ -7586,7 +7586,7 @@ governing system in the modern world because of the personal and economic freedo
 #GOVT_Fundamentalism
 ^
 ^
-^Under Fundamentalism, as the Mullah of a religious theology, you lead your people through the strict adherance to religious dogma. Because of centralized control by the church, $LINK<corruption=GCON_Corruption> is quite low under fundamentalism.  Also, because of unwavering belief in the ruling religion's frame of thought, your people are immune to propaganda and are very $LINK<resistant=GCON_Resistance> to infidels.  $LINK<Research=GCON_Research>, however, is stymied under fundamentalist regimes because it brings secularism and questioning of religious belief.
+^Under Fundamentalism, as the Mullah of a religious theocracy, you lead your people through the strict adherance to religious dogma. Because of centralized control by the church, $LINK<corruption=GCON_Corruption> is quite low under fundamentalism. $LINK<Research=GCON_Research>, however, is stymied under fundamentalist regimes because it brings secularism and questioning of religious belief.
 ^There is no improvement maintenance when a civilization is in Fundamentalism.
 ^
 ^Worker efficiency				100%
