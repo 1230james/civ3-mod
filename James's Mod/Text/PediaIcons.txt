@@ -1,0 +1,2920 @@
+; PediaIcons.txt for Conquests main game
+;   File that accompanies Civilopedia.txt.
+;   specify the files that civilopedia icons are to be read from as follows
+; for item "ENTRY" with key "TYPE_ENTRY"
+;   the large icon would be FIRST under "ICON_TYPE_ENTRY"
+;   the small icon is SECOND under "ICON_TYPE_ENTRY"
+;
+; buildings break from this form, 
+;   a building -- wonder, small wonder, city improvement is displayed as follows:
+;
+; #ICON_BLDG_NAME
+; TYPE
+; file list...
+;
+; type indicates how many files are in the file list.  
+; if only one icon exists for the building, TYPE should be SINGLE, and 2 files in list (large, small)
+; if the building icon varies by era, TYPE should be ERA, and 1 file for each era per size in order should be in the list
+; if the building icon varies by culture TYPE should be CULTURE, and file for each culture type per size in order should be in the list
+; types must be written in CAPITAL LETTERS
+; the order that the file names are written in must correspond to the order that they are in the .bic file:
+; for ERA in the default mod that is: Ancient, MiddleAge, Industrial, Modern
+; for CULTURE in the default mod that is: American, European, Roman/Mediterranean, 
+;
+; This may turn into the default art customization file... I'm adding the leader head art now...
+
+#START LEADER/RACE ART
+#RACE_ROMANS
+art\leaderheads\CE.pcx
+art\advisors\CE_all.pcx
+#RACE_EGYPTIANS
+art\leaderheads\CL.pcx
+art\advisors\CL_all.pcx
+#RACE_GREEKS
+art\leaderheads\AL.pcx
+art\advisors\AL_all.pcx
+#RACE_BABYLON
+art\leaderheads\HA.pcx
+art\advisors\HA_all.pcx
+#RACE_GERMANS
+Art\Leaderheads\HitlerNeutralLarge.pcx
+Art\Advisors\HitlerAll.pcx
+#RACE_RUSSIAN
+Art\Leaderheads\StalinNeutralLarge.pcx
+Art\Advisors\StalinAll.pcx
+#RACE_CHINESE
+art\leaderheads\MO.pcx
+art\advisors\MO_all.pcx
+#RACE_AMERICAN
+Art\Leaderheads\RooseveltNeutralLarge.pcx
+Art\Advisors\RooseveltAll.pcx
+#RACE_JAPANESE
+Art\Leaderheads\HirohitoNeutralLarge.pcx
+Art\Advisors\HirohitoAll.pcx
+#RACE_FRENCH
+art\leaderheads\JO.pcx
+art\advisors\JO_all.pcx
+#RACE_INDIAN
+art\leaderheads\GH.pcx
+art\advisors\GH_all.pcx
+#RACE_PERSIAN
+art\leaderheads\XE.pcx
+art\advisors\XE_all.pcx
+#RACE_AZTECS
+art\leaderheads\MN.pcx
+art\advisors\MN_all.pcx
+#RACE_ZULU
+art\leaderheads\ZU.pcx
+art\advisors\ZU_all.pcx
+#RACE_IROQUOIS
+art\leaderheads\HI.pcx
+art\advisors\HI_all.pcx
+#RACE_ENGLISH
+Art\Leaderheads\ChurchillNeutralLarge.pcx
+Art\Advisors\ChurchillAll.pcx
+#RACE_MONGOLS
+art\leaderheads\x_temujin victory neutral.pcx
+art\advisors\x_temujin advisor.pcx
+#RACE_SPANISH
+art\leaderheads\x_isabell victory neutral.pcx
+art\advisors\x_isabell advisor.pcx
+#RACE_VIKINGS
+art\leaderheads\x_ragnar victory neutral.pcx
+art\advisors\x_ragnar advisor.pcx
+#RACE_OTTOMANS
+art\leaderheads\x_osman victory neutral.pcx
+art\advisors\x_osman advisor.pcx
+#RACE_ARABS
+art\leaderheads\x_abu bakr victory neutral.pcx
+art\advisors\x_abu bakr advisor.pcx
+#RACE_CELTS
+art\leaderheads\x_brennus victory neutral.pcx
+art\advisors\x_brennus advisor.pcx
+#RACE_CARTHAGINIANS
+art\leaderheads\x_Hannibal victory neutral.pcx
+art\advisors\x_Hannibal advisor.pcx
+#RACE_KOREANS
+art\leaderheads\x_Wang Kon victory neutral.pcx
+art\advisors\x_Wang Kon advisor.pcx
+#RACE_SUMERIA
+art\leaderheads\x2_Gilgamesh victory neutral.pcx
+art\advisors\x2_Gilgamesh advisor.pcx
+#RACE_HATTI
+art\leaderheads\x2_Mursilis victory neutral.pcx
+art\advisors\x2_Mursilis advisor.pcx
+#RACE_DUTCH
+art\leaderheads\x2_William victory neutral.pcx
+art\advisors\x2_William advisor.pcx
+#RACE_PORTUGAL
+art\leaderheads\x2_Henry victory neutral.pcx
+art\advisors\x2_Henry advisor.pcx
+#RACE_INCANS
+art\leaderheads\x2_Pachacuti victory neutral.pcx
+art\advisors\x2_Pachacuti advisor.pcx
+#RACE_MAYANS
+art\leaderheads\x2_Smoke-Jaguar victory neutral.pcx
+art\advisors\x2_Smoke-Jaguar_advisor.pcx
+#RACE_BYZANTINES
+art\leaderheads\x2_Theodora victory neutral.pcx
+art\advisors\x2_Theodora advisor.pcx
+#RACE_CUBAN
+art\leaderheads\guevara.pcx
+art\advisors\guevara_all.pcx
+#RACE_MALI
+art\leaderheads\MM.pcx
+art\advisors\MM_all.pcx
+#RACE_MAURYAN
+art\leaderheads\AS.pcx
+art\advisors\AS_all.pcx
+#RACE_LAKOTA
+art\leaderheads\SB.pcx
+art\advisors\SB_all.pcx
+
+
+
+####
+# Happy Icons  (conquer/domination/space winner)
+#HAPPY_RACE_ROMANS
+art\leaderheads\CE_HAP.pcx
+#HAPPY_RACE_EGYPTIANS
+art\leaderheads\CL_HAP.pcx
+#HAPPY_RACE_GREEKS
+art\leaderheads\AL_HAP.pcx
+#HAPPY_RACE_BABYLON
+art\leaderheads\HA_HAP.pcx
+#HAPPY_RACE_GERMANS
+art\leaderheads\HitlerHappyLarge.pcx
+#HAPPY_RACE_RUSSIAN
+art\leaderheads\StalinHappyLarge.pcx
+#HAPPY_RACE_CHINESE
+art\leaderheads\MO_HAP.pcx
+#HAPPY_RACE_AMERICAN
+art\leaderheads\RooseveltHappyLarge.pcx
+#HAPPY_RACE_JAPANESE
+art\leaderheads\HirohitoHappyLarge.pcx
+#HAPPY_RACE_FRENCH
+art\leaderheads\JO_HAP.pcx
+#HAPPY_RACE_INDIAN
+art\leaderheads\GH_HAP.pcx
+#HAPPY_RACE_PERSIAN
+art\leaderheads\XE_HAP.pcx
+#HAPPY_RACE_AZTECS
+art\leaderheads\MN_HAP.pcx
+#HAPPY_RACE_ZULU
+art\leaderheads\ZU_HAP.pcx
+#HAPPY_RACE_IROQUOIS
+art\leaderheads\HI_HAP.pcx
+#HAPPY_RACE_ENGLISH
+art\leaderheads\ChurchillHappyLarge.pcx
+#HAPPY_RACE_MONGOLS
+art\leaderheads\x_temujin victory happy lg.pcx
+#HAPPY_RACE_SPANISH
+art\leaderheads\x_isabell victory happy lg.pcx
+#HAPPY_RACE_VIKINGS
+art\leaderheads\x_ragnar victory happy lg.pcx
+#HAPPY_RACE_OTTOMANS
+art\leaderheads\x_osman victory happy lg.pcx
+#HAPPY_RACE_ARABS
+art\leaderheads\x_abu bakr victory happy lg.pcx
+#HAPPY_RACE_CELTS
+art\leaderheads\x_brennus victory happy lg.pcx
+#HAPPY_RACE_CARTHAGINIANS
+art\leaderheads\x_Hannibal victory happy lg.pcx
+#HAPPY_RACE_KOREANS
+art\leaderheads\x_Wang Kon victory happy lg.pcx
+#HAPPY_RACE_SUMERIA
+art\leaderheads\x2_Gilgamesh victory happy lg.pcx
+#HAPPY_RACE_HATTI
+art\leaderheads\x2_Mursilis victory happy lg.pcx
+#HAPPY_RACE_DUTCH
+art\leaderheads\x2_William victory happy lg.pcx
+#HAPPY_RACE_PORTUGAL
+art\leaderheads\x2_Henry victory happy lg.pcx
+#HAPPY_RACE_INCANS
+art\leaderheads\x2_Pachacuti victory happy lg.pcx
+#HAPPY_RACE_MAYANS
+art\leaderheads\x2_Smoke-Jaguar victory happy lg.pcx
+#HAPPY_RACE_BYZANTINES
+art\leaderheads\x2_Theodora victory happy lg.pcx
+#HAPPY_RACE_CUBAN
+art\leaderheads\guevara_HAPL.pcx
+#HAPPY_RACE_MALI
+art\leaderheads\MM_HAP.pcx
+#HAPPY_RACE_MAURYAN
+art\leaderheads\AS_HAP.pcx
+#HAPPY_RACE_LAKOTA
+art\leaderheads\SB_HAP.pcx
+
+####
+# Small Happy Icons  (defeat)
+#SHAPP_RACE_ROMANS
+art\leaderheads\CE_SHAP.pcx
+#SHAPP_RACE_EGYPTIANS
+art\leaderheads\CL_SHAP.pcx
+#SHAPP_RACE_GREEKS
+art\leaderheads\AL_SHAP.pcx
+#SHAPP_RACE_BABYLON
+art\leaderheads\HA_SHAP.pcx
+#SHAPP_RACE_GERMANS
+art\leaderheads\HitlerHappySmall.pcx
+#SHAPP_RACE_RUSSIAN
+art\leaderheads\StalinHappySmall.pcx
+#SHAPP_RACE_CHINESE
+art\leaderheads\MO_SHAP.pcx
+#SHAPP_RACE_AMERICAN
+art\leaderheads\RooseveltHappySmall.pcx
+#SHAPP_RACE_JAPANESE
+art\leaderheads\HirohitoHappySmall.pcx
+#SHAPP_RACE_FRENCH
+art\leaderheads\JO_SHAP.pcx
+#SHAPP_RACE_INDIAN
+art\leaderheads\GH_SHAP.pcx
+#SHAPP_RACE_PERSIAN
+art\leaderheads\XE_SHAP.pcx
+#SHAPP_RACE_AZTECS
+art\leaderheads\MN_SHAP.pcx
+#SHAPP_RACE_ZULU
+art\leaderheads\ZU_SHAP.pcx
+#SHAPP_RACE_IROQUOIS
+art\leaderheads\HI_SHAP.pcx
+#SHAPP_RACE_ENGLISH
+art\leaderheads\ChurchillHappySmall.pcx
+#SHAPP_RACE_MONGOLS
+art\leaderheads\x_temujin victory happy sm.pcx
+#SHAPP_RACE_SPANISH
+art\leaderheads\x_isabell victory happy sm.pcx
+#SHAPP_RACE_VIKINGS
+art\leaderheads\x_ragnar victory happy sm.pcx
+#SHAPP_RACE_OTTOMANS
+art\leaderheads\x_osman victory happy sm.pcx
+#SHAPP_RACE_ARABS
+art\leaderheads\x_abu bakr victory happy sm.pcx
+#SHAPP_RACE_CELTS
+art\leaderheads\x_brennus victory happy sm.pcx
+#SHAPP_RACE_CARTHAGINIANS
+art\leaderheads\x_Hannibal victory happy sm.pcx
+#SHAPP_RACE_KOREANS
+art\leaderheads\x_Wang Kon victory happy sm.pcx
+#SHAPP_RACE_SUMERIA
+art\leaderheads\x2_Gilgamesh victory happy sm.pcx
+#SHAPP_RACE_HATTI
+art\leaderheads\x2_Mursilis victory happy sm.pcx
+#SHAPP_RACE_DUTCH
+art\leaderheads\x2_William victory happy sm.pcx
+#SHAPP_RACE_PORTUGAL
+art\leaderheads\x2_Henry victory happy sm.pcx
+#SHAPP_RACE_INCANS
+art\leaderheads\x2_Pachacuti victory happy sm.pcx
+#SHAPP_RACE_MAYANS
+art\leaderheads\x2_Smoke-Jaguar victory happy sm.pcx
+#SHAPP_RACE_BYZANTINES
+art\leaderheads\x2_Theodora victory happy sm.pcx
+#SHAPP_RACE_CUBAN
+art\leaderheads\guevara_HAPS.pcx
+#SHAPP_RACE_MALI
+art\leaderheads\MM_SHAP.pcx
+#SHAPP_RACE_MAURYAN
+art\leaderheads\AS_SHAP.pcx
+#SHAPP_RACE_LAKOTA
+art\leaderheads\SB_SHAP.pcx
+
+####
+# Large Kiss Icons  (Culture/diplomatic Winners)
+#LKISS_RACE_ROMANS
+art\leaderheads\CE_KIS.pcx
+#LKISS_RACE_EGYPTIANS
+art\leaderheads\CL_KIS.pcx
+#LKISS_RACE_GREEKS
+art\leaderheads\AL_KIS.pcx
+#LKISS_RACE_BABYLON
+art\leaderheads\HA_KIS.pcx
+#LKISS_RACE_GERMANS
+art\leaderheads\HitlerKissLarge.pcx
+#LKISS_RACE_RUSSIAN
+art\leaderheads\StalinKissLarge.pcx
+#LKISS_RACE_CHINESE
+art\leaderheads\MO_KIS.pcx
+#LKISS_RACE_AMERICAN
+art\leaderheads\RooseveltKissLarge.pcx
+#LKISS_RACE_JAPANESE
+art\leaderheads\HirohitoKissLarge.pcx
+#LKISS_RACE_FRENCH
+art\leaderheads\JO_KIS.pcx
+#LKISS_RACE_INDIAN
+art\leaderheads\GH_KIS.pcx
+#LKISS_RACE_PERSIAN
+art\leaderheads\XE_KIS.pcx
+#LKISS_RACE_AZTECS
+art\leaderheads\MN_KIS.pcx
+#LKISS_RACE_ZULU
+art\leaderheads\ZU_KIS.pcx
+#LKISS_RACE_IROQUOIS
+art\leaderheads\HI_KIS.pcx
+#LKISS_RACE_ENGLISH
+art\leaderheads\ChurchillKissLarge.pcx
+#LKISS_RACE_MONGOLS
+art\leaderheads\x_temujin kiss lg.pcx
+#LKISS_RACE_SPANISH
+art\leaderheads\x_isabell kiss lg.pcx
+#LKISS_RACE_VIKINGS
+art\leaderheads\x_ragnar victory kiss lg.pcx
+#LKISS_RACE_OTTOMANS
+art\leaderheads\x_osman victory kiss lg.pcx
+#LKISS_RACE_ARABS
+art\leaderheads\x_abu bakr victory kiss lg.pcx
+#LKISS_RACE_CELTS
+art\leaderheads\x_brennus victory kiss lg.pcx
+#LKISS_RACE_CARTHAGINIANS
+art\leaderheads\x_Hannibal kiss lg.pcx
+#LKISS_RACE_KOREANS
+art\leaderheads\x_Wang Kon victory kiss lg.pcx
+#LKISS_RACE_SUMERIA
+art\leaderheads\x2_Gilgamesh victory kiss lg.pcx
+#LKISS_RACE_HATTI
+art\leaderheads\x2_Mursilis victory kiss lg.pcx
+#LKISS_RACE_DUTCH
+art\leaderheads\x2_William victory kiss lg.pcx
+#LKISS_RACE_PORTUGAL
+art\leaderheads\x2_Henry victory kiss lg.pcx
+#LKISS_RACE_INCANS
+art\leaderheads\x2_Pachacuti victory kiss lg.pcx
+#LKISS_RACE_MAYANS
+art\leaderheads\x2_Smoke-Jaguar victory kiss lg.pcx
+#LKISS_RACE_BYZANTINES
+art\leaderheads\x2_Theodora victory kiss lg.pcx
+#LKISS_RACE_CUBAN
+art\leaderheads\guevara_KISL.pcx
+#LKISS_RACE_MALI
+art\leaderheads\MM_KIS.pcx
+#LKISS_RACE_MAURYAN
+art\leaderheads\AS_KIS.pcx
+#LKISS_RACE_LAKOTA
+art\leaderheads\SB_KIS.pcx
+
+####
+# Small Kiss Icons (diplomatic losers)
+#SKISS_RACE_ROMANS
+art\leaderheads\CE_SKIS.pcx
+#SKISS_RACE_EGYPTIANS
+art\leaderheads\CL_SKIS.pcx
+#SKISS_RACE_GREEKS
+art\leaderheads\AL_SKIS.pcx
+#SKISS_RACE_BABYLON
+art\leaderheads\HA_SKIS.pcx
+#SKISS_RACE_GERMANS
+art\leaderheads\HitlerKissSmall.pcx
+#SKISS_RACE_RUSSIAN
+art\leaderheads\StalinKissSmall.pcx
+#SKISS_RACE_CHINESE
+art\leaderheads\MO_SKIS.pcx
+#SKISS_RACE_AMERICAN
+art\leaderheads\RooseveltKissSmall.pcx
+#SKISS_RACE_JAPANESE
+art\leaderheads\HirohitoKissSmall.pcx
+#SKISS_RACE_FRENCH
+art\leaderheads\JO_SKIS.pcx
+#SKISS_RACE_INDIAN
+art\leaderheads\GH_SKIS.pcx
+#SKISS_RACE_PERSIAN
+art\leaderheads\XE_SKIS.pcx
+#SKISS_RACE_AZTECS
+art\leaderheads\MN_SKIS.pcx
+#SKISS_RACE_ZULU
+art\leaderheads\ZU_SKIS.pcx
+#SKISS_RACE_IROQUOIS
+art\leaderheads\HI_SKIS.pcx
+#SKISS_RACE_ENGLISH
+art\leaderheads\ChurchillKissSmall.pcx
+#SKISS_RACE_MONGOLS
+art\leaderheads\x_temujin kiss sm.pcx
+#SKISS_RACE_SPANISH
+art\leaderheads\x_isabell kiss sm.pcx
+#SKISS_RACE_VIKINGS
+art\leaderheads\x_ragnar victory kiss sm.pcx
+#SKISS_RACE_OTTOMANS
+art\leaderheads\x_osman victory kiss sm.pcx
+#SKISS_RACE_ARABS
+art\leaderheads\x_abu bakr victory kiss sm.pcx
+#SKISS_RACE_CELTS
+art\leaderheads\x_brennus victory kiss sm.pcx
+#SKISS_RACE_CARTHAGINIANS
+art\leaderheads\x_Hannibal kiss sm.pcx
+#SKISS_RACE_KOREANS
+art\leaderheads\x_Wang Kon victory kiss sm.pcx
+#SKISS_RACE_SUMERIA
+art\leaderheads\x2_Gilgamesh victory kiss sm.pcx
+#SKISS_RACE_HATTI
+art\leaderheads\x2_Mursilis victory kiss sm.pcx
+#SKISS_RACE_DUTCH
+art\leaderheads\x2_William victory kiss sm.pcx
+#SKISS_RACE_PORTUGAL
+art\leaderheads\x2_Henry victory kiss sm.pcx
+#SKISS_RACE_INCANS
+art\leaderheads\x2_Pachacuti victory kiss sm.pcx
+#SKISS_RACE_MAYANS
+art\leaderheads\x2_Smoke-Jaguar victory kiss sm.pcx
+#SKISS_RACE_BYZANTINES
+art\leaderheads\x2_Theodora victory kiss sm.pcx
+#SKISS_RACE_CUBAN
+art\leaderheads\guevara_KISS.pcx
+#SKISS_RACE_MALI
+art\leaderheads\MM_SKIS.pcx
+#SKISS_RACE_MAURYAN
+art\leaderheads\AS_SKIS.pcx
+#SKISS_RACE_LAKOTA
+art\leaderheads\SB_SKIS.pcx
+
+####
+# Small Angry Icons (domination/space losers)
+#ANGRY_RACE_ROMANS
+art\leaderheads\CE_ANG.pcx
+#ANGRY_RACE_EGYPTIANS
+art\leaderheads\CL_ANG.pcx
+#ANGRY_RACE_GREEKS
+art\leaderheads\AL_ANG.pcx
+#ANGRY_RACE_BABYLON
+art\leaderheads\HA_ANG.pcx
+#ANGRY_RACE_GERMANS
+art\leaderheads\HitlerAngrySmall.pcx
+#ANGRY_RACE_RUSSIAN
+art\leaderheads\StalinAngrySmall.pcx
+#ANGRY_RACE_CHINESE
+art\leaderheads\MO_ANG.pcx
+#ANGRY_RACE_AMERICAN
+art\leaderheads\RooseveltAngrySmall.pcx
+#ANGRY_RACE_JAPANESE
+art\leaderheads\HirohitoAngrySmall.pcx
+#ANGRY_RACE_FRENCH
+art\leaderheads\JO_ANG.pcx
+#ANGRY_RACE_INDIAN
+art\leaderheads\GH_ANG.pcx
+#ANGRY_RACE_PERSIAN
+art\leaderheads\XE_ANG.pcx
+#ANGRY_RACE_AZTECS
+art\leaderheads\MN_ANG.pcx
+#ANGRY_RACE_ZULU
+art\leaderheads\ZU_ANG.pcx
+#ANGRY_RACE_IROQUOIS
+art\leaderheads\HI_ANG.pcx
+#ANGRY_RACE_ENGLISH
+art\leaderheads\ChurchillAngrySmall.pcx
+#ANGRY_RACE_MONGOLS
+art\leaderheads\x_temujin victory angry sm.pcx
+#ANGRY_RACE_SPANISH
+art\leaderheads\x_isabell victory angry sm.pcx
+#ANGRY_RACE_VIKINGS
+art\leaderheads\x_ragnar victory angry sm.pcx
+#ANGRY_RACE_OTTOMANS
+art\leaderheads\x_osman victory angry sm.pcx
+#ANGRY_RACE_ARABS
+art\leaderheads\x_abu bakr victory angry sm.pcx
+#ANGRY_RACE_CELTS
+art\leaderheads\x_brennus victory angry sm.pcx
+#ANGRY_RACE_CARTHAGINIANS
+art\leaderheads\x_Hannibal victory angry sm.pcx
+#ANGRY_RACE_KOREANS
+art\leaderheads\x_Wang Kon victory angry sm.pcx
+#ANGRY_RACE_SUMERIA
+art\leaderheads\x2_Gilgamesh victory angry sm.pcx
+#ANGRY_RACE_HATTI
+art\leaderheads\x2_Mursilis victory angry sm.pcx
+#ANGRY_RACE_DUTCH
+art\leaderheads\x2_William victory angry sm.pcx
+#ANGRY_RACE_PORTUGAL
+art\leaderheads\x2_Henry victory angry sm.pcx
+#ANGRY_RACE_INCANS
+art\leaderheads\x2_Pachacuti victory angry sm.pcx
+#ANGRY_RACE_MAYANS
+art\leaderheads\x2_Smoke-Jaguar victory angry sm.pcx
+#ANGRY_RACE_BYZANTINES
+art\leaderheads\x2_Theodora victory angry sm.pcx
+#ANGRY_RACE_CUBAN
+art\leaderheads\guevara_ANG.pcx
+#ANGRY_RACE_MALI
+art\leaderheads\MM_ANG.pcx
+#ANGRY_RACE_MAURYAN
+art\leaderheads\AS_ANG.pcx
+#ANGRY_RACE_LAKOTA
+art\leaderheads\SB_ANG.pcx
+
+
+####
+# Small loving Icons (Cultural Victory Loser)
+#ILOVE_RACE_ROMANS
+art\leaderheads\CE_CULT.pcx
+#ILOVE_RACE_EGYPTIANS
+art\leaderheads\CL_CULT.pcx
+#ILOVE_RACE_GREEKS
+art\leaderheads\AL_CULT.pcx
+#ILOVE_RACE_BABYLON
+art\leaderheads\HA_CULT.pcx
+#ILOVE_RACE_GERMANS
+art\leaderheads\HitlerHeartsSmall.pcx
+#ILOVE_RACE_RUSSIAN
+art\leaderheads\StalinHeartsSmall.pcx
+#ILOVE_RACE_CHINESE
+art\leaderheads\MO_CULT.pcx
+#ILOVE_RACE_AMERICAN
+art\leaderheads\RooseveltHeartsSmall.pcx
+#ILOVE_RACE_JAPANESE
+art\leaderheads\HirohitoHeartsSmall.pcx
+#ILOVE_RACE_FRENCH
+art\leaderheads\JO_CULT.pcx
+#ILOVE_RACE_INDIAN
+art\leaderheads\GH_CULT.pcx
+#ILOVE_RACE_PERSIAN
+art\leaderheads\XE_CULT.pcx
+#ILOVE_RACE_AZTECS
+art\leaderheads\MN_CULT.pcx
+#ILOVE_RACE_ZULU
+art\leaderheads\ZU_CULT.pcx
+#ILOVE_RACE_IROQUOIS
+art\leaderheads\HI_CULT.pcx
+#ILOVE_RACE_ENGLISH
+art\leaderheads\ChurchillHeartsSmall.pcx
+#ILOVE_RACE_MONGOLS
+art\leaderheads\x_temujin victory heart sm.pcx
+#ILOVE_RACE_SPANISH
+art\leaderheads\x_isabell victory heart sm.pcx
+#ILOVE_RACE_VIKINGS
+art\leaderheads\x_ragnar victory heart sm.pcx
+#ILOVE_RACE_OTTOMANS
+art\leaderheads\x_osman victory heart sm.pcx
+#ILOVE_RACE_ARABS
+art\leaderheads\x_abu bakr victory heart sm.pcx
+#ILOVE_RACE_CELTS
+art\leaderheads\x_brennus victory heart sm.pcx
+#ILOVE_RACE_CARTHAGINIANS
+art\leaderheads\x_Hannibal victory heart sm.pcx
+#ILOVE_RACE_KOREANS
+art\leaderheads\x_Wang Kon victory heart sm.pcx
+#ILOVE_RACE_SUMERIA
+art\leaderheads\x2_Gilgamesh victory heart sm.pcx
+#ILOVE_RACE_HATTI
+art\leaderheads\x2_Mursilis victory heart sm.pcx
+#ILOVE_RACE_DUTCH
+art\leaderheads\x2_William victory heart sm.pcx
+#ILOVE_RACE_PORTUGAL
+art\leaderheads\x2_Henry victory heart sm.pcX
+#ILOVE_RACE_INCANS
+art\leaderheads\x2_Pachacuti victory heart sm.pcx
+#ILOVE_RACE_MAYANS
+art\leaderheads\x2_Smoke-Jaguar victory heart sm.pcx
+#ILOVE_RACE_BYZANTINES
+art\leaderheads\x2_Theodora victory heart sm.pcx
+#ILOVE_RACE_CUBAN
+art\leaderheads\guevara_CULTS.pcx
+#ILOVE_RACE_MALI
+art\leaderheads\MM_CULT.pcx
+#ILOVE_RACE_MAURYAN
+art\leaderheads\AS_CULT.pcx
+#ILOVE_RACE_LAKOTA
+art\leaderheads\SB_CULT.pcx
+
+####
+# Small loved Icons (Cultural Victory Winner)
+#LOVED_RACE_ROMANS 
+art\leaderheads\CE_CULTB.pcx
+#LOVED_RACE_EGYPTIANS
+art\leaderheads\CL_CULTB.pcx
+#LOVED_RACE_GREEKS
+art\leaderheads\AL_CULTB.pcx
+#LOVED_RACE_BABYLON
+art\leaderheads\HA_CULTB.pcx
+#LOVED_RACE_GERMANS
+art\leaderheads\HitlerHeartsTiny.pcx
+#LOVED_RACE_RUSSIAN
+art\leaderheads\StalinHeartsTiny.pcx
+#LOVED_RACE_CHINESE
+art\leaderheads\MO_CULTB.pcx
+#LOVED_RACE_AMERICAN
+art\leaderheads\RooseveltHeartsTiny.pcx
+#LOVED_RACE_JAPANESE
+art\leaderheads\HirohitoHeartsTiny.pcx
+#LOVED_RACE_FRENCH
+art\leaderheads\JO_CULTB.pcx
+#LOVED_RACE_INDIAN
+art\leaderheads\GH_CULTB.pcx
+#LOVED_RACE_PERSIAN
+art\leaderheads\XE_CULTB.pcx
+#LOVED_RACE_AZTECS
+art\leaderheads\MN_CULTB.pcx
+#LOVED_RACE_ZULU
+art\leaderheads\ZU_CULTB.pcx
+#LOVED_RACE_IROQUOIS
+art\leaderheads\HI_CULTB.pcx
+#LOVED_RACE_ENGLISH
+art\leaderheads\ChurchillHeartsTiny.pcx
+#LOVED_RACE_MONGOLS
+art\leaderheads\x_temujin victory heart tiny.pcx
+#LOVED_RACE_SPANISH
+art\leaderheads\x_isabell victory heart tiny.pcx
+#LOVED_RACE_VIKINGS
+art\leaderheads\x_ragnar victory heart tiny.pcx
+#LOVED_RACE_OTTOMANS
+art\leaderheads\x_osman victory heart tiny.pcx
+#LOVED_RACE_ARABS
+art\leaderheads\x_abu bakr victory heart tiny.pcx
+#LOVED_RACE_CELTS
+art\leaderheads\x_brennus victory heart tiny.pcx
+#LOVED_RACE_CARTHAGINIANS
+art\leaderheads\x_Hannibal victory heart tiny.pcx
+#LOVED_RACE_KOREANS
+art\leaderheads\x_Wang Kon victory heart tiny.pcx
+#LOVED_RACE_SUMERIA
+art\leaderheads\x2_Gilgamesh victory heart tiny.pcx
+#LOVED_RACE_HATTI
+art\leaderheads\x2_Mursilis victory heart tiny.pcx
+#LOVED_RACE_DUTCH
+art\leaderheads\x2_William victory heart tiny.pcx
+#LOVED_RACE_PORTUGAL
+art\leaderheads\x2_Henry victory heart tiny.pcx
+#LOVED_RACE_INCANS
+art\leaderheads\x2_Pachacuti victory heart tiny.pcx
+#LOVED_RACE_MAYANS
+art\leaderheads\x2_Smoke-Jaguar victory heart tiny.pcx
+#LOVED_RACE_BYZANTINES
+art\leaderheads\x2_Theodora victory heart tiny.pcx
+#LOVED_RACE_CUBAN
+art\leaderheads\guevara_CULTI.pcx
+#LOVED_RACE_MALI
+art\leaderheads\MM_CULTB.pcx
+#LOVED_RACE_MAURYAN
+art\leaderheads\AS_CULTB.pcx
+#LOVED_RACE_LAKOTA
+art\leaderheads\SB_CULTB.pcx
+
+####
+# Large Beaten-up Icons (defeat)
+#LHURT_RACE_ROMANS
+art\leaderheads\CE_CONQ_L.pcx
+#LHURT_RACE_EGYPTIANS
+art\leaderheads\CL_CONQ_L.pcx
+#LHURT_RACE_GREEKS
+art\leaderheads\AL_CONQ_L.pcx
+#LHURT_RACE_BABYLON
+art\leaderheads\HA_CONQ_L.pcx
+#LHURT_RACE_GERMANS
+art\leaderheads\HitlerBeatenUpLarge.pcx
+#LHURT_RACE_RUSSIAN
+art\leaderheads\StalinBeatenUpLarge.pcx
+#LHURT_RACE_CHINESE
+art\leaderheads\MO_CONQ_L.pcx
+#LHURT_RACE_AMERICAN
+art\leaderheads\RooseveltBeatenUpLarge.pcx
+#LHURT_RACE_JAPANESE
+art\leaderheads\HirohitoBeatenUpLarge.pcx
+#LHURT_RACE_FRENCH
+art\leaderheads\JO_CONQ_L.pcx
+#LHURT_RACE_INDIAN
+art\leaderheads\GH_CONQ_L.pcx
+#LHURT_RACE_PERSIAN
+art\leaderheads\XE_CONQ_L.pcx
+#LHURT_RACE_AZTECS
+art\leaderheads\MN_CONQ_L.pcx
+#LHURT_RACE_ZULU
+art\leaderheads\ZU_CONQ_L.pcx
+#LHURT_RACE_IROQUOIS
+art\leaderheads\HI_CONQ_L.pcx
+#LHURT_RACE_ENGLISH
+art\leaderheads\ChurchillBeatenUpLarge.pcx
+#LHURT_RACE_MONGOLS
+art\leaderheads\x_temujin victory beatup lg.pcx
+#LHURT_RACE_SPANISH
+art\leaderheads\x_isabell victory beatup lg.pcx
+#LHURT_RACE_VIKINGS
+art\leaderheads\x_ragnar victory beatup lg.pcx
+#LHURT_RACE_OTTOMANS
+art\leaderheads\x_osman victory beatup lg.pcx
+#LHURT_RACE_ARABS
+art\leaderheads\x_abu bakr victory beatup lg.pcx
+#LHURT_RACE_CELTS
+art\leaderheads\x_brennus victory beatup lg.pcx
+#LHURT_RACE_CARTHAGINIANS
+art\leaderheads\x_Hannibal victory beatup lg.pcx
+#LHURT_RACE_KOREANS
+art\leaderheads\x_Wang Kon victory beatup lg.pcx
+#LHURT_RACE_SUMERIA
+art\leaderheads\x2_Gilgamesh victory beatup lg.pcx
+#LHURT_RACE_HATTI
+art\leaderheads\x2_Mursilis victory beatup lg.pcx
+#LHURT_RACE_DUTCH
+art\leaderheads\x2_William victory beatup lg.pcx
+#LHURT_RACE_PORTUGAL
+art\leaderheads\x2_Henry victory beatup lg.pcx
+#LHURT_RACE_INCANS
+art\leaderheads\x2_Pachacuti victory beatup lg.pcx
+#LHURT_RACE_MAYANS
+art\leaderheads\x2_Smoke-Jaguar victory beatup lg.pcx
+#LHURT_RACE_BYZANTINES
+art\leaderheads\x2_Theodora victory beatup lg.pcx
+#LHURT_RACE_CUBAN
+art\leaderheads\guevara_CONQL.pcx
+#LHURT_RACE_MALI
+art\leaderheads\MM_CONQ_L.pcx
+#LHURT_RACE_MAURYAN
+art\leaderheads\AS_CONQ_L.pcx
+#LHURT_RACE_LAKOTA
+art\leaderheads\SB_CONQ_L.pcx
+
+####
+# Small Beaten-up Icons (conquered/eliminated)
+#HURTN_RACE_ROMANS
+art\leaderheads\CE_CONQ.pcx
+#HURTN_RACE_EGYPTIANS
+art\leaderheads\CL_CONQ.pcx
+#HURTN_RACE_GREEKS
+art\leaderheads\AL_CONQ.pcx
+#HURTN_RACE_BABYLON
+art\leaderheads\HA_CONQ.pcx
+#HURTN_RACE_GERMANS
+art\leaderheads\HitlerBeatenUpSmall.pcx
+#HURTN_RACE_RUSSIAN
+art\leaderheads\StalinBeatenUpSmall.pcx
+#HURTN_RACE_CHINESE
+art\leaderheads\MO_CONQ.pcx
+#HURTN_RACE_AMERICAN
+art\leaderheads\RooseveltBeatenUpSmall.pcx
+#HURTN_RACE_JAPANESE
+art\leaderheads\HirohitoBeatenUpSmall.pcx
+#HURTN_RACE_FRENCH
+art\leaderheads\JO_CONQ.pcx
+#HURTN_RACE_INDIAN
+art\leaderheads\GH_CONQ.pcx
+#HURTN_RACE_PERSIAN
+art\leaderheads\XE_CONQ.pcx
+#HURTN_RACE_AZTECS
+art\leaderheads\MN_CONQ.pcx
+#HURTN_RACE_ZULU
+art\leaderheads\ZU_CONQ.pcx
+#HURTN_RACE_IROQUOIS
+art\leaderheads\HI_CONQ.pcx
+#HURTN_RACE_ENGLISH
+art\leaderheads\ChurchillBeatenUpSmall.pcx
+#HURTN_RACE_MONGOLS
+art\leaderheads\x_temujin victory beatup sm.pcx
+#HURTN_RACE_SPANISH
+art\leaderheads\x_isabell victory beatup sm.pcx
+#HURTN_RACE_VIKINGS
+art\leaderheads\x_ragnar victory beatup sm.pcx
+#HURTN_RACE_OTTOMANS
+art\leaderheads\x_osman victory beatup sm.pcx
+#HURTN_RACE_ARABS
+art\leaderheads\x_abu bakr victory beatup sm.pcx
+#HURTN_RACE_CELTS
+art\leaderheads\x_brennus victory beatup sm.pcx
+#HURTN_RACE_CARTHAGINIANS
+art\leaderheads\x_Hannibal victory beatup sm.pcx
+#HURTN_RACE_KOREANS
+art\leaderheads\x_Wang Kon victory beatup sm.pcx
+#HURTN_RACE_SUMERIA
+art\leaderheads\x2_Gilgamesh victory beatup sm.pcx
+#HURTN_RACE_HATTI
+art\leaderheads\x2_Mursilis victory beatup sm.pcx
+#HURTN_RACE_DUTCH
+art\leaderheads\x2_William victory beatup sm.pcx
+#HURTN_RACE_PORTUGAL
+art\leaderheads\x2_Henry victory beatup sm.pcx
+#HURTN_RACE_INCANS
+art\leaderheads\x2_Pachacuti victory beatup sm.pcx
+#HURTN_RACE_MAYANS
+art\leaderheads\x2_Smoke-Jaguar victory beatup sm.pcx
+#HURTN_RACE_BYZANTINES
+art\leaderheads\x2_Theodora victory beatup sm.pcx
+#HURTN_RACE_CUBAN
+art\leaderheads\guevara_CONQS.pcx
+#HURTN_RACE_MALI
+art\leaderheads\MM_CONQ.pcx
+#HURTN_RACE_MAURYAN
+art\leaderheads\AS_CONQ.pcx
+#HURTN_RACE_LAKOTA
+art\leaderheads\SB_CONQ.pcx
+
+#END LEADER/RACE ART
+
+#########################################################################################
+#START CIVILOPEDIA ART
+#Non-Tech Govts
+#ICON_GOVT_ANARCHY
+art\civilopedia\icons\anarchy large.pcx
+art\civilopedia\icons\anarchy small.pcx
+#ICON_GOVT_DESPOTISM
+art\civilopedia\icons\despotism large.pcx
+art\civilopedia\icons\despotism small.pcx
+#End non-tech Gov'ts
+
+#Start Races
+#ICON_RACE_ROMANS
+art\civilopedia\icons\races\romanslarge.pcx
+art\civilopedia\icons\races\romanssmall.pcx
+#ICON_RACE_EGYPTIANS
+art\civilopedia\icons\races\egyptlarge.pcx
+art\civilopedia\icons\races\egyptsmall.pcx
+#ICON_RACE_GREEKS
+art\civilopedia\icons\races\greecelarge.pcx
+art\civilopedia\icons\races\greecesmall.pcx
+#ICON_RACE_BABYLON
+art\civilopedia\icons\races\babylonianlarge.pcx
+art\civilopedia\icons\races\babyloniansmall.pcx
+#ICON_RACE_GERMANS
+Art\Civilopedia\Icons\Races\HitlerLarge.pcx
+Art\Civilopedia\Icons\Races\HitlerSmall.pcx
+#ICON_RACE_RUSSIAN
+Art\Civilopedia\Icons\Races\StalinLarge.pcx
+Art\Civilopedia\Icons\Races\StalinSmall.pcx
+#ICON_RACE_CHINESE
+art\civilopedia\icons\races\Chinalarge.pcx
+art\civilopedia\icons\races\Chinasmall.pcx
+#ICON_RACE_AMERICAN
+Art\Civilopedia\Icons\Races\RooseveltLarge.pcx
+Art\Civilopedia\Icons\Races\RooseveltSmall.pcx
+#ICON_RACE_JAPANESE
+Art\Civilopedia\Icons\Races\HirohitoLarge.pcx
+Art\Civilopedia\Icons\Races\HirohitoSmall.pcx
+#ICON_RACE_FRENCH
+art\civilopedia\icons\races\francelarge.pcx
+art\civilopedia\icons\races\francesmall.pcx
+#ICON_RACE_INDIAN
+art\civilopedia\icons\races\indianslarge.pcx
+art\civilopedia\icons\races\indianssmall.pcx
+#ICON_RACE_PERSIAN
+art\civilopedia\icons\races\persianslarge.pcx
+art\civilopedia\icons\races\persianssmall.pcx
+#ICON_RACE_AZTECS
+art\civilopedia\icons\races\azteclarge.pcx
+art\civilopedia\icons\races\aztecsmall.pcx
+#ICON_RACE_ZULU
+art\civilopedia\icons\races\zulularge.pcx
+art\civilopedia\icons\races\zulusmall.pcx
+#ICON_RACE_IROQUOIS
+art\civilopedia\icons\races\iroquoislarge.pcx
+art\civilopedia\icons\races\iroquoissmall.pcx
+#ICON_RACE_ENGLISH
+Art\Civilopedia\Icons\Races\ChurchillLarge.pcx
+Art\Civilopedia\Icons\Races\ChurchillSmall.pcx
+#ICON_RACE_MONGOLS
+art\civilopedia\icons\races\x_temujin civpedia lg.pcx
+art\civilopedia\icons\races\x_temujin civpedia sm.pcx
+#ICON_RACE_SPANISH
+art\civilopedia\icons\races\x_isabell civpedia lg.pcx
+art\civilopedia\icons\races\x_isabell civpedia sm.pcx
+#ICON_RACE_VIKINGS
+art\civilopedia\icons\races\x_ragnar civpedia lg.pcx
+art\civilopedia\icons\races\x_ragnar civpedia sm.pcx
+#ICON_RACE_OTTOMANS
+art\civilopedia\icons\races\x_osman civpedia lg.pcx
+art\civilopedia\icons\races\x_osman civpedia sm.pcx
+#ICON_RACE_ARABS
+art\civilopedia\icons\races\x_abu bakr civpedia lg.pcx
+art\civilopedia\icons\races\x_abu bakr civpedia sm.pcx
+#ICON_RACE_CELTS
+art\civilopedia\icons\races\x_brennus civpedia lg.pcx
+art\civilopedia\icons\races\x_brennus civpedia sm.pcx
+#ICON_RACE_CARTHAGINIANS
+art\civilopedia\icons\races\x_Hannibal civpedia lg.pcx
+art\civilopedia\icons\races\x_Hannibal civpedia sm.pcx
+#ICON_RACE_KOREANS
+art\civilopedia\icons\races\x_Wang Kon civpedia lg.pcx
+art\civilopedia\icons\races\x_Wang Kon civpedia sm.pcx
+#ICON_RACE_SUMERIA
+art\civilopedia\icons\races\x2_Gilgamesh civpedia lg.pcx
+art\civilopedia\icons\races\x2_Gilgamesh civpedia sm.pcx
+#ICON_RACE_HATTI
+art\civilopedia\icons\races\x2_Mursilis civpedia lg.pcx
+art\civilopedia\icons\races\x2_Mursilis civpedia sm.pcx
+#ICON_RACE_DUTCH
+art\civilopedia\icons\races\x2_William civpedia lg.pcx
+art\civilopedia\icons\races\x2_William civpedia sm.pcx
+#ICON_RACE_PORTUGAL
+art\civilopedia\icons\races\x2_Henry civpedia lg.pcx
+art\civilopedia\icons\races\x2_Henry civpedia sm.pcx
+#ICON_RACE_INCANS
+art\civilopedia\icons\races\x2_Pachacuti civpedia lg.pcx
+art\civilopedia\icons\races\x2_Pachacuti civpedia sm.pcx
+#ICON_RACE_MAYANS
+art\civilopedia\icons\races\x2_Smoke-Jaguar civpedia lg.pcx
+art\civilopedia\icons\races\x2_Smoke-Jaguar civpedia sm.pcx
+#ICON_RACE_BYZANTINES
+art\civilopedia\icons\races\x2_Theodora civpedia lg.pcx
+art\civilopedia\icons\races\x2_Theodora civpedia sm.pcx
+#ICON_RACE_CUBAN
+art\civilopedia\icons\races\guevaraLARGE.pcx
+art\civilopedia\icons\races\guevaraSMALL.pcx
+#ICON_RACE_MALI
+art\civilopedia\icons\races\MaliLARGE.pcx
+art\civilopedia\icons\races\MaliSMALL.pcx
+#ICON_RACE_MAURYAN
+art\civilopedia\icons\races\AshokaLARGE.pcx
+art\civilopedia\icons\races\AshokaSMALL.pcx
+#ICON_RACE_LAKOTA
+art\civilopedia\icons\races\SiouxLARGE.pcx
+art\civilopedia\icons\races\SiouxSMALL.pcx
+
+
+###########################
+#Start Worker actions...
+#ICON_TFRM_Mine
+art\civilopedia\icons\terrain\minelarge.pcx
+art\civilopedia\icons\terrain\minesmall.pcx
+#ICON_TFRM_Fortress
+art\civilopedia\icons\terrain\buildfortlarge.pcx
+art\civilopedia\icons\terrain\buildfortsmall.pcx
+#ICON_TFRM_Irrigation
+art\civilopedia\icons\terrain\irrigationlarge.pcx
+art\civilopedia\icons\terrain\irrigationsmall.pcx
+#ICON_TFRM_Road
+art\civilopedia\icons\terrain\roadslarge.pcx
+art\civilopedia\icons\terrain\roadssmall.pcx
+#ICON_TFRM_Railroad
+art\civilopedia\icons\terrain\railroadslarge.pcx
+art\civilopedia\icons\terrain\railroadssmall.pcx
+#ICON_TFRM_Plant_Forest
+art\civilopedia\icons\terrain\plantforestlarge.pcx
+art\civilopedia\icons\terrain\plantforestsmall.pcx
+#ICON_TFRM_Clear_Forest
+art\civilopedia\icons\terrain\clearforestlarge.pcx
+art\civilopedia\icons\terrain\clearforestsmall.pcx
+#ICON_TFRM_Clear_Jungle
+art\civilopedia\icons\terrain\clearjunglelarge.pcx
+art\civilopedia\icons\terrain\clearjunglesmall.pcx
+#ICON_TFRM_Clear_Pollution
+art\civilopedia\icons\terrain\clearpollutionlarge.pcx
+art\civilopedia\icons\terrain\clearpollutionsmall.pcx
+#ICON_TFRM_Build_Colony
+art\civilopedia\icons\terrain\buildcolonylarge.pcx
+art\civilopedia\icons\terrain\buildcolonysmall.pcx
+#ICON_TFRM_Airfield
+art\civilopedia\icons\terrain\airfield_large.pcx
+art\civilopedia\icons\terrain\airfield_small.pcx
+#ICON_TFRM_Radar_Tower
+art\civilopedia\icons\terrain\radar_large.pcx
+art\civilopedia\icons\terrain\radar_small.pcx
+#ICON_TFRM_Outpost
+art\civilopedia\icons\terrain\detect tower_large.pcx
+art\civilopedia\icons\terrain\detect tower_small.pcx
+#ICON_TFRM_Clear_Wetlands
+art\civilopedia\icons\terrain\ClearWetlandsLarge.pcx
+art\civilopedia\icons\terrain\ClearWetlandsSmall.pcx
+#ICON_TFRM_Clear_Damage
+art\civilopedia\icons\terrain\ClearDamageLarge.pcx
+art\civilopedia\icons\terrain\ClearDamageSmall.pcx
+#ICON_TFRM_Barricades
+art\civilopedia\icons\terrain\BuildBarricadesLarge.pcx
+art\civilopedia\icons\terrain\BuildBarricadesSmall.pcx
+#End Worker actions
+
+#start terrain...
+#ICON_TERR_Coast
+art\civilopedia\icons\terrain\coastlinelarge.pcx
+art\civilopedia\icons\terrain\coastlinesmall.pcx
+#ICON_TERR_Desert
+art\civilopedia\icons\terrain\desertlarge.pcx
+art\civilopedia\icons\terrain\desertsmall.pcx
+#ICON_TERR_Flood_Plain
+art\civilopedia\icons\terrain\floodplainslarge.pcx
+art\civilopedia\icons\terrain\floodplainssmall.pcx
+#ICON_TERR_Forest
+art\civilopedia\icons\terrain\forestlarge.pcx
+art\civilopedia\icons\terrain\forestsmall.pcx
+#ICON_TERR_Grassland
+art\civilopedia\icons\terrain\grasslandlarge.pcx
+art\civilopedia\icons\terrain\grasslandsmall.pcx
+#ICON_TERR_Hills
+art\civilopedia\icons\terrain\hillslarge.pcx
+art\civilopedia\icons\terrain\hillssmall.pcx
+#ICON_TERR_Jungle
+art\civilopedia\icons\terrain\junglelarge.pcx
+art\civilopedia\icons\terrain\junglesmall.pcx
+#ICON_TERR_Mountains
+art\civilopedia\icons\terrain\mountainslarge.pcx
+art\civilopedia\icons\terrain\mountainssmall.pcx
+#ICON_TERR_Ocean
+art\civilopedia\icons\terrain\oceanlarge.pcx
+art\civilopedia\icons\terrain\oceansmall.pcx
+#ICON_TERR_Plains
+art\civilopedia\icons\terrain\plainslarge.pcx
+art\civilopedia\icons\terrain\plainssmall.pcx
+#ICON_TERR_Sea
+art\civilopedia\icons\terrain\sealarge.pcx
+art\civilopedia\icons\terrain\seasmall.pcx
+#ICON_TERR_Tundra
+art\civilopedia\icons\terrain\tundralarge.pcx
+art\civilopedia\icons\terrain\tundrasmall.pcx
+#ICON_TERR_River
+art\civilopedia\icons\terrain\riverslarge.pcx
+art\civilopedia\icons\terrain\riverssmall.pcx
+#ICON_TERR_Grassland_with_Shield
+art\civilopedia\icons\terrain\grasslandwshieldlarge.pcx
+art\civilopedia\icons\terrain\grasslandwshieldsmall.pcx
+#ICON_TERR_Fresh_Water_Lake
+art\civilopedia\icons\terrain\freshwaterLakeslarge.pcx
+art\civilopedia\icons\terrain\freshwaterLakessmall.pcx
+#ICON_TERR_Volcano
+art\civilopedia\icons\terrain\Volcanolarge.pcx
+art\civilopedia\icons\terrain\Volcanosmall.pcx
+#ICON_TERR_Marsh
+art\civilopedia\icons\terrain\Marshlarge.pcx
+art\civilopedia\icons\terrain\Marshsmall.pcx
+#End terrain
+
+#start resources
+#ICON_GOOD_Aluminum
+art\civilopedia\icons\resources\aluminumlarge.pcx
+art\civilopedia\icons\resources\aluminumsmall.pcx
+#ICON_GOOD_Cattle
+art\civilopedia\icons\resources\cattlelarge.pcx
+art\civilopedia\icons\resources\cattlesmall.pcx
+#ICON_GOOD_Coal
+art\civilopedia\icons\resources\coallarge.pcx
+art\civilopedia\icons\resources\coalsmall.pcx
+#ICON_GOOD_Diamonds
+art\civilopedia\icons\resources\diamondslarge.pcx
+art\civilopedia\icons\resources\diamondssmall.pcx
+#ICON_GOOD_Dye
+art\civilopedia\icons\resources\dyelarge.pcx
+art\civilopedia\icons\resources\dyesmall.pcx
+#ICON_GOOD_Fish
+art\civilopedia\icons\resources\fishlarge.pcx
+art\civilopedia\icons\resources\fishsmall.pcx
+#ICON_GOOD_Furs
+art\civilopedia\icons\resources\furslarge.pcx
+art\civilopedia\icons\resources\furssmall.pcx
+#ICON_GOOD_Game
+art\civilopedia\icons\resources\gamelarge.pcx
+art\civilopedia\icons\resources\gamesmall.pcx
+#ICON_GOOD_Gold
+art\civilopedia\icons\resources\goldlarge.pcx
+art\civilopedia\icons\resources\goldsmall.pcx
+#ICON_GOOD_Horses
+art\civilopedia\icons\resources\horselarge.pcx
+art\civilopedia\icons\resources\horsesmall.pcx
+#ICON_GOOD_Incense
+art\civilopedia\icons\resources\incenselarge.pcx
+art\civilopedia\icons\resources\incensesmall.pcx
+#ICON_GOOD_Iron
+art\civilopedia\icons\resources\ironlarge.pcx
+art\civilopedia\icons\resources\ironsmall.pcx
+#ICON_GOOD_Ivory
+art\civilopedia\icons\resources\ivorylarge.pcx
+art\civilopedia\icons\resources\ivorysmall.pcx
+#ICON_GOOD_Oil
+art\civilopedia\icons\resources\oillarge.pcx
+art\civilopedia\icons\resources\oilsmall.pcx
+#ICON_GOOD_Rubber
+art\civilopedia\icons\resources\rubberlarge.pcx
+art\civilopedia\icons\resources\rubbersmall.pcx
+#ICON_GOOD_Saltpeter
+art\civilopedia\icons\resources\saltpetrelarge.pcx
+art\civilopedia\icons\resources\saltpetresmall.pcx
+#ICON_GOOD_Silk
+art\civilopedia\icons\resources\silklarge.pcx
+art\civilopedia\icons\resources\silksmall.pcx
+#ICON_GOOD_Spice
+art\civilopedia\icons\resources\spicelarge.pcx
+art\civilopedia\icons\resources\spicesmall.pcx
+#ICON_GOOD_Uranium
+art\civilopedia\icons\resources\uraniumlarge.pcx
+art\civilopedia\icons\resources\uraniumsmall.pcx
+#ICON_GOOD_Whales
+art\civilopedia\icons\resources\whaleslarge.pcx
+art\civilopedia\icons\resources\whalessmall.pcx
+#ICON_GOOD_Wheat
+art\civilopedia\icons\resources\wheatlarge.pcx
+art\civilopedia\icons\resources\wheatsmall.pcx
+#ICON_GOOD_Wine
+art\civilopedia\icons\resources\winelarge.pcx
+art\civilopedia\icons\resources\winesmall.pcx
+#ICON_GOOD_Sugar
+art\civilopedia\icons\resources\sugar_large.pcx
+art\civilopedia\icons\resources\sugar_small.pcx
+#ICON_GOOD_Bananas
+art\civilopedia\icons\resources\banana_large.pcx
+art\civilopedia\icons\resources\banana_small.pcx
+#ICON_GOOD_Oasis
+art\civilopedia\icons\resources\oasis_large.pcx
+art\civilopedia\icons\resources\oasis_small.pcx
+#ICON_GOOD_Tobacco
+art\civilopedia\icons\resources\tobacco_large.pcx
+art\civilopedia\icons\resources\tobacco_small.pcx
+#End Resources
+
+#start units
+#ICON_PRTO_Settler
+art\civilopedia\icons\units\00settlerlarge.pcx
+art\civilopedia\icons\units\00settlersmall.pcx
+#ICON_PRTO_Worker
+art\civilopedia\icons\units\01workerlarge.pcx
+art\civilopedia\icons\units\01workersmall.pcx
+#ICON_PRTO_Scout
+art\civilopedia\icons\units\02scoutlarge.pcx
+art\civilopedia\icons\units\02scoutsmall.pcx
+#ICON_PRTO_Explorer
+art\civilopedia\icons\units\03Explorerlarge.pcx
+art\civilopedia\icons\units\03Explorersmall.pcx
+#ICON_PRTO_Marine
+art\civilopedia\icons\units\04marinelarge.pcx
+art\civilopedia\icons\units\04marinesmall.pcx
+#ICON_PRTO_Paratrooper
+art\civilopedia\icons\units\05paratrooperlarge.pcx
+art\civilopedia\icons\units\05paratroopersmall.pcx
+#ICON_PRTO_Warrior
+art\civilopedia\icons\units\06warriorlarge.pcx
+art\civilopedia\icons\units\06warriorsmall.pcx
+#ICON_PRTO_Archer
+art\civilopedia\icons\units\07archerlarge.pcx
+art\civilopedia\icons\units\07archersmall.pcx
+#ICON_PRTO_Spearman
+art\civilopedia\icons\units\08spearmanlarge.pcx
+art\civilopedia\icons\units\08spearmansmall.pcx
+#ICON_PRTO_Swordsman
+art\civilopedia\icons\units\09swordsmanlarge.pcx
+art\civilopedia\icons\units\09swordsmansmall.pcx
+#ICON_PRTO_Chariot
+art\civilopedia\icons\units\10chariotlarge.pcx
+art\civilopedia\icons\units\10chariotsmall.pcx
+#ICON_PRTO_Horseman
+art\civilopedia\icons\units\11horsemanlarge.pcx
+art\civilopedia\icons\units\11Horsemansmall.pcx
+#ICON_PRTO_Pikeman
+art\civilopedia\icons\units\12pikemanlarge.pcx
+art\civilopedia\icons\units\12pikemansmall.pcx
+#ICON_PRTO_Longbowman
+art\civilopedia\icons\units\13longbowmanlarge.pcx
+art\civilopedia\icons\units\13longbowmansmall.pcx
+#ICON_PRTO_Musketman
+art\civilopedia\icons\units\14musketmanlarge.pcx
+art\civilopedia\icons\units\14musketmansmall.pcx
+#ICON_PRTO_Knight
+art\civilopedia\icons\units\15knightlarge.pcx
+art\civilopedia\icons\units\15knightsmall.pcx
+#ICON_PRTO_Rifleman
+art\civilopedia\icons\units\16riflemanlarge.pcx
+art\civilopedia\icons\units\16riflemansmall.pcx
+#ICON_PRTO_Cavalry
+art\civilopedia\icons\units\17cavalrylarge.pcx
+art\civilopedia\icons\units\17cavalrysmall.pcx
+#ICON_PRTO_Infantry
+art\civilopedia\icons\units\18infantrylarge.pcx
+art\civilopedia\icons\units\18infantrysmall.pcx
+#ICON_PRTO_Tank
+art\civilopedia\icons\units\19shermantanklarge.pcx
+art\civilopedia\icons\units\19shermantanksmall.pcx
+#ICON_PRTO_Mech_Infantry
+art\civilopedia\icons\units\20mechanizedinfantrylarge.pcx
+art\civilopedia\icons\units\20mechanizedinfantrysmall.pcx
+#ICON_PRTO_Modern_Armor
+art\civilopedia\icons\units\21modernarmorlarge.pcx
+art\civilopedia\icons\units\21modernarmorsmall.pcx
+#ICON_PRTO_Catapult
+art\civilopedia\icons\units\22catapultlarge.pcx
+art\civilopedia\icons\units\22catapultsmall.pcx
+#ICON_PRTO_Cannon
+art\civilopedia\icons\units\23cannonlarge.pcx
+art\civilopedia\icons\units\23cannonsmall.pcx
+#ICON_PRTO_Artillery
+art\civilopedia\icons\units\24artillerylarge.pcx
+art\civilopedia\icons\units\24artillerysmall.pcx
+#ICON_PRTO_Radar_Artillery
+art\civilopedia\icons\units\25radarartillerylarge.pcx
+art\civilopedia\icons\units\25radarartillerysmall.pcx
+#ICON_PRTO_Cruise_Missile
+art\civilopedia\icons\units\26cruisemissilelarge.pcx
+art\civilopedia\icons\units\26cruisemissilesmall.pcx
+#ICON_PRTO_NUKE
+art\civilopedia\icons\units\27icbmtacticallarge.pcx
+art\civilopedia\icons\units\27icbmtacticalsmall.pcx
+#ICON_PRTO_ICBM
+art\civilopedia\icons\units\28icbmlarge.pcx
+art\civilopedia\icons\units\28icbmsmall.pcx
+#ICON_PRTO_Galley
+art\civilopedia\icons\units\29galley(trireme)large.pcx
+art\civilopedia\icons\units\29galley(trireme)small.pcx
+#ICON_PRTO_Caravel
+art\civilopedia\icons\units\30caravellarge.pcx
+art\civilopedia\icons\units\30caravelsmall.pcx
+#ICON_PRTO_Frigate
+art\civilopedia\icons\units\31frigatelarge.pcx
+art\civilopedia\icons\units\31frigatesmall.pcx
+#ICON_PRTO_Galleon
+art\civilopedia\icons\units\32galleonlarge.pcx
+art\civilopedia\icons\units\32galleonsmall.pcx
+#ICON_PRTO_Ironclad
+art\civilopedia\icons\units\33ironcladlarge.pcx
+art\civilopedia\icons\units\33ironcladsmall.pcx
+#ICON_PRTO_Transport
+art\civilopedia\icons\units\34transportlarge.pcx
+art\civilopedia\icons\units\34transportsmall.pcx
+#ICON_PRTO_Carrier
+art\civilopedia\icons\units\35nimitzlarge.pcx
+art\civilopedia\icons\units\35nimitzsmall.pcx
+#ICON_PRTO_Submarine
+art\civilopedia\icons\units\36submarinelarge.pcx
+art\civilopedia\icons\units\36submarinesmall.pcx
+#ICON_PRTO_Destroyer
+art\civilopedia\icons\units\37destroyerlarge.pcx
+art\civilopedia\icons\units\37destroyersmall.pcx
+#ICON_PRTO_Battleship
+art\civilopedia\icons\units\38iowabattleshiplarge.pcx
+art\civilopedia\icons\units\38iowabattleshipsmall.pcx
+#ICON_PRTO_AEGIS_Cruiser
+art\civilopedia\icons\units\39aegiscruiserlarge.pcx
+art\civilopedia\icons\units\39aegiscruisersmall.pcx
+#ICON_PRTO_Nuclear_Submarine
+art\civilopedia\icons\units\40nuclearsubmarinelarge.pcx
+art\civilopedia\icons\units\40nuclearsubmarinesmall.pcx
+#ICON_PRTO_Fighter
+art\civilopedia\icons\units\41fighterlarge.pcx
+art\civilopedia\icons\units\41fightersmall.pcx
+#ICON_PRTO_Bomber
+art\civilopedia\icons\units\42bomberlarge.pcx
+art\civilopedia\icons\units\42bombersmall.pcx
+#ICON_PRTO_Helicopter
+art\civilopedia\icons\units\43transporthelicopterlarge.pcx
+art\civilopedia\icons\units\43transporthelicoptersmall.pcx
+#ICON_PRTO_Jet_Fighter
+art\civilopedia\icons\units\44jetfighterlarge.pcx
+art\civilopedia\icons\units\44jetfightersmall.pcx
+#ICON_PRTO_Stealth_Fighter
+art\civilopedia\icons\units\45stealthfighterlarge.pcx
+art\civilopedia\icons\units\45stealthfightersmall.pcx
+#ICON_PRTO_Stealth_Bomber
+art\civilopedia\icons\units\46stealthbomberlarge.pcx
+art\civilopedia\icons\units\46stealthbombersmall.pcx
+#ICON_PRTO_Leader
+art\civilopedia\icons\units\47leaderlarge.pcx
+art\civilopedia\icons\units\47leadersmall.pcx
+#ICON_PRTO_Army
+art\civilopedia\icons\units\48armylarge.pcx
+art\civilopedia\icons\units\48armysmall.pcx
+#ICON_PRTO_Jaguar_Warrior
+art\civilopedia\icons\units\49aztecJaguarwarriorlarge.pcx
+art\civilopedia\icons\units\49aztecjaguarwarriorsmall.pcx
+#ICON_PRTO_Bowman
+art\civilopedia\icons\units\50bowman(babylonianarcher)large.pcx
+art\civilopedia\icons\units\50bowman(babylonianarcher)small.pcx
+#ICON_PRTO_Hoplite
+art\civilopedia\icons\units\51hoplite(greekphalanx)large.pcx
+art\civilopedia\icons\units\51hoplite(greekphalanx)small.pcx
+#ICON_PRTO_Impi
+art\civilopedia\icons\units\52zuluspearmanlarge.pcx
+art\civilopedia\icons\units\52zuluspearmansmall.pcx
+#ICON_PRTO_Legionary
+art\civilopedia\icons\units\53romanlegionlarge.pcx
+art\civilopedia\icons\units\53romanlegionsmall.pcx
+#ICON_PRTO_Immortals
+art\civilopedia\icons\units\54immortallarge.pcx
+art\civilopedia\icons\units\54immortalsmall.pcx
+#ICON_PRTO_War_Chariot
+art\civilopedia\icons\units\55egyptianchariotlarge.pcx
+art\civilopedia\icons\units\55egyptianchariotsmall.pcx
+#ICON_PRTO_Rider
+art\civilopedia\icons\units\56chinesehorsemanlarge.pcx
+art\civilopedia\icons\units\56chinesehorsemansmall.pcx
+#ICON_PRTO_Mounted_Warrior
+art\civilopedia\icons\units\57horsearcherlarge.pcx
+art\civilopedia\icons\units\57horsearchersmall.pcx
+#ICON_PRTO_Musketeer
+art\civilopedia\icons\units\58frenchmusketeerlarge.pcx
+art\civilopedia\icons\units\58frenchmusketeersmall.pcx
+#ICON_PRTO_Samurai
+art\civilopedia\icons\units\59japanesesamurailarge.pcx
+art\civilopedia\icons\units\59japaneseSamuraismall.pcx
+#ICON_PRTO_War_Elephant
+art\civilopedia\icons\units\60warelephantlarge.pcx
+art\civilopedia\icons\units\60warelephantsmall.pcx
+#ICON_PRTO_Cossack
+art\civilopedia\icons\units\61russiancossacklarge.pcx
+art\civilopedia\icons\units\61russiancossacksmall.pcx
+#ICON_PRTO_Panzer
+art\civilopedia\icons\units\62germanpanzerlarge.pcx
+art\civilopedia\icons\units\62germanpanzersmall.pcx
+#ICON_PRTO_Man-O-War
+art\civilopedia\icons\units\63englishmanowarlarge.pcx
+art\civilopedia\icons\units\63englishmanowarsmall.pcx
+#ICON_PRTO_F-15
+art\civilopedia\icons\units\64americanf15large.pcx
+art\civilopedia\icons\units\64americanf15small.pcx
+#ICON_PRTO_Privateer
+art\civilopedia\icons\units\65privateerlarge.pcx
+art\civilopedia\icons\units\65privateersmall.pcx
+#ICON_PRTO_Berserk
+art\civilopedia\icons\units\x_berserk civpedia lg.pcx
+art\civilopedia\icons\units\x_berserk civpedia sm.pcx
+#ICON_PRTO_Conquistador
+art\civilopedia\icons\units\x_conquist civpedia lg.pcx
+art\civilopedia\icons\units\x_conquist civpedia sm.pcx
+#ICON_PRTO_Keshik
+art\civilopedia\icons\units\x_keshik civpedia lg.pcx
+art\civilopedia\icons\units\x_keshik civpedia sm.pcx
+#ICON_PRTO_Ansar_Warrior
+art\civilopedia\icons\units\x_Ansar Warrior civpedia lg.pcx
+art\civilopedia\icons\units\x_Ansar Warrior civpedia sm.pcx
+#ICON_PRTO_Gallic_Swordsman
+art\civilopedia\icons\units\x_gallic swordsman civpedia lg.pcx
+art\civilopedia\icons\units\x_gallic swordsman civpedia sm.pcx
+#ICON_PRTO_Sipahi
+art\civilopedia\icons\units\x_sipahi civpedia lg.pcx
+art\civilopedia\icons\units\x_sipahi civpedia sm.pcx
+#ICON_PRTO_Libyan_Mercenary
+art\civilopedia\icons\units\x_Libyan Mercenary civpedia lg.pcx
+art\civilopedia\icons\units\x_Libyan Mercenary civpedia sm.pcx
+#ICON_PRTO_Hwacha
+art\civilopedia\icons\units\x_Hwacha civpedia lg.pcx
+art\civilopedia\icons\units\x_Hwacha civpedia sm.pcx
+#ICON_PRTO_Medieval_Infantry
+art\civilopedia\icons\units\x_Medieval Infantry civpedia lg.pcx
+art\civilopedia\icons\units\x_Medieval Infantry civpedia sm.pcx
+#ICON_PRTO_Guerilla
+art\civilopedia\icons\units\x_Guerilla civpedia lg.pcx
+art\civilopedia\icons\units\x_Guerilla civpedia sm.pcx
+#ICON_PRTO_Lincoln
+art\civilopedia\icons\units\x_Abe civpedia lg.pcx
+art\civilopedia\icons\units\x_Abe civpedia sm.pcx
+#ICON_PRTO_Hammurabi
+art\civilopedia\icons\units\x_Hammurabi civpedia lg.pcx
+art\civilopedia\icons\units\x_Hammurabi civpedia sm.pcx
+#ICON_PRTO_Mao
+art\civilopedia\icons\units\x_Mao civpedia lg.pcx
+art\civilopedia\icons\units\x_Mao civpedia sm.pcx
+#ICON_PRTO_Bismarck
+art\civilopedia\icons\units\x_Bismarck civpedia lg.pcx
+art\civilopedia\icons\units\x_Bismarck civpedia sm.pcx
+#ICON_PRTO_Alexander
+art\civilopedia\icons\units\x_Alexander civpedia lg.pcx
+art\civilopedia\icons\units\x_Alexander civpedia sm.pcx
+#ICON_PRTO_Caesar
+art\civilopedia\icons\units\x_Caesar civpedia lg.pcx
+art\civilopedia\icons\units\x_Caesar civpedia sm.pcx
+#ICON_PRTO_Xerxes
+art\civilopedia\icons\units\x_Xerxes civpedia lg.pcx
+art\civilopedia\icons\units\x_Xerxes civpedia sm.pcx
+#ICON_PRTO_Hiawatha
+art\civilopedia\icons\units\x_Hiawatha civpedia lg.pcx
+art\civilopedia\icons\units\x_Hiawatha civpedia sm.pcx
+#ICON_PRTO_Shaka
+art\civilopedia\icons\units\x_Shaka civpedia lg.pcx
+art\civilopedia\icons\units\x_Shaka civpedia sm.pcx
+#ICON_PRTO_Montezuma
+art\civilopedia\icons\units\x_Montezuma civpedia lg.pcx
+art\civilopedia\icons\units\x_Montezuma civpedia sm.pcx
+#ICON_PRTO_Cleopatra
+art\civilopedia\icons\units\x_Cleopatra civpedia lg.pcx
+art\civilopedia\icons\units\x_Cleopatra civpedia sm.pcx
+#ICON_PRTO_Elizabeth
+art\civilopedia\icons\units\x_Elizabeth civpedia lg.pcx
+art\civilopedia\icons\units\x_Elizabeth civpedia sm.pcx
+#ICON_PRTO_Catherine
+art\civilopedia\icons\units\x_Catherine civpedia lg.pcx
+art\civilopedia\icons\units\x_Catherine civpedia sm.pcx
+#ICON_PRTO_Abu
+art\civilopedia\icons\units\x_Abu Bakr civpedia lg.pcx
+art\civilopedia\icons\units\x_Abu Bakr civpedia sm.pcx
+#ICON_PRTO_Hannibal
+art\civilopedia\icons\units\x_Hannibal civpedia lg.pcx
+art\civilopedia\icons\units\x_Hannibal civpedia sm.pcx
+#ICON_PRTO_Osman
+art\civilopedia\icons\units\x_Osman civpedia lg.pcx
+art\civilopedia\icons\units\x_Osman civpedia sm.pcx
+#ICON_PRTO_Temujin
+art\civilopedia\icons\units\x_Temujin civpedia lg.pcx
+art\civilopedia\icons\units\x_Temujin civpedia sm.pcx
+#ICON_PRTO_Gandhi
+art\civilopedia\icons\units\x_Gandhi civpedia lg.pcx
+art\civilopedia\icons\units\x_Gandhi civpedia sm.pcx
+#ICON_PRTO_Ragnar
+art\civilopedia\icons\units\x_Ragnar civpedia lg.pcx
+art\civilopedia\icons\units\x_Ragnar civpedia sm.pcx
+#ICON_PRTO_Brennus
+art\civilopedia\icons\units\x_Brennus civpedia lg.pcx
+art\civilopedia\icons\units\x_Brennus civpedia sm.pcx
+#ICON_PRTO_Tokugawa
+art\civilopedia\icons\units\x_Tokugawa civpedia lg.pcx
+art\civilopedia\icons\units\x_Tokugawa civpedia sm.pcx
+#ICON_PRTO_Joan
+art\civilopedia\icons\units\x_Joan civpedia lg.pcx
+art\civilopedia\icons\units\x_Joan civpedia sm.pcx
+#ICON_PRTO_Wang
+art\civilopedia\icons\units\x_Wang civpedia lg.pcx
+art\civilopedia\icons\units\x_Wang civpedia sm.pcx
+#ICON_PRTO_Isabella
+art\civilopedia\icons\units\x_Isabella civpedia lg.pcx
+art\civilopedia\icons\units\x_Isabella civpedia sm.pcx
+#ICON_PRTO_Princess
+art\civilopedia\icons\units\x_princess civpedia lg.pcx
+art\civilopedia\icons\units\x_princess civpedia sm.pcx
+#ICON_PRTO_Mursilis
+art\civilopedia\icons\units\x2_Mursilis civpedia lg.pcx
+art\civilopedia\icons\units\x2_Mursilis civpedia sm.pcx
+#ICON_PRTO_Gilgamesh
+art\civilopedia\icons\units\x2_Gilgamesh civpedia lg.pcx
+art\civilopedia\icons\units\x2_Gilgamesh civpedia sm.pcx
+#ICON_PRTO_Charles_V
+art\civilopedia\icons\units\x2_Charles_V civpedia lg.pcx
+art\civilopedia\icons\units\x2_Charles_V civpedia sm.pcx
+#ICON_PRTO_Henry
+art\civilopedia\icons\units\x2_Henry civpedia lg.pcx
+art\civilopedia\icons\units\x2_Henry civpedia sm.pcx
+#ICON_PRTO_William_of_Orange
+art\civilopedia\icons\units\x2_William civpedia lg.pcx
+art\civilopedia\icons\units\x2_William civpedia sm.pcx
+#ICON_PRTO_Enkidu_Warrior
+art\civilopedia\icons\units\x2_Endiku civpedia lg.pcx
+art\civilopedia\icons\units\x2_Endiku civpedia sm.pcx
+#ICON_PRTO_Three_Man_Chariot
+art\civilopedia\icons\units\X2_3ManChariot civpedia lg.pcx
+art\civilopedia\icons\units\X2_3ManChariot civpedia sm.pcx
+#ICON_PRTO_Hussar
+art\civilopedia\icons\units\x2_Hussar civpedia lg.pcx
+art\civilopedia\icons\units\x2_Hussar civpedia sm.pcx
+#ICON_PRTO_Carrack
+art\civilopedia\icons\units\x2_carrack civpedia lg.pcx
+art\civilopedia\icons\units\x2_carrack civpedia sm.pcx
+#ICON_PRTO_Swiss_Mercenary
+art\civilopedia\icons\units\x2_SwissMerc civpedia lg.pcx
+art\civilopedia\icons\units\x2_SwissMerc civpedia sm.pcx
+#ICON_PRTO_Trebuchet
+art\civilopedia\icons\units\x2_Trebuchet civpedia lg.pcx
+art\civilopedia\icons\units\x2_Trebuchet civpedia sm.pcx
+#ICON_PRTO_Javelin_Thrower
+art\civilopedia\icons\units\x2_JavelinThrower civpedia lg.pcx
+art\civilopedia\icons\units\x2_JavelinThrower civpedia sm.pcx
+#ICON_PRTO_Chasquis_Scout
+art\civilopedia\icons\units\x2_ChasquisScout civpedia lg.pcx
+art\civilopedia\icons\units\x2_ChasquisScout civpedia sm.pcx
+#ICON_PRTO_Pachacuti
+art\civilopedia\icons\units\x2_Pachacuti civpedia lg.pcx
+art\civilopedia\icons\units\x2_Pachacuti civpedia sm.pcx
+#ICON_PRTO_Smoke-Jaguar
+art\civilopedia\icons\units\x2_SmokeJag civpedia lg.pcx
+art\civilopedia\icons\units\x2_SmokeJag civpedia sm.pcx
+#ICON_PRTO_Dromon
+art\civilopedia\icons\units\x2_Dromon civpedia lg.pcx
+art\civilopedia\icons\units\x2_Dromon civpedia sm.pcx
+#ICON_PRTO_Assassin
+art\civilopedia\icons\units\x2_Assassin civpedia lg.pcx
+art\civilopedia\icons\units\x2_Assassin civpedia sm.pcx
+#ICON_PRTO_Theodora
+art\civilopedia\icons\units\x2_Theodora civpedia lg.pcx
+art\civilopedia\icons\units\x2_Theodora civpedia sm.pcx
+#ICON_PRTO_Cruiser
+art\civilopedia\icons\units\x2_HvCruiser civpedia lg.pcx
+art\civilopedia\icons\units\x2_HvCruiser civpedia sm.pcx
+#ICON_PRTO_Crusader
+art\civilopedia\icons\units\x2_Crusader civpedia lg.pcx
+art\civilopedia\icons\units\x2_Crusader civpedia sm.pcx
+#ICON_PRTO_Ancient_Cavalry
+art\civilopedia\icons\units\x2_AncientCavalry civpedia lg.pcx
+art\civilopedia\icons\units\x2_AncientCavalry civpedia sm.pcx
+#ICON_PRTO_Curragh
+art\civilopedia\icons\units\x2_Curragh civpedia lg.pcx
+art\civilopedia\icons\units\x2_Curragh civpedia sm.pcx
+#ICON_PRTO_WWII_Paratrooper
+art\civilopedia\icons\units\X2_WWIIParatrooper_lg.pcx
+art\civilopedia\icons\units\X2_WWIIParatrooper_sm.pcx
+#ICON_PRTO_TOW_Infantry
+art\civilopedia\icons\units\x2_TOWinfantrry_civpedia lg.pcx
+art\civilopedia\icons\units\x2_TOWinfantrry_civpedia sm.pcx
+#ICON_PRTO_Flak
+art\civilopedia\icons\units\X2_20mmQuadFlak38_lg.pcx
+art\civilopedia\icons\units\X2_20mmQuadFlak38_sm.pcx
+#ICON_PRTO_Mobile_SAM
+art\civilopedia\icons\units\x2_MobileSAM lg.pcx
+art\civilopedia\icons\units\x2_MobileSAM sm.pcx
+#ICON_PRTO_Engineer
+Art\Civilopedia\Icons\Units\EngineerLarge.pcx
+Art\Civilopedia\Icons\Units\EngineerSmall.pcx
+#ICON_PRTO_Saboteur
+Art\Civilopedia\Icons\Units\SpyLarge.pcx
+Art\Civilopedia\Icons\Units\SpySmall.pcx
+#ICON_PRTO_King
+Art\Civilopedia\Icons\Units\KingLarge.pcx
+Art\Civilopedia\Icons\Units\KingSmall.pcx
+#ICON_PRTO_Cuban_FAR
+Art\Civilopedia\Icons\Units\FARCLarge.pcx
+Art\Civilopedia\Icons\Units\FARCSmall.pcx
+#ICON_PRTO_Mali_Worker
+Art\Civilopedia\Icons\Units\AfricanWorkerLARGE.pcx
+Art\Civilopedia\Icons\Units\AfricanWorkerSMALL.pcx
+#ICON_PRTO_Fire_Longbowman
+Art\Civilopedia\Icons\Units\67FireLongbowmanlarge.pcx
+Art\Civilopedia\Icons\Units\67FireLongbowmansmall.pcx
+#ICON_PRTO_Sunka_Wakan
+Art\Civilopedia\Icons\Units\SunkaWakanLARGE.pcx
+Art\Civilopedia\Icons\Units\SunkaWakanSMALL.pcx
+
+
+#Start buildings
+#ICON_BLDG_Airport
+ERA
+27
+art\civilopedia\icons\buildings\airportindlarge.pcx
+art\civilopedia\icons\buildings\airportindlarge.pcx
+art\civilopedia\icons\buildings\airportIndlarge.pcx
+art\civilopedia\icons\buildings\airportmodlarge.pcx
+art\civilopedia\icons\buildings\airportindsmall.pcx
+art\civilopedia\icons\buildings\airportindsmall.pcx
+art\civilopedia\icons\buildings\airportindsmall.pcx
+art\civilopedia\icons\buildings\airportmodsmall.pcx
+#ICON_BLDG_Art_of_War
+SINGLE
+37
+art\civilopedia\icons\buildings\aowlarge.pcx
+art\civilopedia\icons\buildings\aowsmall.pcx
+#ICON_BLDG_Apollo_Project
+SINGLE
+60
+art\civilopedia\icons\buildings\apollolarge.pcx
+art\civilopedia\icons\buildings\apollosmall.pcx
+#ICON_BLDG_Aqueduct
+ERA
+8
+art\civilopedia\icons\buildings\aqueductlarge.pcx
+art\civilopedia\icons\buildings\aqueductlarge.pcx
+art\civilopedia\icons\buildings\aqueductlarge.pcx
+art\civilopedia\icons\buildings\aqueductlarge.pcx
+art\civilopedia\icons\buildings\aqueductsmall.pcx
+art\civilopedia\icons\buildings\aqueductsmall.pcx
+art\civilopedia\icons\buildings\aqueductsmall.pcx
+art\civilopedia\icons\buildings\aqueductsmall.pcx
+#ICON_BLDG_Bank
+ERA
+9
+art\civilopedia\icons\buildings\bankrenlarge.pcx
+art\civilopedia\icons\buildings\bankrenlarge.pcx
+art\civilopedia\icons\buildings\bankindmodlarge.pcx
+art\civilopedia\icons\buildings\bankindmodlarge.pcx
+art\civilopedia\icons\buildings\bankrensmall.pcx
+art\civilopedia\icons\buildings\bankrensmall.pcx
+art\civilopedia\icons\buildings\bankindmodsmall.pcx
+art\civilopedia\icons\buildings\bankindmodsmall.pcx
+#ICON_BLDG_Barracks
+ERA
+1
+art\civilopedia\icons\buildings\barracksanclarge.pcx
+art\civilopedia\icons\buildings\barracksrenlarge.pcx
+art\civilopedia\icons\buildings\barracksindmodlarge.pcx
+art\civilopedia\icons\buildings\barracksindmodlarge.pcx
+art\civilopedia\icons\buildings\barracksancsmall.pcx
+art\civilopedia\icons\buildings\barracksrensmall.pcx
+art\civilopedia\icons\buildings\barracksindmodsmall.pcx
+art\civilopedia\icons\buildings\barracksindmodsmall.pcx
+#ICON_BLDG_Battlefield_Medicine
+SINGLE
+63
+art\civilopedia\icons\buildings\battlefieldmedicinelarge.pcx
+art\civilopedia\icons\buildings\battlefieldmedicinesmall.pcx
+#ICON_BLDG_Cathedral
+CULTURE
+10
+art\civilopedia\icons\buildings\cathedraleurlarge.pcx
+art\civilopedia\icons\buildings\cathedraleurlarge.pcx
+art\civilopedia\icons\buildings\cathedraleurlarge.pcx
+art\civilopedia\icons\buildings\cathedralmealarge.pcx
+art\civilopedia\icons\buildings\cathedralfealarge.pcx
+art\civilopedia\icons\buildings\cathedraleursmall.pcx
+art\civilopedia\icons\buildings\cathedraleursmall.pcx
+art\civilopedia\icons\buildings\cathedraleursmall.pcx
+art\civilopedia\icons\buildings\cathedralmeasmall.pcx
+art\civilopedia\icons\buildings\cathedralfeasmall.pcx
+#ICON_BLDG_Circumnavigation
+SINGLE
+39
+art\civilopedia\icons\buildings\circumnavigationlarge.pcx
+art\civilopedia\icons\buildings\circumnavigationsmall.pcx
+#ICON_BLDG_Coal_Plant
+ERA
+16
+art\civilopedia\icons\buildings\coalplantlarge.pcx
+art\civilopedia\icons\buildings\coalplantlarge.pcx
+art\civilopedia\icons\buildings\coalplantlarge.pcx
+art\civilopedia\icons\buildings\coalplantlarge.pcx
+art\civilopedia\icons\buildings\coalplantsmall.pcx
+art\civilopedia\icons\buildings\coalplantsmall.pcx
+art\civilopedia\icons\buildings\coalplantsmall.pcx
+art\civilopedia\icons\buildings\coalplantsmall.pcx
+#ICON_BLDG_Coastal_Fortress
+CULTURE
+23
+art\civilopedia\icons\buildings\coastalfortressamrlarge.pcx
+art\civilopedia\icons\buildings\coastalfortresseurlarge.pcx
+art\civilopedia\icons\buildings\coastalfortressromlarge.pcx
+art\civilopedia\icons\buildings\coastalfortressmealarge.pcx
+art\civilopedia\icons\buildings\coastalfortressfealarge.pcx
+art\civilopedia\icons\buildings\coastalfortressamrsmall.pcx
+art\civilopedia\icons\buildings\coastalfortresseursmall.pcx
+art\civilopedia\icons\buildings\coastalfortressromsmall.pcx
+art\civilopedia\icons\buildings\coastalfortressmeasmall.pcx
+art\civilopedia\icons\buildings\coastalfortressfeasmall.pcx
+#ICON_BLDG_Colosseum
+ERA
+12
+art\civilopedia\icons\buildings\colosseumancrenlarge.pcx
+art\civilopedia\icons\buildings\colosseumancrenlarge.pcx
+art\civilopedia\icons\buildings\colosseumindmodlarge.pcx
+art\civilopedia\icons\buildings\colosseumindmodlarge.pcx
+art\civilopedia\icons\buildings\colosseumancrensmall.pcx
+art\civilopedia\icons\buildings\colosseumancrensmall.pcx
+art\civilopedia\icons\buildings\colosseumindmodsmall.pcx
+art\civilopedia\icons\buildings\colosseumindmodsmall.pcx
+#ICON_BLDG_Colossus
+SINGLE
+32
+art\civilopedia\icons\buildings\colossuslarge.pcx
+art\civilopedia\icons\buildings\colossussmall.pcx
+#ICON_BLDG_Courthouse
+ERA
+6
+art\civilopedia\icons\buildings\courthouselarge.pcx
+art\civilopedia\icons\buildings\courthouselarge.pcx
+art\civilopedia\icons\buildings\courthouselarge.pcx
+art\civilopedia\icons\buildings\courthouselarge.pcx
+art\civilopedia\icons\buildings\courthousesmall.pcx
+art\civilopedia\icons\buildings\courthousesmall.pcx
+art\civilopedia\icons\buildings\courthousesmall.pcx
+art\civilopedia\icons\buildings\courthousesmall.pcx
+#ICON_BLDG_Cure_for_Cancer
+SINGLE
+51
+art\civilopedia\icons\buildings\cureforcancerlarge.pcx
+art\civilopedia\icons\buildings\cureforcancersmall.pcx
+#ICON_BLDG_Epic
+SINGLE
+54
+art\civilopedia\icons\buildings\epiclarge.pcx
+art\civilopedia\icons\buildings\epicsmall.pcx
+#ICON_BLDG_Factory
+ERA
+13
+art\civilopedia\icons\buildings\factorylarge.pcx
+art\civilopedia\icons\buildings\factorylarge.pcx
+art\civilopedia\icons\buildings\factorylarge.pcx
+art\civilopedia\icons\buildings\factorylarge.pcx
+art\civilopedia\icons\buildings\factorysmall.pcx
+art\civilopedia\icons\buildings\factorysmall.pcx
+art\civilopedia\icons\buildings\factorysmall.pcx
+art\civilopedia\icons\buildings\factorysmall.pcx
+#ICON_BLDG_Forbidden_Palace
+SINGLE
+56
+art\civilopedia\icons\buildings\forbiddenlarge.pcx
+art\civilopedia\icons\buildings\forbiddensmall.pcx
+#ICON_BLDG_Granary
+ERA
+2
+art\civilopedia\icons\buildings\granaryancrenindlarge.pcx
+art\civilopedia\icons\buildings\granaryancrenindlarge.pcx
+art\civilopedia\icons\buildings\granaryancrenindlarge.pcx
+art\civilopedia\icons\buildings\granarymodlarge.pcx
+art\civilopedia\icons\buildings\granaryancrenindsmall.pcx
+art\civilopedia\icons\buildings\granaryancrenindsmall.pcx
+art\civilopedia\icons\buildings\granaryancrenindsmall.pcx
+art\civilopedia\icons\buildings\granarymodsmall.pcx
+#ICON_BLDG_Grand_Cathedral
+SINGLE
+43
+art\civilopedia\icons\buildings\greatcathedrallarge.pcx
+art\civilopedia\icons\buildings\greatcathedralsmall.pcx
+#ICON_BLDG_Great_Ironworks
+SINGLE
+55
+art\civilopedia\icons\buildings\greatironworkslarge.pcx
+art\civilopedia\icons\buildings\greatironworkssmall.pcx
+#ICON_BLDG_Great_Library
+SINGLE
+34
+art\civilopedia\icons\buildings\greatlibrarylarge.pcx
+art\civilopedia\icons\buildings\greatlibrarysmall.pcx
+#ICON_BLDG_Great_Playhouse
+SINGLE
+41
+art\civilopedia\icons\buildings\greatplayhouselarge.pcx
+art\civilopedia\icons\buildings\greatplayhousesmall.pcx
+#ICON_BLDG_Great_Wall
+SINGLE
+36
+art\civilopedia\icons\buildings\greatwalllarge.pcx
+art\civilopedia\icons\buildings\greatwallsmall.pcx
+#ICON_BLDG_Great_University
+ERA
+44
+art\civilopedia\icons\buildings\greatuniversityindlarge.pcx
+art\civilopedia\icons\buildings\greatuniversityrenlarge.pcx
+art\civilopedia\icons\buildings\greatuniversityindlarge.pcx
+art\civilopedia\icons\buildings\greatuniversitymodlarge.pcx
+art\civilopedia\icons\buildings\greatuniversityindsmall.pcx
+art\civilopedia\icons\buildings\greatuniversityrensmall.pcx
+art\civilopedia\icons\buildings\greatuniversityindsmall.pcx
+art\civilopedia\icons\buildings\greatuniversitymodsmall.pcx
+#ICON_BLDG_Hanging_Gardens
+SINGLE
+31
+art\civilopedia\icons\buildings\hanginggardenslarge.pcx
+art\civilopedia\icons\buildings\hanginggardenssmall.pcx
+#ICON_BLDG_Harbor
+ERA
+25
+art\civilopedia\icons\buildings\harbormodlarge.pcx
+art\civilopedia\icons\buildings\harbormodlarge.pcx
+art\civilopedia\icons\buildings\harbormodlarge.pcx
+art\civilopedia\icons\buildings\harbormodlarge.pcx
+art\civilopedia\icons\buildings\harbormodsmall.pcx
+art\civilopedia\icons\buildings\harbormodsmall.pcx
+art\civilopedia\icons\buildings\harbormodsmall.pcx
+art\civilopedia\icons\buildings\harbormodsmall.pcx
+#ICON_BLDG_Hoover_Dam
+SINGLE
+47
+art\civilopedia\icons\buildings\hooverdamlarge.pcx
+art\civilopedia\icons\buildings\hooverdamsmall.pcx
+#ICON_BLDG_Hospital
+ERA
+19
+art\civilopedia\icons\buildings\hospitalindlarge.pcx
+art\civilopedia\icons\buildings\hospitalindlarge.pcx
+art\civilopedia\icons\buildings\hospitalindlarge.pcx
+art\civilopedia\icons\buildings\hospitalmodlarge.pcx
+art\civilopedia\icons\buildings\hospitalindsmall.pcx
+art\civilopedia\icons\buildings\hospitalindsmall.pcx
+art\civilopedia\icons\buildings\hospitalindsmall.pcx
+art\civilopedia\icons\buildings\hospitalmodsmall.pcx
+#ICON_BLDG_Hydro_Plant
+ERA
+17
+art\civilopedia\icons\buildings\hydroplantlarge.pcx
+art\civilopedia\icons\buildings\hydroplantlarge.pcx
+art\civilopedia\icons\buildings\hydroplantlarge.pcx
+art\civilopedia\icons\buildings\hydroplantlarge.pcx
+art\civilopedia\icons\buildings\hydroplantsmall.pcx
+art\civilopedia\icons\buildings\hydroplantsmall.pcx
+art\civilopedia\icons\buildings\hydroplantsmall.pcx
+art\civilopedia\icons\buildings\hydroplantsmall.pcx
+#ICON_BLDG_Intelligence_Center
+SINGLE
+62
+art\civilopedia\icons\buildings\intelligencecenterlarge.pcx
+art\civilopedia\icons\buildings\intelligencecentersmall.pcx
+#ICON_BLDG_Inventor's_Workshop
+SINGLE
+42
+art\civilopedia\icons\buildings\inventorworkshoplarge.pcx
+art\civilopedia\icons\buildings\inventorworkshopsmall.pcx
+#ICON_BLDG_Library
+ERA
+5
+art\civilopedia\icons\buildings\librarylarge.pcx
+art\civilopedia\icons\buildings\librarylarge.pcx
+art\civilopedia\icons\buildings\librarylarge.pcx
+art\civilopedia\icons\buildings\librarylarge.pcx
+art\civilopedia\icons\buildings\librarysmall.pcx
+art\civilopedia\icons\buildings\librarysmall.pcx
+art\civilopedia\icons\buildings\librarysmall.pcx
+art\civilopedia\icons\buildings\librarysmall.pcx
+#ICON_BLDG_Lighthouse
+SINGLE
+33
+art\civilopedia\icons\buildings\lighthouseatalexandrialarge.pcx
+art\civilopedia\icons\buildings\lighthouseatalexandriasmall.pcx
+#ICON_BLDG_Longevity
+SINGLE
+52
+art\civilopedia\icons\buildings\longevitylarge.pcx
+art\civilopedia\icons\buildings\longevitysmall.pcx
+#ICON_BLDG_Manhattan_Project
+SINGLE
+50
+art\civilopedia\icons\buildings\manhattanprojectlarge.pcx
+art\civilopedia\icons\buildings\manhattanprojectsmall.pcx
+#ICON_BLDG_Manufacturing_Plant
+ERA
+14
+art\civilopedia\icons\buildings\manufacturingplantlarge.pcx
+art\civilopedia\icons\buildings\manufacturingplantlarge.pcx
+art\civilopedia\icons\buildings\manufacturingplantlarge.pcx
+art\civilopedia\icons\buildings\manufacturingplantlarge.pcx
+art\civilopedia\icons\buildings\manufacturingplantsmall.pcx
+art\civilopedia\icons\buildings\manufacturingplantsmall.pcx
+art\civilopedia\icons\buildings\manufacturingplantsmall.pcx
+art\civilopedia\icons\buildings\manufacturingplantsmall.pcx
+#ICON_BLDG_Marketplace
+ERA
+4
+art\civilopedia\icons\buildings\marketplaceindmodlarge.pcx
+art\civilopedia\icons\buildings\marketplaceindmodlarge.pcx
+art\civilopedia\icons\buildings\marketplaceindmodlarge.pcx
+art\civilopedia\icons\buildings\marketplaceindmodlarge.pcx
+art\civilopedia\icons\buildings\marketplaceindmodsmall.pcx
+art\civilopedia\icons\buildings\marketplaceindmodsmall.pcx
+art\civilopedia\icons\buildings\marketplaceindmodsmall.pcx
+art\civilopedia\icons\buildings\marketplaceindmodsmall.pcx
+#ICON_BLDG_Mass_Transit_System
+ERA
+21
+art\civilopedia\icons\buildings\masstransitlarge.pcx
+art\civilopedia\icons\buildings\masstransitlarge.pcx
+art\civilopedia\icons\buildings\masstransitlarge.pcx
+art\civilopedia\icons\buildings\masstransitlarge.pcx
+art\civilopedia\icons\buildings\masstransitsmall.pcx
+art\civilopedia\icons\buildings\masstransitsmall.pcx
+art\civilopedia\icons\buildings\masstransitsmall.pcx
+art\civilopedia\icons\buildings\masstransitsmall.pcx
+#ICON_BLDG_Military_Academy
+SINGLE
+57
+art\civilopedia\icons\buildings\militaryacademylarge.pcx
+art\civilopedia\icons\buildings\militaryacademysmall.pcx
+#ICON_BLDG_Nuclear_Plant
+ERA
+18
+art\civilopedia\icons\buildings\nukeplantlarge.pcx
+art\civilopedia\icons\buildings\nukeplantlarge.pcx
+art\civilopedia\icons\buildings\nukeplantlarge.pcx
+art\civilopedia\icons\buildings\nukeplantlarge.pcx
+art\civilopedia\icons\buildings\nukeplantsmall.pcx
+art\civilopedia\icons\buildings\nukeplantsmall.pcx
+art\civilopedia\icons\buildings\nukeplantsmall.pcx
+art\civilopedia\icons\buildings\nukeplantsmall.pcx
+#ICON_BLDG_Offshore_Platform
+ERA
+26
+art\civilopedia\icons\buildings\offshoredrillingplatformlarge.pcx
+art\civilopedia\icons\buildings\offshoredrillingplatformlarge.pcx
+art\civilopedia\icons\buildings\offshoredrillingplatformlarge.pcx
+art\civilopedia\icons\buildings\offshoredrillingplatformlarge.pcx
+art\civilopedia\icons\buildings\offshoredrillingplatformsmall.pcx
+art\civilopedia\icons\buildings\offshoredrillingplatformsmall.pcx
+art\civilopedia\icons\buildings\offshoredrillingplatformsmall.pcx
+art\civilopedia\icons\buildings\offshoredrillingplatformsmall.pcx
+#ICON_BLDG_Oracle
+SINGLE
+35
+art\civilopedia\icons\buildings\oraclelarge.pcx
+art\civilopedia\icons\buildings\oraclesmall.pcx
+#ICON_BLDG_Palace
+CULTURE
+0
+art\civilopedia\icons\buildings\palaceamerlarge.pcx
+art\civilopedia\icons\buildings\palaceeurlarge.pcx
+art\civilopedia\icons\buildings\palaceromlarge.pcx
+art\civilopedia\icons\buildings\palacemealarge.pcx
+art\civilopedia\icons\buildings\palacefealarge.pcx
+art\civilopedia\icons\buildings\palaceamersmall.pcx
+art\civilopedia\icons\buildings\palaceeursmall.pcx
+art\civilopedia\icons\buildings\palaceromsmall.pcx
+art\civilopedia\icons\buildings\palacemeasmall.pcx
+art\civilopedia\icons\buildings\palacefeasmall.pcx
+#ICON_BLDG_Pentagon
+SINGLE
+58
+art\civilopedia\icons\buildings\pentagonlarge.pcx
+art\civilopedia\icons\buildings\pentagonsmall.pcx
+#ICON_BLDG_Police_Station
+ERA
+28
+art\civilopedia\icons\buildings\policestationindlarge.pcx
+art\civilopedia\icons\buildings\policestationindlarge.pcx
+art\civilopedia\icons\buildings\policestationindlarge.pcx
+art\civilopedia\icons\buildings\policestationmodlarge.pcx
+art\civilopedia\icons\buildings\policestationindsmall.pcx
+art\civilopedia\icons\buildings\policestationindsmall.pcx
+art\civilopedia\icons\buildings\policestationindsmall.pcx
+art\civilopedia\icons\buildings\policestationmodsmall.pcx
+#ICON_BLDG_Pyramids
+SINGLE
+30
+art\civilopedia\icons\buildings\pyramidlarge.pcx
+art\civilopedia\icons\buildings\pyramidsmall.pcx
+#ICON_BLDG_Recycling_Center
+ERA
+15
+art\civilopedia\icons\buildings\recyclingcenterlarge.pcx
+art\civilopedia\icons\buildings\recyclingcenterlarge.pcx
+art\civilopedia\icons\buildings\recyclingcenterlarge.pcx
+art\civilopedia\icons\buildings\recyclingcenterlarge.pcx
+art\civilopedia\icons\buildings\recyclingcentersmall.pcx
+art\civilopedia\icons\buildings\recyclingcentersmall.pcx
+art\civilopedia\icons\buildings\recyclingcentersmall.pcx
+art\civilopedia\icons\buildings\recyclingcentersmall.pcx
+#ICON_BLDG_Lab
+ERA
+20
+art\civilopedia\icons\buildings\researchlablarge.pcx
+art\civilopedia\icons\buildings\researchlablarge.pcx
+art\civilopedia\icons\buildings\researchlablarge.pcx
+art\civilopedia\icons\buildings\researchlablarge.pcx
+art\civilopedia\icons\buildings\researchlabsmall.pcx
+art\civilopedia\icons\buildings\researchlabsmall.pcx
+art\civilopedia\icons\buildings\researchlabsmall.pcx
+art\civilopedia\icons\buildings\researchlabsmall.pcx
+#ICON_BLDG_SAM_Missile_Battery
+ERA
+22
+art\civilopedia\icons\buildings\sambatterieslarge.pcx
+art\civilopedia\icons\buildings\sambatterieslarge.pcx
+art\civilopedia\icons\buildings\sambatterieslarge.pcx
+art\civilopedia\icons\buildings\sambatterieslarge.pcx
+art\civilopedia\icons\buildings\sambatteriessmall.pcx
+art\civilopedia\icons\buildings\sambatteriessmall.pcx
+art\civilopedia\icons\buildings\sambatteriessmall.pcx
+art\civilopedia\icons\buildings\sambatteriessmall.pcx
+#ICON_BLDG_SDI
+SINGLE
+61
+art\civilopedia\icons\buildings\sdilarge.pcx
+art\civilopedia\icons\buildings\sdismall.pcx
+#ICON_BLDG_Secret_Police_HQ
+SINGLE
+56
+art\civilopedia\icons\buildings\DenOfSpieslarge.pcx
+art\civilopedia\icons\buildings\DenOfSpiessmall.pcx
+#ICON_BLDG_SETI_Program
+SINGLE
+53
+art\civilopedia\icons\buildings\setilarge.pcx
+art\civilopedia\icons\buildings\setismall.pcx
+#ICON_BLDG_Sistine_Chapel
+SINGLE
+38
+art\civilopedia\icons\buildings\sistinechapellarge.pcx
+art\civilopedia\icons\buildings\sistinechapelsmall.pcx
+#ICON_BLDG_Solar_Plant
+ERA
+24
+art\civilopedia\icons\buildings\solarplantlarge.pcx
+art\civilopedia\icons\buildings\solarplantlarge.pcx
+art\civilopedia\icons\buildings\solarplantlarge.pcx
+art\civilopedia\icons\buildings\solarplantlarge.pcx
+art\civilopedia\icons\buildings\solarplantsmall.pcx
+art\civilopedia\icons\buildings\solarplantsmall.pcx
+art\civilopedia\icons\buildings\solarplantsmall.pcx
+art\civilopedia\icons\buildings\solarplantsmall.pcx
+#ICON_BLDG_Solar_System
+SINGLE
+40
+art\civilopedia\icons\buildings\solarsystemlarge.pcx
+art\civilopedia\icons\buildings\solarsystemsmall.pcx
+#ICON_BLDG_SS_Exterior_Casing
+SINGLE
+73
+art\civilopedia\icons\buildings\sscasinglarge.pcx
+art\civilopedia\icons\buildings\sscasingsmall.pcx
+#ICON_SS_Exterior_Casing
+SINGLE
+73
+art\civilopedia\icons\buildings\sscasinglarge.pcx
+art\civilopedia\icons\buildings\sscasingsmall.pcx
+#ICON_BLDG_SS_Cockpit
+SINGLE
+67
+art\civilopedia\icons\buildings\sscockpitlarge.pcx
+art\civilopedia\icons\buildings\sscockpitsmall.pcx
+#ICON_BLDG_SS_Landing_Docking_Bay
+SINGLE
+66
+art\civilopedia\icons\buildings\ssdockingbaylarge.pcx
+art\civilopedia\icons\buildings\ssdockingbaysmall.pcx
+#ICON_BLDG_SS_Engine
+SINGLE
+65
+art\civilopedia\icons\buildings\ssenginelarge.pcx
+art\civilopedia\icons\buildings\ssenginesmall.pcx
+#ICON_BLDG_SS_Fuel_Cells
+SINGLE
+68
+art\civilopedia\icons\buildings\ssfuelcellslarge.pcx
+art\civilopedia\icons\buildings\ssfuelcellssmall.pcx
+#ICON_BLDG_SS_Life_Support_System
+SINGLE
+69
+art\civilopedia\icons\buildings\sslifesupportlarge.pcx
+art\civilopedia\icons\buildings\sslifesupportsmall.pcx
+#ICON_BLDG_SS_Planetary_Party_Lounge
+SINGLE
+72
+art\civilopedia\icons\buildings\sspartyloungelarge.pcx
+art\civilopedia\icons\buildings\sspartyloungesmall.pcx
+#ICON_SS_Planetary_Party_Lounge
+SINGLE
+72
+art\civilopedia\icons\buildings\sspartyloungelarge.pcx
+art\civilopedia\icons\buildings\sspartyloungesmall.pcx
+#ICON_BLDG_SS_Stasis_Chamber
+SINGLE
+70
+art\civilopedia\icons\buildings\ssstasislarge.pcx
+art\civilopedia\icons\buildings\ssstasissmall.pcx
+#ICON_BLDG_SS_Storage_Supply
+SINGLE
+71
+art\civilopedia\icons\buildings\ssstoragelarge.pcx
+art\civilopedia\icons\buildings\ssstoragesmall.pcx
+#ICON_BLDG_SS_Thrusters
+SINGLE
+64
+art\civilopedia\icons\buildings\ssthrusterlarge.pcx
+art\civilopedia\icons\buildings\ssthrustersmall.pcx
+#ICON_BLDG_Temple
+CULTURE
+3
+art\civilopedia\icons\buildings\templeamerlarge.pcx
+art\civilopedia\icons\buildings\templeeurlarge.pcx
+art\civilopedia\icons\buildings\templeromlarge.pcx
+art\civilopedia\icons\buildings\templemealarge.pcx
+art\civilopedia\icons\buildings\templefealarge.pcx
+art\civilopedia\icons\buildings\templeamersmall.pcx
+art\civilopedia\icons\buildings\templeeursmall.pcx
+art\civilopedia\icons\buildings\templeromsmall.pcx
+art\civilopedia\icons\buildings\templemeasmall.pcx
+art\civilopedia\icons\buildings\templefeasmall.pcx
+#ICON_BLDG_Theory_of_Evolution
+SINGLE
+48
+art\civilopedia\icons\buildings\theoryofevolutionlarge.pcx
+art\civilopedia\icons\buildings\theoryofevolutionsmall.pcx
+#ICON_BLDG_Trading_Company
+SINGLE
+45
+art\civilopedia\icons\buildings\tradingcompanylarge.pcx
+art\civilopedia\icons\buildings\tradingcompanysmall.pcx
+#ICON_BLDG_United_Nations
+SINGLE
+49
+art\civilopedia\icons\buildings\unlarge.pcx
+art\civilopedia\icons\buildings\unsmall.pcx
+#ICON_BLDG_Universal_Suffrage
+SINGLE
+46
+art\civilopedia\icons\buildings\universalsuffragelarge.pcx
+art\civilopedia\icons\buildings\universalsuffragesmall.pcx
+#ICON_BLDG_University
+ERA
+11
+art\civilopedia\icons\buildings\universityrenlarge.pcx
+art\civilopedia\icons\buildings\universityrenlarge.pcx
+art\civilopedia\icons\buildings\universityindlarge.pcx
+art\civilopedia\icons\buildings\universitymodlarge.pcx
+art\civilopedia\icons\buildings\universityrensmall.pcx
+art\civilopedia\icons\buildings\universityrensmall.pcx
+art\civilopedia\icons\buildings\universityindsmall.pcx
+art\civilopedia\icons\buildings\universitymodsmall.pcx
+#ICON_BLDG_Walls
+CULTURE
+7
+art\civilopedia\icons\buildings\citywallsamerlarge.pcx
+art\civilopedia\icons\buildings\citywallseurlarge.pcx
+art\civilopedia\icons\buildings\citywallsromlarge.pcx
+art\civilopedia\icons\buildings\citywallsmealarge.pcx
+art\civilopedia\icons\buildings\citywallsfealarge.pcx
+art\civilopedia\icons\buildings\citywallsamersmall.pcx
+art\civilopedia\icons\buildings\citywallseursmall.pcx
+art\civilopedia\icons\buildings\citywallsromsmall.pcx
+art\civilopedia\icons\buildings\citywallsmeasmall.pcx
+art\civilopedia\icons\buildings\citywallsfeasmall.pcx
+#ICON_BLDG_Wall_Street
+SINGLE
+59
+art\civilopedia\icons\buildings\wallstreetlarge.pcx
+art\civilopedia\icons\buildings\wallstreetsmall.pcx
+#ICON_BLDG_Wealth
+SINGLE
+29
+art\civilopedia\icons\buildings\wealthlarge.pcx
+art\civilopedia\icons\buildings\wealthsmall.pcx
+#ICON_BLDG_Internet
+SINGLE
+74
+art\civilopedia\icons\buildings\internet_large.pcx
+art\civilopedia\icons\buildings\internet_small.pcx
+#ICON_BLDG_Civil_Defense
+SINGLE
+75
+art\civilopedia\icons\buildings\civil defense_large.pcx
+art\civilopedia\icons\buildings\civil defense_small.pcx
+#ICON_BLDG_Stock_Exchange
+SINGLE
+76
+art\civilopedia\icons\buildings\stock ex_large.pcx
+art\civilopedia\icons\buildings\stock ex_small.pcx
+#ICON_BLDG_Commercial_Dock
+SINGLE
+77
+art\civilopedia\icons\buildings\comm dock_large.pcx
+art\civilopedia\icons\buildings\comm dock_small.pcx
+#ICON_BLDG_Artemis
+SINGLE
+78
+art\civilopedia\icons\buildings\artemislarge.pcx
+art\civilopedia\icons\buildings\artemissmall.pcx
+#ICON_BLDG_Zeus
+SINGLE
+79
+art\civilopedia\icons\buildings\zeuslarge.pcx
+art\civilopedia\icons\buildings\zeussmall.pcx
+#ICON_BLDG_Mausoleum
+SINGLE
+80
+art\civilopedia\icons\buildings\mausoleumlarge.pcx
+art\civilopedia\icons\buildings\mausoleumsmall.pcx
+#ICON_BLDG_Knights_Templar
+SINGLE
+81
+art\civilopedia\icons\buildings\knightstemplarlarge.pcx
+art\civilopedia\icons\buildings\knightstemplarsmall.pcx
+
+#HomelessIcons
+#
+art\civilopedia\icons\terrain\borderslarge.pcx
+#
+art\civilopedia\icons\terrain\borderssmall.pcx
+#
+art\civilopedia\icons\terrain\riverslarge.pcx
+#
+art\civilopedia\icons\terrain\riverssmall.pcx
+#END CIVILOPEDIA ART
+
+######################################################################
+#WONDER_SPLASH_ART begin
+#WON_SPLASH_BLDG_Pyramids
+art\wonder splash\pyramid.pcx
+#WON_SPLASH_BLDG_Hanging_Gardens
+art\wonder splash\hanging gardens.pcx
+#WON_SPLASH_BLDG_Colossus
+art\wonder splash\Colossus.pcx
+#WON_SPLASH_BLDG_Lighthouse
+art\wonder splash\Lighthouse.pcx
+#WON_SPLASH_BLDG_Great_Library
+art\wonder splash\GrtLibrary.pcx
+#WON_SPLASH_BLDG_Oracle
+art\wonder splash\oracle.pcx
+#WON_SPLASH_BLDG_Great_Wall
+art\wonder splash\great wall.pcx
+#WON_SPLASH_BLDG_Art_of_War
+art\wonder splash\Art of War.pcx
+#WON_SPLASH_BLDG_Sistine_Chapel
+art\wonder splash\sistine chapel.pcx
+#WON_SPLASH_BLDG_Circumnavigation
+art\wonder splash\circumnavigation.pcx
+#WON_SPLASH_BLDG_Solar_System
+art\wonder splash\solar system explained.pcx
+#WON_SPLASH_BLDG_Great_Playhouse
+art\wonder splash\Great Playhouse.pcx
+#WON_SPLASH_BLDG_Inventor's_Workshop
+art\wonder splash\inventors workshop.pcx
+#WON_SPLASH_BLDG_Grand_Cathedral
+art\wonder splash\GrtCathedral.pcx
+#WON_SPLASH_BLDG_Great_University
+art\wonder splash\great university.pcx
+#WON_SPLASH_BLDG_Trading_Company
+art\wonder splash\Great Trading Co.pcx
+#WON_SPLASH_BLDG_Universal_Suffrage
+art\wonder splash\UnivSuffrage.pcx
+#WON_SPLASH_BLDG_Hoover_Dam
+art\wonder splash\dam.pcx
+#WON_SPLASH_BLDG_Theory_of_Evolution
+art\wonder splash\Theory of Evolution.pcx
+#WON_SPLASH_BLDG_United_Nations
+art\wonder splash\un.pcx
+#WON_SPLASH_BLDG_Manhattan_Project
+art\wonder splash\Manhattan Proj.pcx
+#WON_SPLASH_BLDG_Cure_for_Cancer
+art\wonder splash\Cure for Cancer.pcx
+#WON_SPLASH_BLDG_Longevity
+art\wonder splash\longevity.pcx
+#WON_SPLASH_BLDG_SETI_Program
+art\wonder splash\SETI.pcx
+#WON_SPLASH_BLDG_Epic
+art\wonder splash\Epic.pcx
+#WON_SPLASH_BLDG_Great_Ironworks
+art\wonder splash\Great Ironworks.pcx
+#WON_SPLASH_BLDG_Forbidden_Palace
+art\wonder splash\forbidden city.pcx
+#WON_SPLASH_BLDG_Military_Academy
+art\wonder splash\military academy.pcx
+#WON_SPLASH_BLDG_Pentagon
+art\wonder splash\pentagon.pcx
+#WON_SPLASH_BLDG_Wall_Street
+art\wonder splash\wall street.pcx
+#WON_SPLASH_BLDG_Apollo_Project
+art\wonder splash\Apollo.pcx
+#WON_SPLASH_BLDG_SDI
+art\wonder splash\SDI.pcx
+#WON_SPLASH_BLDG_Intelligence_Center
+art\wonder splash\intell.pcx
+#WON_SPLASH_BLDG_Battlefield_Medicine
+art\wonder splash\Battlefield Medicine.pcx
+#WON_SPLASH_BLDG_Internet
+art\wonder splash\internet.pcx
+#WON_SPLASH_BLDG_Artemis
+art\wonder splash\Artemis.pcx
+#WON_SPLASH_BLDG_Zeus
+art\wonder splash\Zeus.pcx
+#WON_SPLASH_BLDG_Mausoleum
+art\wonder splash\Mausoleum.pcx
+#WON_SPLASH_BLDG_Knights_Templar
+art\wonder splash\Knights_Templar.pcx
+#WON_SPLASH_BLDG_Secret_Police_HQ
+art\wonder splash\forbidden city.pcx
+
+################################################################
+#Era splash art begin
+#ERA_SPLASH_ERAS_Ancient_Times
+art\erasplash\ancient.pcx
+art\erasplash\medival.pcx
+#ERA_SPLASH_ERAS_Middle_Ages
+art\erasplash\medival.pcx
+art\erasplash\indust.pcx
+#ERA_SPLASH_ERAS_Industrial_Age
+art\erasplash\indust.pcx
+art\erasplash\modern.pcx
+#ERA_SPLASH_ERAS_Modern_Era
+art\erasplash\modern.pcx
+art\erasplash\modern.pcx
+
+################################################################
+# Small Tech Icons
+############################################
+############################################
+
+
+#TECH_Advanced_Flight
+Art\tech chooser\Icons\00-AdvancedFlight-small.pcx
+#TECH_Alphabet
+Art\tech chooser\Icons\01-alphabet-small.pcx
+#TECH_Amphibious_Warfare
+Art\tech chooser\Icons\02-AmphibiousWarfare-small.pcx
+#TECH_Astronomy
+Art\tech chooser\Icons\03-Astronomy-small.pcx
+#TECH_Atomic_Theory
+Art\tech chooser\Icons\04-AtomicTheory-small-vp.pcx
+#TECH_Banking
+Art\tech chooser\Icons\05-Banking-small.pcx
+#TECH_Bronze_Working
+Art\tech chooser\Icons\06-bronzeWorking-small.pcx
+#TECH_Ceremonial_Burial
+Art\tech chooser\Icons\07-CeremonialBurial-small.pcx
+#TECH_Chemistry
+Art\tech chooser\Icons\08-Chemistry-small.pcx
+#TECH_Chivalry
+Art\tech chooser\Icons\09-Chivalry2-small.pcx
+#TECH_Code_of_Laws
+Art\tech chooser\Icons\10-CodeOfLaws-small.pcx
+#TECH_Combustion
+Art\tech chooser\Icons\11-Combustion-small-vp.pcx
+#TECH_Communism
+Art\tech chooser\Icons\12-Communism-small-vp.pcx
+#TECH_Computers
+Art\tech chooser\Icons\13-Computers-small-vp.pcx
+#TECH_Construction
+Art\tech chooser\Icons\14-Construction-small.pcx
+#TECH_Currency
+Art\tech chooser\Icons\15-Currency-small.pcx
+#TECH_Democracy
+Art\tech chooser\Icons\16-democracy-small.pcx
+#TECH_Ecology
+Art\tech chooser\Icons\17-Ecology-small.pcx
+#TECH_Economics
+Art\tech chooser\Icons\18-Economics-small.pcx
+#TECH_Education
+Art\tech chooser\Icons\GeneralEducation-small.pcx
+#TECH_Electricity
+Art\tech chooser\Icons\20-Electricity-small-vp.pcx
+#TECH_Electronics
+Art\tech chooser\Icons\59-Radio-small.pcx
+#TECH_Engineering
+Art\tech chooser\Icons\22-engineering-small.pcx
+#TECH_Espionage
+Art\tech chooser\Icons\23-espionage-small.pcx
+#TECH_Feudalism
+Art\tech chooser\Icons\Feudalism-small.pcx
+#TECH_Fission
+Art\tech chooser\Icons\25-FissionPower-small.pcx
+#TECH_Flight
+Art\tech chooser\Icons\26-Flight-small.pcx
+#TECH_Free_Artistry
+Art\tech chooser\Icons\27-freeArtistry-small.pcx
+#TECH_Genetics
+Art\tech chooser\Icons\29-Genetics-small-vp.pcx
+#TECH_Gunpowder
+Art\tech chooser\Icons\30-gunpowder-small.pcx
+#TECH_Horseback_Riding
+Art\tech chooser\Icons\31-HorsebackRiding-small.pcx
+#TECH_Industrialization
+Art\tech chooser\Icons\32-Industrialization-small.pcx
+#TECH_Integrated_Defense
+Art\tech chooser\Icons\33-integratedDefense-small.pcx
+#TECH_Invention
+Art\tech chooser\Icons\34-Invention-bolt-small.pcx
+#TECH_Ironclads
+Art\tech chooser\Icons\NavalTactics-small.pcx
+#TECH_Iron_Working
+Art\tech chooser\Icons\35-Ironworking-small.pcx
+#TECH_Literature
+Art\tech chooser\Icons\36-literature-small.pcx
+#TECH_Magnetism
+Art\tech chooser\Icons\37-Magnetism-small.pcx
+#TECH_Mass_Production
+Art\tech chooser\Icons\38-Manufacturing-small.pcx
+#TECH_Map_Making
+Art\tech chooser\Icons\39-Mapmaking-small.pcx
+#TECH_Masonry
+Art\tech chooser\Icons\40-Masonry-small.pcx
+#TECH_Mathematics
+Art\tech chooser\Icons\41-mathematics-small.pcx
+#TECH_Medicine
+Art\tech chooser\Icons\42-Medicine-small.pcx
+#TECH_Metallurgy
+Art\tech chooser\Icons\43-metallurgy-small.pcx
+#TECH_Military_Tradition
+Art\tech chooser\Icons\44-militaryTradition-small.pcx
+#TECH_Miniaturization
+Art\tech chooser\Icons\45-Miniaturization-small.pcx
+#TECH_Monarchy
+Art\tech chooser\Icons\46-Monarchy-small.pcx
+#TECH_Monotheism
+Art\tech chooser\Icons\47-Monotheism-small.pcx
+#TECH_Motorized_Transportation
+Art\tech chooser\Icons\48-MotorizedTransport-small.pcx
+#TECH_Music_Theory
+Art\tech chooser\Icons\49-musicTheory-small.pcx
+#TECH_Mysticism
+Art\tech chooser\Icons\50-mysticism-small.pcx
+#TECH_Nationalism
+Art\tech chooser\Icons\51-Nationalism-small.pcx
+#TECH_Navigation
+Art\tech chooser\Icons\52-navigation-small.pcx
+#TECH_Nuclear_Power
+Art\tech chooser\Icons\53-NuclearPower-small.pcx
+#TECH_Philosophy
+Art\tech chooser\Icons\54-Philosophy-small.pcx
+#TECH_Physics
+Art\tech chooser\Icons\55-physics-small.pcx
+#TECH_Polytheism
+Art\tech chooser\Icons\56-Polytheism-small.pcx
+#TECH_Pottery
+Art\tech chooser\Icons\57-Pottery-small.pcx
+#TECH_Printing_Press
+Art\tech chooser\Icons\58-printing press-small.pcx
+#TECH_Radio
+Art\tech chooser\Icons\59-Radio-small.pcx
+#TECH_Recycling
+Art\tech chooser\Icons\60-Recycle-small.pcx
+#TECH_Refining
+Art\tech chooser\Icons\61-Refining-small.pcx
+#TECH_Replaceable_Parts
+Art\tech chooser\Icons\62-ReplaceableParts-small.pcx
+#TECH_Robotics
+Art\tech chooser\Icons\63-robotics-small.pcx
+#TECH_Rocketry
+Art\tech chooser\Icons\64-rocketry-small.pcx
+#TECH_Sanitation
+Art\tech chooser\Icons\65-sanitation-small.pcx
+#TECH_Satellites
+Art\tech chooser\Icons\66-Satellites-small.pcx
+#TECH_Scientific_Method
+Art\tech chooser\Icons\67-ScientificMethod-small.pcx
+#TECH_Smart_Weapons
+Art\tech chooser\Icons\68-SmartWeapons-small.pcx
+#TECH_Space_Flight
+Art\tech chooser\Icons\69-spaceflight-small.pcx
+#TECH_Stealth
+Art\tech chooser\Icons\70-Stealth-small.pcx
+#TECH_Steam_Power
+Art\tech chooser\Icons\71-SteamPower-small.pcx
+#TECH_Steel
+Art\tech chooser\Icons\72-Steel-small.pcx
+#TECH_Superconductor
+Art\tech chooser\Icons\73-Superconductor-small.pcx
+#TECH_Synthetic_Fibers
+Art\tech chooser\Icons\74-syntheticFibers-small.pcx
+#TECH_The_Corporation
+Art\tech chooser\Icons\75-Corporation-small.pcx
+#TECH_The_Laser
+Art\tech chooser\Icons\76-Laser-small.pcx
+#TECH_The_Republic
+Art\tech chooser\Icons\77-republic-small.pcx
+#TECH_The_Wheel
+Art\tech chooser\Icons\78-TheWheel-small.pcx
+#TECH_Theology
+Art\tech chooser\Icons\79-theology-small.pcx
+#TECH_Theory_of_Gravity
+Art\tech chooser\Icons\80-theoryGravity-small.pcx
+#TECH_Warrior_Code
+Art\tech chooser\Icons\81-Warrior Code-small.pcx
+#TECH_Writing
+Art\tech chooser\Icons\82-writing-small.pcx
+#TECH_Assassination
+Art\tech chooser\icons\BloodCult-small.pcx
+#TECH_Fascism
+Art\tech chooser\Icons\Fascism-small.pcx
+#TECH_Fundamentalism
+Art\tech chooser\Icons\DivineRight-small.pcx
+#TECH_Machinery
+Art\tech chooser\Icons\Machinery-s.pcx
+#TECH_Steam_Engine
+Art\Tech Chooser\Icons\SteamEngineSmall.pcx
+#TECH_Vacuum_Tubes
+Art\tech chooser\Icons\21-Electronics-small.pcx
+
+# Large Tech Icons
+#TECH_Advanced_Flight_LARGE
+Art\tech chooser\Icons\00-AdvancedFlight-large.pcx
+#TECH_Alphabet_LARGE
+Art\tech chooser\Icons\01-alphabet-large.pcx
+#TECH_Amphibious_Warfare_LARGE
+Art\tech chooser\Icons\02-AmphibiousWarfare-large.pcx
+#TECH_Astronomy_LARGE
+Art\tech chooser\Icons\03-Astronomy-large.pcx
+#TECH_Atomic_Theory_LARGE
+Art\tech chooser\Icons\04-AtomicTheory-large-vp.pcx
+#TECH_Banking_LARGE
+Art\tech chooser\Icons\05-Banking-large.pcx
+#TECH_Bronze_Working_LARGE
+Art\tech chooser\Icons\06-bronzeWorking-large.pcx
+#TECH_Ceremonial_Burial_LARGE
+Art\tech chooser\Icons\07-CeremonialBurial-large.pcx
+#TECH_Chemistry_LARGE
+Art\tech chooser\Icons\08-Chemistry-large.pcx
+#TECH_Chivalry_LARGE
+Art\tech chooser\Icons\09-Chivalry2-large.pcx
+#TECH_Code_of_Laws_LARGE
+Art\tech chooser\Icons\10-CodeOfLaws-large.pcx
+#TECH_Combustion_LARGE
+Art\tech chooser\Icons\11-Combustion-large-vp.pcx
+#TECH_Communism_LARGE
+Art\tech chooser\Icons\12-Communism-large-vp.pcx
+#TECH_Computers_LARGE
+Art\tech chooser\Icons\13-Computers-large-vp.pcx
+#TECH_Construction_LARGE
+Art\tech chooser\Icons\14-Construction-large.pcx
+#TECH_Currency_LARGE
+Art\tech chooser\Icons\15-Currency-large.pcx
+#TECH_Democracy_LARGE
+Art\tech chooser\Icons\16-democracy-large.pcx
+#TECH_Ecology_LARGE
+Art\tech chooser\Icons\17-Ecology-large.pcx
+#TECH_Economics_LARGE
+Art\tech chooser\Icons\18-Economics-large.pcx
+#TECH_Education_LARGE
+Art\tech chooser\Icons\GeneralEducation-large.pcx
+#TECH_Electricity_LARGE
+Art\tech chooser\Icons\20-Electricity-large-vp.pcx
+#TECH_Electronics_LARGE
+Art\tech chooser\Icons\59-Radio-large.pcx
+#TECH_Engineering_LARGE
+Art\tech chooser\Icons\22-engineering-large.pcx
+#TECH_Espionage_LARGE
+Art\tech chooser\Icons\23-espionage-large.pcx
+#TECH_Feudalism_LARGE
+Art\tech chooser\Icons\Feudalism-large.pcx
+#TECH_Fission_LARGE
+Art\tech chooser\Icons\25-FissionPower-large.pcx
+#TECH_Flight_LARGE
+Art\tech chooser\Icons\26-Flight-large.pcx
+#TECH_Free_Artistry_LARGE
+Art\tech chooser\Icons\27-freeArtistry-large.pcx
+#TECH_Genetics_LARGE
+Art\tech chooser\Icons\29-Genetics-large-vp.pcx
+#TECH_Gunpowder_LARGE
+Art\tech chooser\Icons\30-gunpowder-large.pcx
+#TECH_Horseback_Riding_LARGE
+Art\tech chooser\Icons\31-HorsebackRiding-large.pcx
+#TECH_Industrialization_LARGE
+Art\tech chooser\Icons\32-Industrialization-large.pcx
+#TECH_Integrated_Defense_LARGE
+Art\tech chooser\Icons\33-integratedDefense-large.pcx
+#TECH_Invention_LARGE
+Art\tech chooser\Icons\34-Invention-bolt-large.pcx
+#TECH_Ironclads_LARGE
+Art\tech chooser\Icons\NavalTactics-large.pcx
+#TECH_Iron_Working_LARGE
+Art\tech chooser\Icons\35-Ironworking-large.pcx
+#TECH_Literature_LARGE
+Art\tech chooser\Icons\36-literature-large.pcx
+#TECH_Magnetism_LARGE
+Art\tech chooser\Icons\37-Magnetism-large.pcx
+#TECH_Mass_Production_LARGE
+Art\tech chooser\Icons\38-Manufacturing-large.pcx
+#TECH_Map_Making_LARGE
+Art\tech chooser\Icons\39-Mapmaking-large.pcx
+#TECH_Masonry_LARGE
+Art\tech chooser\Icons\40-Masonry-large.pcx
+#TECH_Mathematics_LARGE
+Art\tech chooser\Icons\41-mathematics-large.pcx
+#TECH_Medicine_LARGE
+Art\tech chooser\Icons\42-Medicine-large.pcx
+#TECH_Metallurgy_LARGE
+Art\tech chooser\Icons\43-metallurgy-large.pcx
+#TECH_Military_Tradition_LARGE
+Art\tech chooser\Icons\44-militaryTradition-large.pcx
+#TECH_Miniaturization_LARGE
+Art\tech chooser\Icons\45-Miniaturization-large.pcx
+#TECH_Monarchy_LARGE
+Art\tech chooser\Icons\46-Monarchy-large.pcx
+#TECH_Monotheism_LARGE
+Art\tech chooser\Icons\47-Monotheism-large.pcx
+#TECH_Motorized_Transportation_LARGE
+Art\tech chooser\Icons\48-MotorizedTransport-large.pcx
+#TECH_Music_Theory_LARGE
+Art\tech chooser\Icons\49-musicTheory-large.pcx
+#TECH_Mysticism_LARGE
+Art\tech chooser\Icons\50-mysticism-large.pcx
+#TECH_Nationalism_LARGE
+Art\tech chooser\Icons\51-Nationalism-large.pcx
+#TECH_Navigation_LARGE
+Art\tech chooser\Icons\52-navigation-large.pcx
+#TECH_Nuclear_Power_LARGE
+Art\tech chooser\Icons\53-NuclearPower-large.pcx
+#TECH_Philosophy_LARGE
+Art\tech chooser\Icons\54-Philosophy-large.pcx
+#TECH_Physics_LARGE
+Art\tech chooser\Icons\55-physics-large.pcx
+#TECH_Polytheism_LARGE
+Art\tech chooser\Icons\56-Polytheism-large.pcx
+#TECH_Pottery_LARGE
+Art\tech chooser\Icons\57-Pottery-large.pcx
+#TECH_Printing_Press_LARGE
+Art\tech chooser\Icons\58-printing press-large.pcx
+#TECH_Radio_LARGE
+Art\tech chooser\Icons\59-Radio-large.pcx
+#TECH_Recycling_LARGE
+Art\tech chooser\Icons\60-Recycle-large.pcx
+#TECH_Refining_LARGE
+Art\tech chooser\Icons\61-Refining-large.pcx
+#TECH_Replaceable_Parts_LARGE
+Art\tech chooser\Icons\62-ReplaceableParts-large.pcx
+#TECH_Robotics_LARGE
+Art\tech chooser\Icons\63-robotics-large.pcx
+#TECH_Rocketry_LARGE
+Art\tech chooser\Icons\64-rocketry-large.pcx
+#TECH_Sanitation_LARGE
+Art\tech chooser\Icons\65-sanitation-large.pcx
+#TECH_Satellites_LARGE
+Art\tech chooser\Icons\66-Satellites-large.pcx
+#TECH_Scientific_Method_LARGE
+Art\tech chooser\Icons\67-ScientificMethod-large.pcx
+#TECH_Smart_Weapons_LARGE
+Art\tech chooser\Icons\68-SmartWeapons-large.pcx
+#TECH_Space_Flight_LARGE
+Art\tech chooser\Icons\69-spaceflight-large.pcx
+#TECH_Stealth_LARGE
+Art\tech chooser\Icons\70-Stealth-large.pcx
+#TECH_Steam_Power_LARGE
+Art\tech chooser\Icons\71-SteamPower-large.pcx
+#TECH_Steel_LARGE
+Art\tech chooser\Icons\72-Steel-large.pcx
+#TECH_Superconductor_LARGE
+Art\tech chooser\Icons\73-Superconductor-large.pcx
+#TECH_Synthetic_Fibers_LARGE
+Art\tech chooser\Icons\74-syntheticFibers-large.pcx
+#TECH_The_Corporation_LARGE
+Art\tech chooser\Icons\75-Corporation-large.pcx
+#TECH_The_Laser_LARGE
+Art\tech chooser\Icons\76-Laser-large.pcx
+#TECH_The_Republic_LARGE
+Art\tech chooser\Icons\77-republic-large.pcx
+#TECH_The_Wheel_LARGE
+Art\tech chooser\Icons\78-TheWheel-large.pcx
+#TECH_Theology_LARGE
+Art\tech chooser\Icons\79-theology-large.pcx
+#TECH_Theory_of_Gravity_LARGE
+Art\tech chooser\Icons\80-theoryGravity-large.pcx
+#TECH_Warrior_Code_LARGE
+Art\tech chooser\Icons\81-Warrior Code-large.pcx
+#TECH_Writing_LARGE
+Art\tech chooser\Icons\82-writing-large.pcx
+#TECH_Assassination_LARGE
+Art\tech chooser\icons\BloodCult-large.pcx
+#TECH_Fascism_LARGE
+Art\tech chooser\Icons\Fascism-large.pcx
+#TECH_Socialism_LARGE
+Art\Tech Chooser\Icons\SocialismLarge.pcx
+#TECH_Fundamentalism_LARGE
+Art\tech chooser\Icons\DivineRight-large.pcx
+#TECH_Machinery_LARGE
+Art\tech chooser\Icons\Machinery-l.pcx
+#TECH_Steam_Engine_LARGE
+Art\Tech Chooser\Icons\SteamEngineLarge.pcx
+#TECH_Vacuum_Tubes_LARGE
+Art\tech chooser\Icons\21-Electronics-large.pcx
+
+################################################################
+# Unit animations
+#ANIMNAME_PRTO_Settler
+Settler
+#ANIMNAME_PRTO_Settler_ERAS_Industrial_Age
+Settler Modern Times
+#ANIMNAME_PRTO_Settler_ERAS_Modern_Era
+Settler Modern Times
+#ANIMNAME_PRTO_Worker
+Worker
+#ANIMNAME_PRTO_Worker_ERAS_Industrial_Age
+Worker Modern Times
+#ANIMNAME_PRTO_Worker_ERAS_Modern_Era
+Worker Modern Times
+#ANIMNAME_PRTO_Worker_SLAVE
+Enslaved Worker
+#ANIMNAME_PRTO_Scout
+Scout
+#ANIMNAME_PRTO_Explorer
+Explorer
+#ANIMNAME_PRTO_Marine
+Marine
+#ANIMNAME_PRTO_Paratrooper
+Paratrooper
+#ANIMNAME_PRTO_Warrior
+Warrior
+#ANIMNAME_PRTO_Archer
+Archer
+#ANIMNAME_PRTO_Spearman
+Spearman
+#ANIMNAME_PRTO_Swordsman
+Swordsman
+#ANIMNAME_PRTO_Chariot
+chariot
+#ANIMNAME_PRTO_Horseman
+Horseman
+#ANIMNAME_PRTO_Pikeman
+Pikeman
+#ANIMNAME_PRTO_Longbowman
+Longbowman
+#ANIMNAME_PRTO_Musketman
+Musketman
+#ANIMNAME_PRTO_Knight
+Knight
+#ANIMNAME_PRTO_Rifleman
+Rifleman
+#ANIMNAME_PRTO_Cavalry
+Cavalry
+#ANIMNAME_PRTO_Infantry
+Infantry
+#ANIMNAME_PRTO_Tank
+Tank
+#ANIMNAME_PRTO_Mech_Infantry
+Mech Infantry
+#ANIMNAME_PRTO_Modern_Armor
+Modern Armor
+#ANIMNAME_PRTO_Catapult
+Catapult
+#ANIMNAME_PRTO_Cannon
+Cannon
+#ANIMNAME_PRTO_Artillery
+Artillery
+#ANIMNAME_PRTO_Radar_Artillery
+Radar Artillery
+#ANIMNAME_PRTO_Cruise_Missile
+Cruise Missile
+#ANIMNAME_PRTO_NUKE
+Tactical Nuke
+#ANIMNAME_PRTO_ICBM
+ICBM
+#ANIMNAME_PRTO_Galley
+Galley
+#ANIMNAME_PRTO_Caravel
+Caravel
+#ANIMNAME_PRTO_Frigate
+Frigate
+#ANIMNAME_PRTO_Galleon
+Galleon
+#ANIMNAME_PRTO_Ironclad
+Ironclad
+#ANIMNAME_PRTO_Transport
+Transport
+#ANIMNAME_PRTO_Carrier
+Carrier
+#ANIMNAME_PRTO_Submarine
+Submarine
+#ANIMNAME_PRTO_Destroyer
+Destroyer
+#ANIMNAME_PRTO_Battleship
+Battleship
+#ANIMNAME_PRTO_AEGIS_Cruiser
+AEGIS Cruiser
+#ANIMNAME_PRTO_Nuclear_Submarine
+Nuclear Submarine
+#ANIMNAME_PRTO_Fighter
+Fighter
+#ANIMNAME_PRTO_Bomber
+Bomber
+#ANIMNAME_PRTO_Helicopter
+Helicopter
+#ANIMNAME_PRTO_Jet_Fighter
+Jet Fighter
+#ANIMNAME_PRTO_Stealth_Fighter
+Stealth Fighter
+#ANIMNAME_PRTO_Stealth_Bomber
+Stealth Bomber
+#ANIMNAME_PRTO_Leader_ERAS_Ancient_Times
+Leader Ancient Times
+#ANIMNAME_PRTO_Leader_ERAS_Middle_Ages
+Leader Middle Ages
+#ANIMNAME_PRTO_Leader_ERAS_Industrial_Age
+Leader Industrial Ages
+#ANIMNAME_PRTO_Leader_ERAS_Modern_Era
+Leader Modern Times
+#ANIMNAME_PRTO_Leader_SCI
+SciLeader
+#ANIMNAME_PRTO_Army_ERAS_Ancient_Times
+Army Ancient Times
+#ANIMNAME_PRTO_Army_ERAS_Middle_Ages
+Army Middle Ages
+#ANIMNAME_PRTO_Army_ERAS_Industrial_Age
+Army Industrial Ages
+#ANIMNAME_PRTO_Army_ERAS_Modern_Era
+Army Modern Times
+#ANIMNAME_PRTO_Jaguar_Warrior
+Jaguar Warrior
+#ANIMNAME_PRTO_Bowman
+Bowman
+#ANIMNAME_PRTO_Hoplite
+Hoplite
+#ANIMNAME_PRTO_Impi
+Impi
+#ANIMNAME_PRTO_Legionary
+Legionary
+#ANIMNAME_PRTO_Immortals
+Immortals
+#ANIMNAME_PRTO_War_Chariot
+War Chariot
+#ANIMNAME_PRTO_Rider
+Rider
+#ANIMNAME_PRTO_Mounted_Warrior
+Mounted Warrior
+#ANIMNAME_PRTO_Musketeer
+Musketeer
+#ANIMNAME_PRTO_Samurai
+Samurai
+#ANIMNAME_PRTO_War_Elephant
+War Elephant
+#ANIMNAME_PRTO_Cossack
+Cossack
+#ANIMNAME_PRTO_Panzer
+Panzer
+#ANIMNAME_PRTO_Man-O-War
+Man-O-War
+#ANIMNAME_PRTO_F-15
+F-15
+#ANIMNAME_PRTO_Privateer
+Privateer
+#ANIMNAME_PRTO_Berserk
+Berserk
+#ANIMNAME_PRTO_Conquistador
+Conquistador
+#ANIMNAME_PRTO_Keshik
+Keshik
+#ANIMNAME_PRTO_Ansar_Warrior
+ansar warrior
+#ANIMNAME_PRTO_Gallic_Swordsman
+gallic swordsman
+#ANIMNAME_PRTO_Sipahi
+Sipahi
+#ANIMNAME_PRTO_Libyan_Mercenary
+Libyan Mercenary
+#ANIMNAME_PRTO_Hwacha
+Hwacha
+#ANIMNAME_PRTO_Medieval_Infantry
+Medieval Infantry
+#ANIMNAME_PRTO_Guerilla
+Guerilla
+#ANIMNAME_PRTO_Princess
+Princess
+#ANIMNAME_PRTO_King
+King
+#ANIMNAME_PRTO_Lincoln
+King American
+#ANIMNAME_PRTO_Hammurabi
+King Babylonian
+#ANIMNAME_PRTO_Mao
+King Chinese
+#ANIMNAME_PRTO_Bismarck
+King German
+#ANIMNAME_PRTO_Alexander
+King Greek
+#ANIMNAME_PRTO_Caesar
+King Roman
+#ANIMNAME_PRTO_Xerxes
+King Persian
+#ANIMNAME_PRTO_Hiawatha
+King Iroquois
+#ANIMNAME_PRTO_Shaka
+King Zulu
+#ANIMNAME_PRTO_Montezuma
+King Aztec
+#ANIMNAME_PRTO_Catherine
+King Russian
+#ANIMNAME_PRTO_Elizabeth
+King English
+#ANIMNAME_PRTO_Abu
+King Arab
+#ANIMNAME_PRTO_Hannibal
+King Carthaginian
+#ANIMNAME_PRTO_Cleopatra
+King Egyptian
+#ANIMNAME_PRTO_Osman
+King Ottoman
+#ANIMNAME_PRTO_Temujin
+King Mongol
+#ANIMNAME_PRTO_Brennus
+King Celtic
+#ANIMNAME_PRTO_Ragnar
+King Viking
+#ANIMNAME_PRTO_Gandhi
+King Indian
+#ANIMNAME_PRTO_Tokugawa
+King Japanese
+#ANIMNAME_PRTO_Joan
+King French
+#ANIMNAME_PRTO_Wang
+King Korean
+#ANIMNAME_PRTO_Isabella
+King Spanish
+#ANIMNAME_PRTO_Mursilis
+King Hatti
+#ANIMNAME_PRTO_Gilgamesh
+King Sumeria
+#ANIMNAME_PRTO_Charles_V
+King Austria
+#ANIMNAME_PRTO_Henry
+King Portugal
+#ANIMNAME_PRTO_William_of_Orange
+King Netherlands
+#ANIMNAME_PRTO_Enkidu_Warrior
+Enkidu Warrior
+#ANIMNAME_PRTO_Three_Man_Chariot
+Three Man Chariot
+#ANIMNAME_PRTO_Carrack
+Carrack
+#ANIMNAME_PRTO_Swiss_Mercenary
+Swiss Mercenary
+#ANIMNAME_PRTO_Trebuchet
+Trebuchet
+#ANIMNAME_PRTO_Dromon
+Dromon
+#ANIMNAME_PRTO_Pachacuti
+King Incan
+#ANIMNAME_PRTO_Smoke-Jaguar
+King Mayan
+#ANIMNAME_PRTO_Theodora
+King Byzantines
+#ANIMNAME_PRTO_Javelin_Thrower
+Javelin Thrower
+#ANIMNAME_PRTO_Chasquis_Scout
+Chasquis Scout
+#ANIMNAME_PRTO_Cruiser
+Cruiser
+#ANIMNAME_PRTO_Crusader
+Crusader
+#ANIMNAME_PRTO_Ancient_Cavalry
+Ancient Cavalry
+#ANIMNAME_PRTO_Curragh
+Curragh
+#ANIMNAME_PRTO_WWII_Paratrooper
+WWII Paratrooper
+#ANIMNAME_PRTO_TOW_Infantry
+TOW Infantry
+#ANIMNAME_PRTO_Flak
+Flak
+#ANIMNAME_PRTO_Mobile_SAM
+Mobile SAM
+#ANIMNAME_PRTO_ItalInfantry
+ItalInfantry
+#ANIMNAME_PRTO_Engineer
+Engineer
+#ANIMNAME_PRTO_Tomahawk
+Tomahawk
+#ANIMNAME_PRTO_Saboteur
+Saboteur
+#ANIMNAME_PRTO_King
+King
+#ANIMNAME_PRTO_Mali_Worker
+African Worker
+#ANIMNAME_PRTO_Cuban_FAR
+FARC
+#ANIMNAME_PRTO_Fire_Longbowman
+Fire Longbowman
+#ANIMNAME_PRTO_Sunka_Wakan
+SunkaWakan
+
+
+################################################################
+# Era-Specific Unit icons
+#UNITICON_PRTO_Settler_ERAS_Industrial_Age
+72
+#UNITICON_PRTO_Settler_ERAS_Modern_Era
+72
+#UNITICON_PRTO_Worker_ERAS_Industrial_Age
+73
+#UNITICON_PRTO_Worker_ERAS_Modern_Era
+73
+#UNITICON_PRTO_Leader_ERAS_Middle_Ages
+66
+#UNITICON_PRTO_Leader_ERAS_Industrial_Age
+67
+#UNITICON_PRTO_Leader_ERAS_Modern_Era
+68
+#UNITICON_PRTO_Leader_SCI
+169
+#UNITICON_PRTO_Army_ERAS_Middle_Ages
+69
+#UNITICON_PRTO_Army_ERAS_Industrial_Age
+70
+#UNITICON_PRTO_Army_ERAS_Modern_Era
+71
