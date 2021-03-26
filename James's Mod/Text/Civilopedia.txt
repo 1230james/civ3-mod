@@ -7601,17 +7601,20 @@ governing system in the modern world because of the personal and economic freedo
 #GOVT_Fundamentalism
 ^
 ^
-^Under Fundamentalism, as the Mullah of a religious theology, you lead your people through the strict adherance to religious dogma. Because of unforgiving religious law, $LINK<corruption=GCON_Corruption> is nearly non-existent under fundamentalism.  Also, because of unwavering belief in the ruling religion's frame of thought, your people are immune to propaganda and are very $LINK<resistant=GCON_Resistance> to infidels.  $LINK<Research=GCON_Research>, however, is stymied under fundamentalist regimes because it brings secularism and questioning of religious belief.
+^Under Fundamentalism, as the Mullah of a religious theology, you lead your people through the strict adherance to religious dogma. Because of centralized control by the church, $LINK<corruption=GCON_Corruption> is quite low under fundamentalism.  Also, because of unwavering belief in the ruling religion's frame of thought, your people are immune to propaganda and are very $LINK<resistant=GCON_Resistance> to infidels.  $LINK<Research=GCON_Research>, however, is stymied under fundamentalist regimes because it brings secularism and questioning of religious belief.
+^There is no improvement maintenance when a civilization is in Fundamentalism.
 ^
 ^Worker efficiency				100%
 ^Hurry Method					Forced Labor
-^Corruption / Waste				Minimal
+^Corruption / Waste				Nuisance
 ^Draft Rate						2
 ^Military Police Limit				4
 ^Unit Support
 ^    per town					2
-^    per city						4
-^    per metropolis				8
+^    per city						5
+^    per metropolis				10
+^In addition, any city production square which produces more than two $LINK<food=GCON_Food>, $LINK<shields=GCON_Shields>, or
+$LINK<commerce=GCON_Commerce> in a fundamentalist government instead produces one less.
 
 #DESC_GOVT_Fundamentalism
 ^
