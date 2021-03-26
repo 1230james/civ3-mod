@@ -1483,9 +1483,6 @@ art\civilopedia\icons\units\x2_MobileSAM sm.pcx
 #ICON_PRTO_Engineer
 Art\Civilopedia\Icons\Units\EngineerLarge.pcx
 Art\Civilopedia\Icons\Units\EngineerSmall.pcx
-#ICON_PRTO_Saboteur
-Art\Civilopedia\Icons\Units\SpyLarge.pcx
-Art\Civilopedia\Icons\Units\SpySmall.pcx
 #ICON_PRTO_King
 Art\Civilopedia\Icons\Units\KingLarge.pcx
 Art\Civilopedia\Icons\Units\KingSmall.pcx
@@ -2880,8 +2877,6 @@ ItalInfantry
 Engineer
 #ANIMNAME_PRTO_Tomahawk
 Tomahawk
-#ANIMNAME_PRTO_Saboteur
-Saboteur
 #ANIMNAME_PRTO_King
 King
 #ANIMNAME_PRTO_Mali_Worker

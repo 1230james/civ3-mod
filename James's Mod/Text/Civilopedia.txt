@@ -3740,21 +3740,6 @@ and wheelbarrows.  The Hwach'a, which was invented in 1451, allowed a single man
 rockets into battle, and was well suited to combat the invading Japanese Samurai who typically advanced on the 
 Koreans in dense groups, presenting ideal targets for the Hwach'a operators.
 
-#PRTO_Saboteur
-^
-^The [Saboteur] is a wartime unit that can pillage improvements, capture rival $LINK<Workers=PRTO_Worker>, $LINK<Engineers=PRTO_Engineer>, and $LINK<Settlers=PRTO_Settler>, and "sabotage" enemy units by [bombarding] them with well-aimed pistol shots.
-^
-^They also carry no nationality markings, allowing them to attack and be attacked
-[without revealing the nationality] of the unit. Thus, you can attack another civilization's territory
-without precipitating war.
-
-#DESC_PRTO_Saboteur
-^
-^
-^Saboteurs are those who commit sabotage. Sabotage is a deliberate action aimed at weakening a polity or corporation through subversion, obstruction, disruption or destruction. In a workplace setting, sabotage is the conscious withdrawal of efficiency generally directed at causing some change in workplace conditions. One who engages in sabotage is a saboteur. Saboteurs typically try to conceal their identities because of the consequences of their actions.
-^
-^Any unexplained adverse condition might be sabotage. Sabotage is sometimes called tampering, meddling, tinkering, malicious pranks, malicious hacking, a practical joke or the like to avoid needing to invoke legal and organizational requirements for addressing sabotage.
-
 #PRTO_Lincoln
 ^
 ^
