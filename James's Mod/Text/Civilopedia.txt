@@ -7465,7 +7465,7 @@ European monarchs had been severely limited, paving the way for participatory sy
 #GOVT_Communism
 ^
 ^
-^Under Communism, the government is in the hands of a ruling "party" controlled absolutely by you, the Chairman.
+^Under Communism, the government is in the hands of a ruling "party" controlled absolutely by you, the General Secretary.
 Although Communism allows greater production than despotism, the system restricts personal freedoms, limiting
 $LINK<commerce=GCON_Commerce>. One positive aspect of Communism is its effect upon $LINK<corruption and waste=GCON_Corruption>:
 all cities suffer the same, limited effects.
