@@ -94,8 +94,8 @@ art\advisors\x_brennus advisor.pcx
 art\leaderheads\x_Hannibal victory neutral.pcx
 art\advisors\x_Hannibal advisor.pcx
 #RACE_KOREANS
-art\leaderheads\x_Wang Kon victory neutral.pcx
-art\advisors\x_Wang Kon advisor.pcx
+art\leaderheads\SEJ.pcx
+art\advisors\SEJ_all.pcx
 #RACE_SUMERIA
 art\leaderheads\x2_Gilgamesh victory neutral.pcx
 art\advisors\x2_Gilgamesh advisor.pcx
@@ -181,7 +181,7 @@ art\leaderheads\x_brennus victory happy lg.pcx
 #HAPPY_RACE_CARTHAGINIANS
 art\leaderheads\x_Hannibal victory happy lg.pcx
 #HAPPY_RACE_KOREANS
-art\leaderheads\x_Wang Kon victory happy lg.pcx
+art\leaderheads\SEJ_HAP.pcx
 #HAPPY_RACE_SUMERIA
 art\leaderheads\x2_Gilgamesh victory happy lg.pcx
 #HAPPY_RACE_HATTI
@@ -254,7 +254,7 @@ art\leaderheads\x_brennus victory happy sm.pcx
 #SHAPP_RACE_CARTHAGINIANS
 art\leaderheads\x_Hannibal victory happy sm.pcx
 #SHAPP_RACE_KOREANS
-art\leaderheads\x_Wang Kon victory happy sm.pcx
+art\leaderheads\SEJ_SHAP.pcx
 #SHAPP_RACE_SUMERIA
 art\leaderheads\x2_Gilgamesh victory happy sm.pcx
 #SHAPP_RACE_HATTI
@@ -327,7 +327,7 @@ art\leaderheads\x_brennus victory kiss lg.pcx
 #LKISS_RACE_CARTHAGINIANS
 art\leaderheads\x_Hannibal kiss lg.pcx
 #LKISS_RACE_KOREANS
-art\leaderheads\x_Wang Kon victory kiss lg.pcx
+art\leaderheads\SEJ_KIS.pcx
 #LKISS_RACE_SUMERIA
 art\leaderheads\x2_Gilgamesh victory kiss lg.pcx
 #LKISS_RACE_HATTI
@@ -400,7 +400,7 @@ art\leaderheads\x_brennus victory kiss sm.pcx
 #SKISS_RACE_CARTHAGINIANS
 art\leaderheads\x_Hannibal kiss sm.pcx
 #SKISS_RACE_KOREANS
-art\leaderheads\x_Wang Kon victory kiss sm.pcx
+art\leaderheads\SEJ_SKIS.pcx
 #SKISS_RACE_SUMERIA
 art\leaderheads\x2_Gilgamesh victory kiss sm.pcx
 #SKISS_RACE_HATTI
@@ -473,7 +473,7 @@ art\leaderheads\x_brennus victory angry sm.pcx
 #ANGRY_RACE_CARTHAGINIANS
 art\leaderheads\x_Hannibal victory angry sm.pcx
 #ANGRY_RACE_KOREANS
-art\leaderheads\x_Wang Kon victory angry sm.pcx
+art\leaderheads\SEJ_ANG.pcx
 #ANGRY_RACE_SUMERIA
 art\leaderheads\x2_Gilgamesh victory angry sm.pcx
 #ANGRY_RACE_HATTI
@@ -547,7 +547,7 @@ art\leaderheads\x_brennus victory heart sm.pcx
 #ILOVE_RACE_CARTHAGINIANS
 art\leaderheads\x_Hannibal victory heart sm.pcx
 #ILOVE_RACE_KOREANS
-art\leaderheads\x_Wang Kon victory heart sm.pcx
+art\leaderheads\SEJ_CULT.pcx
 #ILOVE_RACE_SUMERIA
 art\leaderheads\x2_Gilgamesh victory heart sm.pcx
 #ILOVE_RACE_HATTI
@@ -620,7 +620,7 @@ art\leaderheads\x_brennus victory heart tiny.pcx
 #LOVED_RACE_CARTHAGINIANS
 art\leaderheads\x_Hannibal victory heart tiny.pcx
 #LOVED_RACE_KOREANS
-art\leaderheads\x_Wang Kon victory heart tiny.pcx
+art\leaderheads\SEJ_CULTB.pcx
 #LOVED_RACE_SUMERIA
 art\leaderheads\x2_Gilgamesh victory heart tiny.pcx
 #LOVED_RACE_HATTI
@@ -693,7 +693,7 @@ art\leaderheads\x_brennus victory beatup lg.pcx
 #LHURT_RACE_CARTHAGINIANS
 art\leaderheads\x_Hannibal victory beatup lg.pcx
 #LHURT_RACE_KOREANS
-art\leaderheads\x_Wang Kon victory beatup lg.pcx
+art\leaderheads\SEJ_CONQL.pcx
 #LHURT_RACE_SUMERIA
 art\leaderheads\x2_Gilgamesh victory beatup lg.pcx
 #LHURT_RACE_HATTI
@@ -766,7 +766,7 @@ art\leaderheads\x_brennus victory beatup sm.pcx
 #HURTN_RACE_CARTHAGINIANS
 art\leaderheads\x_Hannibal victory beatup sm.pcx
 #HURTN_RACE_KOREANS
-art\leaderheads\x_Wang Kon victory beatup sm.pcx
+art\leaderheads\SEJ_CONQ.pcx
 #HURTN_RACE_SUMERIA
 art\leaderheads\x2_Gilgamesh victory beatup sm.pcx
 #HURTN_RACE_HATTI
@@ -874,8 +874,8 @@ art\civilopedia\icons\races\x_brennus civpedia sm.pcx
 art\civilopedia\icons\races\x_Hannibal civpedia lg.pcx
 art\civilopedia\icons\races\x_Hannibal civpedia sm.pcx
 #ICON_RACE_KOREANS
-art\civilopedia\icons\races\x_Wang Kon civpedia lg.pcx
-art\civilopedia\icons\races\x_Wang Kon civpedia sm.pcx
+art\civilopedia\icons\races\SEJLARGE.pcx
+art\civilopedia\icons\races\SEJSMALL.pcx
 #ICON_RACE_SUMERIA
 art\civilopedia\icons\races\x2_Gilgamesh civpedia lg.pcx
 art\civilopedia\icons\races\x2_Gilgamesh civpedia sm.pcx
