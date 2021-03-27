@@ -165,7 +165,7 @@
 #comment WONDER = on of the great wonders
 #comment SMALL_WONDER = one of the small wonders
 #comment SPACESHIP_PART = one of the spaceship parts
-#comment GOVERNMENT = one of the Government types, Despotism, Monarchy, Communism, Republic, Democracy, Socialism, Fundamentalism
+#comment GOVERNMENT = one of the Government types, Despotism, Monarchy, Communism, Republic, Democracy, Fundamentalism
 #comment TERRAIN = one of the terrain types in the game (see Terrain on the Terrain Types Tab)
 #comment TECH = one of the Civilization Advances (see the Technologies Tab)
 #comment TECHS = the two technologies the player starts the game with, (always X and Y)

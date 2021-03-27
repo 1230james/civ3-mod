@@ -470,7 +470,6 @@ them from your $LINK<treasury=GCON_Treasury>.
 ^* $LINK<Communism=GOVT_Communism>
 ^* $LINK<Fascism=GOVT_Fascism>
 ^* $LINK<Democracy=GOVT_Democracy>
-^* $LINK<Socialism=GOVT_Socialism>
 ^* $LINK<Fundamentalism=GOVT_Fundamentalism>
 ^
 ^
@@ -574,8 +573,8 @@ Draft
 ^When a civilization develops $LINK<Nationalism=TECH_Nationalism> its citizens can be drafted into
 military service. Each city can draft some of its population each turn, depending upon the government currently in effect.
 ^* A civilization in $LINK<Anarchy=GOVT_Anarchy> may not use the draft.
-^* A city in a $LINK<Democracy=GOVT_Democracy>, $LINK<Republic=GOVT_Republic>, or can draft [one] citizen per turn.
-^* A city in a country under $LINK<Communism=GOVT_Communism>, $LINK<Despotism=GOVT_Despotism>, $LINK<Fascism=GOVT_Fascism>,  $LINK<Feudalism=GOVT_Feudalism>, $LINK<Socialism=GOVT_Socialism>, $LINK<Fundamentalism=GOVT_Fundamentalism> or $LINK<Monarchy=GOVT_Monarchy> can draft [two] citizens per turn.
+^* A city in a $LINK<Democracy=GOVT_Democracy> or $LINK<Republic=GOVT_Republic> can draft [one] citizen per turn.
+^* A city in a country under $LINK<Communism=GOVT_Communism>, $LINK<Despotism=GOVT_Despotism>, $LINK<Fascism=GOVT_Fascism>,  $LINK<Feudalism=GOVT_Feudalism>, $LINK<Fundamentalism=GOVT_Fundamentalism>, or $LINK<Monarchy=GOVT_Monarchy> can draft [two] citizens per turn.
 ^
 ^To utilize the draft, press the "Draft" button on the City Display. You may only draft citizens from a city with
 ^a population of 7 or higher.
@@ -1365,7 +1364,7 @@ by forced labor. Disillusioned by your harsh rule, citizens will leave your city
 rushed production. 
 ^
 ^
-^Under $LINK<Monarchy=GOVT_Monarchy>, $LINK<Republic=GOVT_Republic>, $LINK<Democracy=GOVT_Democracy>, and $LINK<Socialism=GOVT_Socialism> you can pay
+^Under $LINK<Monarchy=GOVT_Monarchy>, $LINK<Republic=GOVT_Republic>, and $LINK<Democracy=GOVT_Democracy> you can pay
 overtime and hire temporary workers to complete a project. This costs gold from your treasury; the amount depends
 upon how much work remains to be done.
 ^
@@ -1574,7 +1573,7 @@ Content citizens and specialists are ignored.
 War Weariness
 ^
 ^
-^During times of war, citizens living under a $LINK<Republic=GOVT_Republic>, $LINK<Feudalism=GOVT_Feudalism>, $LINK<Democracy=GOVT_Democracy>, or $LINK<Socialism=GOVT_Socialism> become [war weary] and $LINK<unhappy=GCON_Moods> as a result.
+^During times of war, citizens living under a $LINK<Republic=GOVT_Republic>, $LINK<Feudalism=GOVT_Feudalism>, or $LINK<Democracy=GOVT_Democracy> become [war weary] and $LINK<unhappy=GCON_Moods> as a result.
 ^
 ^When [you] initiate the conflict your people will tolerate it for a while, but then may become quite unhappy.
 When someone else declares the war, especially a traditional enemy, your people are more forgiving.
@@ -3740,21 +3739,6 @@ larger anti-personnel devices were designed to be transported on wheeled vehicle
 and wheelbarrows.  The Hwach'a, which was invented in 1451, allowed a single man to transport approximately 100 
 rockets into battle, and was well suited to combat the invading Japanese Samurai who typically advanced on the 
 Koreans in dense groups, presenting ideal targets for the Hwach'a operators.
-
-#PRTO_Saboteur
-^
-^The [Saboteur] is a wartime unit that can pillage improvements, capture rival $LINK<Workers=PRTO_Worker>, $LINK<Engineers=PRTO_Engineer>, and $LINK<Settlers=PRTO_Settler>, and "sabotage" enemy units by [bombarding] them with well-aimed pistol shots.
-^
-^They also carry no nationality markings, allowing them to attack and be attacked
-[without revealing the nationality] of the unit. Thus, you can attack another civilization's territory
-without precipitating war.
-
-#DESC_PRTO_Saboteur
-^
-^
-^Saboteurs are those who commit sabotage. Sabotage is a deliberate action aimed at weakening a polity or corporation through subversion, obstruction, disruption or destruction. In a workplace setting, sabotage is the conscious withdrawal of efficiency generally directed at causing some change in workplace conditions. One who engages in sabotage is a saboteur. Saboteurs typically try to conceal their identities because of the consequences of their actions.
-^
-^Any unexplained adverse condition might be sabotage. Sabotage is sometimes called tampering, meddling, tinkering, malicious pranks, malicious hacking, a practical joke or the like to avoid needing to invoke legal and organizational requirements for addressing sabotage.
 
 #PRTO_Lincoln
 ^
@@ -6073,13 +6057,6 @@ class, were bound to destroy themselves. At this point, the poor would rebel aga
 This prophecy has never come true, and countries that have attempted to base their governments on communism have ultimately failed to 
 achieve the utopia described by Marx and Engels.
 
-#DESC_TECH_Socialism
-^
-^
-^Socialist governments consist of leaders, typically given power democratically, who oversee the distribution of resources. However, the government typically does not fully control production of resources, leaving that for private enterprise among the citizens. Socialism stems from ideologies from over a millenium in the past, with roots in various places such as the Holy Bible. Typically, ownership of property is divided into two types: Personal property, such as houses, clothing, etc. owned by the individual, and public property, which includes factories, and means of production owned by the State but with worker control. The state has power over ownership of property, but typically such control is limited to public resources and surpluses.
-^
-^Socialism is commonly interchanged with communism by accident. Simply put, communism stems from socialism, making them quite similar, but definitely different. Consequently, many consider communism to be merely a radical form of socialism. Part of this fact is reflected across the world, as many nations are socialist or have socialist concepts incorporated into them, but very few are truly communist.
-
 #DESC_TECH_Fundamentalism
 ^
 ^
@@ -6573,7 +6550,7 @@ in which there are a very small number of inbound targets to eliminate.
 #DESC_TECH_Steam_Engine
 ^
 ^
-^A steam engine is a heat engine that performs mechanical work using steam as its working fluid. Steam engines are external combustion engines, where the working fluid is separate from the combustion products. Non-combustion heat sources such as solar power, nuclear power or geothermal energy may be used. The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle. In the cycle, water is heated and transforms into steam within a boiler operating at a high pressure. When expanded through pistons or turbines, mechanical work is done. The reduced-pressure steam is then condensed and pumped back into the boiler. In 1781 James Watt patented a steam engine that produced continuous rotary motion. Watt's ten-horsepower engines enabled a wide range of manufacturing machinery to be powered. The engines could be sited anywhere that water and coal or wood fuel could be obtained. By 1883, engines that could provide 10,000 hp had become feasible. The stationary steam engine was a key component of the Industrial Revolution, allowing factories to locate where water power was unavailable. The atmospheric engines of Newcomen and Watt were large compared to the amount of power they produced, but high pressure steam engines were light enough to be applied to vehicles such as traction engines and the railway locomotives
+^A steam engine is a heat engine that performs mechanical work using steam as its working fluid. Steam engines are external combustion engines, where the working fluid is separate from the combustion products. Non-combustion heat sources such as solar power, nuclear power or geothermal energy may be used. The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle. In the cycle, water is heated and transforms into steam within a boiler operating at a high pressure. When expanded through pistons or turbines, mechanical work is done. The reduced-pressure steam is then condensed and pumped back into the boiler. In 1781 James Watt patented a steam engine that produced continuous rotary motion. Watt's ten-horsepower engines enabled a wide range of manufacturing machinery to be powered. The engines could be sited anywhere that water and coal or wood fuel could be obtained. By 1883, engines that could provide 10,000 hp had become feasible. The stationary steam engine was a key component of the Industrial Revolution, allowing factories to locate where water power was unavailable. The atmospheric engines of Newcomen and Watt were large compared to the amount of power they produced, but high pressure steam engines were light enough to be applied to vehicles such as traction engines and railway locomotives.
 
 #TECH_Vacuum_Tubes
 ^
@@ -7473,7 +7450,7 @@ European monarchs had been severely limited, paving the way for participatory sy
 #GOVT_Communism
 ^
 ^
-^Under Communism, the government is in the hands of a ruling "party" controlled absolutely by you, the Chairman.
+^Under Communism, the government is in the hands of a ruling "party" controlled absolutely by you, the General Secretary.
 Although Communism allows greater production than despotism, the system restricts personal freedoms, limiting
 $LINK<commerce=GCON_Commerce>. One positive aspect of Communism is its effect upon $LINK<corruption and waste=GCON_Corruption>:
 all cities suffer the same, limited effects.
@@ -7606,45 +7583,23 @@ governing system in the modern world because of the personal and economic freedo
 ^
 ^Feudal governments are decentralized monarchies where kings rule because subordinate nobles support them. Kings still retain vast powers under feudalism, but nonetheless must tread carefully lest their vassals rebel. The range of powers available to feudal kings usually involved the power to tax, to impress a lord's serfs into (limited) military service, and to resolve political disputes and create titles.
 
-#GOVT_Socialism
-^
-^
-^You are elected to be the leader of your socialist state. What makes you stand out among other nations is your control over possession of resources. Your goal as a state is to share everything equally among every citizen - in other words, everything is communal, greatly influencing $LINK<corruption and waste=GCON_Corruption> in your state. However, your administration is not as strict or oppressing as that of communist or fascist governments. Your citizens, motivated by increased freedoms compared to
-communism and fascism and the freedom of overseeing their own private enterprises bring about increased $LINK<commerce=GCON_Commerce> and $LINK<production=GCON_Shields>.
-^
-^Worker efficiency				100%
-^Hurry Method					Pay citizens
-^Corruption / Waste				Communal
-^War Weariness					Low
-^Draft Rate						2
-^Military Police Limit				3
-^Unit Support
-^    per town					4
-^    per city						5
-^    per metropolis				6
-
-#DESC_GOVT_Socialism
-^
-^
-^Socialist governments consist of leaders, typically given power democratically, who oversee the distribution of resources. However, the government typically does not fully control production of resources, leaving that for private enterprise among the citizens. Socialism stems from ideologies from over a millenium in the past, with roots in various places such as the Holy Bible. Typically, ownership of property is divided into two types: Personal property, such as houses, clothing, etc. owned by the individual, and public property, which includes factories, and means of production owned by the State but with worker control. The state has power over ownership of property, but typically such control is limited to public resources and surpluses.
-^
-^Socialism is commonly interchanged with communism by accident. Simply put, communism stems from socialism, making them quite similar, but definitely different. Consequently, many consider communism to be merely a radical form of socialism. Part of this fact is reflected across the world, as many nations are socialist or have socialist concepts incorporated into them, but very few are truly communist.
-
-
 #GOVT_Fundamentalism
 ^
 ^
-^Under Fundamentalism, as the Mullah of a religious theology, you lead your people through the strict adherance to religious dogma.  Because of unforgiving religious law, $LINK<corruption=GCON_Corruption> is nearly non-existent under fundamentalism.  Also, because of unwavering belief in the ruling religion's frame of thought, your people are immune to propaganda and are very $LINK<resistant=GCON_Resistance> to infidels.  $LINK<Research=GCON_Research>, however, is stymied under fundamentalist regimes because it brings secularism and questioning of religious belief.
+^Under Fundamentalism, as the Mullah of a religious theocracy, you lead your people through the strict adherance to religious dogma. Because of centralized control by the church, $LINK<corruption=GCON_Corruption> is quite low under fundamentalism. $LINK<Research=GCON_Research>, however, is stymied under fundamentalist regimes because it brings secularism and questioning of religious belief.
+^There is no improvement maintenance when a civilization is in Fundamentalism.
 ^
 ^Worker efficiency				100%
 ^Hurry Method					Forced Labor
-^Corruption / Waste				Minimal
+^Corruption / Waste				Nuisance
 ^Draft Rate						2
 ^Military Police Limit				4
 ^Unit Support
 ^    per town					2
-^    per city						4
-^    per metropolis				8
+^    per city						5
+^    per metropolis				10
+^In addition, any city production square which produces more than two $LINK<food=GCON_Food>, $LINK<shields=GCON_Shields>, or
+$LINK<commerce=GCON_Commerce> in a fundamentalist government instead produces one less.
 
 #DESC_GOVT_Fundamentalism
 ^
@@ -8899,16 +8854,7 @@ kingdoms achieved a complete centralization of power through wars of expansion, 
 institutions, and tribal aristocracies assembled within the capital cities.  The maturation of monarchies in the kingdoms 
 eventually eliminated the influence of the aristocracies, however, and the balance of power waxed and waned as each kingdom 
 endeavored to unite Korea under their exclusive rule.
-^    By 935 AD a general named {Wang Kon} established the Koryo dynasty, which ruled the Korean peninsula until 1392 AD.  Koryo, 
-from which the western word "Korea" is derived, was proclaimed as the successor to all of the conquered kingdoms and states.  
-It was during the Koryo dynasty that Korea began to construct its own distinct cultural identity among the rest of the East-
-Asian civilizations.  A bureaucratic system was created in order to replace the archaic tribal system that had previously 
-governed the country, and civil service examinations were utilized as a means to select only the most capable officials and 
-provincial magnates.  The new bureaucratic force reaped by the civil service examinations held the applied precepts of Buddhism 
-in disdain however, and with the assistance of Confucian-scholar General Yi Song-gye, the disgruntled officials seized power 
-and established reforms that brought about the end of the Koryo dynasty, replacing the Buddhist-based system with Confucianism.  
-The Yi dynasty named Hanyang (modern day Seoul) as the new capital of Korea, and operated from it for approximately 500 years 
-until the Japanese annexation of Korea occurred in 1910.
+^    {Sejong Daewang}, known to history as "Sejong the Great," was the fourth king of the Choson Dynasty of Korea, ruling from 1418 until his death in 1450. Considered by many to be the greatest king in Korean history, Sejong is known for his remarkable appreciation and respect for human life, adopting numerous civic and social policies to improve the well-being of his people. Sejong also encouraged advances in science and technology and is credited with the creation of the Korean written language, Hunminjeongeum, known today as "Hangul." Originally known as "Hunminjeongeum," literally meaning "The Correct Sounds for the Instruction of the People," this native Korean script would usher in a new era of literacy and understanding for the common citizens of Korea. First published in 1446, it would be several years before the new script found wide acceptance. To this day, October 9, the original date of publication, is celebrated as "Hangul Day" throughout South Korea.
 ^    During the reign of the Koryo and Choson / Yi dynasties the advent of popular arts, as well as the introduction of 
 Roman Catholicism in the 17th and 18th centuries, propelled Korea even closer to the modern state that exists today.  A 
 series of changes transpired that
