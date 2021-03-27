@@ -3915,14 +3915,14 @@ $LINK<Short Game Mode=GCON_Short_Game_Modes>.
 #PRTO_Cuban_FAR
 ^
 ^
-^[Cuban FAR] infantry units are typically used to exert pressure on enemy units and civilizations.  They are equipped 
-to act as both offensive and defensive units, possessing equal amounts of training in both.
+^[Cuban FAR] infantry units are typically used to exert pressure on enemy units and civilizations. They are equipped 
+to act as both offensive and defensive units, possessing equal amounts of training in both. Additionally, they are nimble and accustomed to tropical environments, ignoring movements costs for $LINK<forests=TERR_Forest>, $LINK<marshes=TERR_Marsh>, and $LINK<jungles=TERR_Jungle>.
 
 #DESC_PRTO_Cuban_FAR
 ^
 ^
 ^The Cuban Revolutionary Armed Forces (FAR) consist of ground forces, naval forces, air and air defence forces, and other paramilitary bodies 
-including the Territorial Troops Militia, Youth Labor Army , and the Defense and Production Brigades, plus the Civil Defense Organization and 
+including the Territorial Troops Militia, Youth Labor Army, and the Defense and Production Brigades, plus the Civil Defense Organization and 
 the National Reserves Institution.
 ^	The armed forces has long been the most powerful institution in Cuba. The military controls 60 percent of the economy through the management 
 of hundreds of enterprises in key economic sectors. The military has also served as Raúl Castro's base. In numerous speeches, Raúl Castro emphasized 
@@ -7586,8 +7586,7 @@ governing system in the modern world because of the personal and economic freedo
 #GOVT_Fundamentalism
 ^
 ^
-^Under Fundamentalism, as the Mullah of a religious theocracy, you lead your people through the strict adherance to religious dogma. Because of centralized control by the church, $LINK<corruption=GCON_Corruption> is quite low under fundamentalism. $LINK<Research=GCON_Research>, however, is stymied under fundamentalist regimes because it brings secularism and questioning of religious belief.
-^There is no improvement maintenance when a civilization is in Fundamentalism.
+^Under Fundamentalism, as the Mullah of a religious theocracy, you lead your people through the strict adherance to religious dogma. Through centralized control by the church, $LINK<corruption=GCON_Corruption> is quite low, and there is no improvement maintenance. $LINK<Research=GCON_Research>, however, is limited under fundamentalist regimes because it brings secularism and questioning of religious belief. Additionally, your cities lose population points upon changing to a fundamentalist government, and newly conquered cities will also lose population.
 ^
 ^Worker efficiency				100%
 ^Hurry Method					Forced Labor
