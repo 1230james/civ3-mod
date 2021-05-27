@@ -141,7 +141,7 @@ Brings back the Fundamentalism government from Civ2... but mostly just the conce
 
 ## Installation
 
-1. Fork this repository
+1. Clone this repository
 2. Copy both `James's Mod.biq` and `James's Mod` (the folder) to `(C3C root)/Conquests/Conquests`.
 
 To play with this mod, start up C3C, select `Conquests!` from the main menu, then select `James's Mod.biq`.

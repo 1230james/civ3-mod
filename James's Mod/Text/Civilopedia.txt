@@ -6531,15 +6531,16 @@ in which there are a very small number of inbound targets to eliminate.
 ^	Some common elements of fascism include strong nationalist sentiment, xenophobia, subordination of individual interests to the community, militarism and glorification of the army, secret police forces that enforce secret laws, informer networks, suppression of civil liberties and independent media, and economic policies that tightly tie business and commerce to government. (Note that many of these features are common in communist states as well.)
 ^	Fascist states need not be authoritarian, although they usually are; when fascist leaders are democratically elected (as Adolf Hitler was), they often try to modify or abolish the democratic institutions that placed the leaders in power.
 
-#TECH_Machinery
+#TECH_Paper
 ^
 ^
 ^{Era Advance} Any civilization who masters this tech and its corresponding end-era prerequisites advances to the [Medieval Era.]
 
-#DESC_TECH_Machinery
+#DESC_TECH_Paper
 ^
 ^
-^A machine (or mechanical device) is a mechanical structure that uses power to apply forces and control movement to perform an intended action. Machines can be driven by animals and people, by natural forces such as wind and water, and by chemical, thermal, or electrical power, and include a system of mechanisms that shape the actuator input to achieve a specific application of output forces and movement. They can also include computers and sensors that monitor performance and plan movement, often called mechanical systems. Renaissance natural philosophers identified six simple machines which were the elementary devices that put a load into motion, and calculated the ratio of output force to input force, known today as mechanical advantage. As technology progressed, clever inventors often created new types of machines to simplify or enable tasks, increasing the output of existing work and opening the doors to new discoveries.
+^Paper is a thin nonwoven material traditionally made from a combination of milled plant and textile fibres. It is primarily used for writing, artwork, and packaging; it is commonly white. The first papermaking process was documented in China during the Eastern Han period (25–220 CE) traditionally attributed to the court official Cai Lun. During the 8th century, Chinese papermaking spread to the Islamic world, where pulp mills and paper mills were used for papermaking and money making. By the 11th century, papermaking was brought to Europe. By the 13th century, papermaking was refined with paper mills utilizing waterwheels in Spain. Later European improvements to the papermaking process came in the 19th century with the invention of wood-based papers.
+^	According to Timothy Hugh Barrett, paper played a pivotal role in early Chinese written culture, and a "strong reading culture seems to have developed quickly after its introduction, despite political fragmentation." Indeed, the introduction of paper had immense consequences for the book world. It meant books would no longer have to be circulated in small sections or bundles, but in their entirety. Books could now be carried by hand rather than transported by cart. As a result, individual collections of literary works increased in the following centuries.
 
 #TECH_Steam_Engine
 ^
@@ -6561,6 +6562,18 @@ in which there are a very small number of inbound targets to eliminate.
 ^
 ^
 ^A vacuum tube, also called a valve in British English, is an electronic device used in many older model radios, television sets, and amplifiers. The cathode is heated, as in a light bulb, so it will emit electrons. This is called thermionic emission. The anode is the part that accepts the emitted electrons. The device may have other parts. Vacuum tubes must be hot to work. Most are made of glass, thus are fragile and can break. Vacuum tubes were used in the first computers like the ENIAC, which were large and need much work to continue operating. Although the vacuum tube was invented by John Ambrose Fleming later, it was Thomas Edison who discovered the "Edison effect". The Edison effect states that electricity does not necessarily need a solid material to move through; it can move through gas or vacuums as well. Without this realization, vacuum tubes would never have been invented. John Ambrose Fleming invented the first vacuum tube, the diode, in 1904. Lee De Forest invented the "audion" in 1906 (which was improved by others as the triode in 1908) and used in the first telephone amplifiers. Many other kinds were invented for various purposes.
+
+#comment Machinery tech entry, kept for compatibility
+
+#TECH_Machinery
+^
+^
+^{Era Advance} Any civilization who masters this tech and its corresponding end-era prerequisites advances to the [Medieval Era.]
+
+#DESC_TECH_Machinery
+^
+^
+^A machine (or mechanical device) is a mechanical structure that uses power to apply forces and control movement to perform an intended action. Machines can be driven by animals and people, by natural forces such as wind and water, and by chemical, thermal, or electrical power, and include a system of mechanisms that shape the actuator input to achieve a specific application of output forces and movement. They can also include computers and sensors that monitor performance and plan movement, often called mechanical systems. Renaissance natural philosophers identified six simple machines which were the elementary devices that put a load into motion, and calculated the ratio of output force to input force, known today as mechanical advantage. As technology progressed, clever inventors often created new types of machines to simplify or enable tasks, increasing the output of existing work and opening the doors to new discoveries.
 
 #GOOD_Horses
 ^
