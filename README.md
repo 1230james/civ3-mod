@@ -98,11 +98,11 @@ Almost all other behaviors are identical to vanilla C3C. You can consider this m
 * Religious and agricultural
 * 1/5 aggression
 * American culture
-* Favors Republic, shuns Monarchy
+* Favors Communism, shuns Monarchy
 * Begins with Pottery and Ceremonial Burial
 * Receives the Sunka Wakan as a special unit, replacing the Horseman
     * 3/2/2
-    * Differs from Horseman by getting 2 defense instead of 1
+    * Differs from Horseman by getting 2 defense instead of 1 and getting 3 attack instead of 2
 
 #### The Mauryans
 
@@ -146,7 +146,7 @@ Brings back the Fundamentalism government from Civ2... but mostly just the conce
 
 ## Installation
 
-1. Clone this repository
+1. Clone this repository or [download the latest release](https://github.com/1230james/civ3-mod/releases).
 2. Copy both `James's Mod.biq` and `James's Mod` (the folder) to `(C3C root)/Conquests/Conquests`.
 
 To play with this mod, start up C3C, select `Conquests!` from the main menu, then select `James's Mod.biq`.
