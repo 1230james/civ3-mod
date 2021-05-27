@@ -44,11 +44,16 @@ Compared to vanilla C3C, this mod does:
 * Adds new government form: Fundamentalism
 * Adds four extra civilization advances:
     * Fundamentalism, which unlocks Fundamentalism as a form of government
-    * Machinery, Steam Engine, and Vacuum Tube, which are end-of-era techs you must research to proceed to the next era
+    * Paper, Steam Engine, and Vacuum Tube, which are end-of-era techs you must research to proceed to the next era
 * Workers tweaked & new unit: Engineer
     * Engineers are identical to Workers, except they work twice as fast
     * Workers no longer get an efficiency boost upon researching Replaceable Parts
     * Engineers become available after researching Replaceable Parts and Workers can be upgraded to Engineers
+* New unit: Atomic Bomb
+    * Ported over Atomic Bomb unit from the *WWII in the Pacific* scenario
+    * Unlocked with Fission, requires Uranium + Oil and completed Manhattan Project to build
+    * Single use like other nukes, else behaves like any other air unit
+    * Included to give civilizations nuclear strike capability without Space Flight or in case they lack aluminum
 * Other new units:
     * Fire Longbowman for the Mauryans
     * Cuban FAR for Cuba
@@ -158,7 +163,6 @@ Credit goes to:
 * [Rufus T. Firefly for the Engineer unit](https://forums.civfanatics.com/threads/engineer-c-p-11-7-04.93597/)
 * [Aluminium for the King unit](https://forums.civfanatics.com/threads/the-new-aok-conversion-collection.81218/#post-1658325)
 * [LMR for the Steam Engines tech icon](https://forums.civfanatics.com/threads/lmrs-graphics-library.177408/) used for the Railroads tech
-* [Diviner for the Machinery tech icon](https://forums.civfanatics.com/threads/few-industrial-modern-tech-icons.330231/)
 * [Olexeii Sokolovskyi for the steam engine render](https://touch3d.net/en/double_acting_steam_engine) used for the Steam Engine tech icon I made
 * [jorde for his WW2 leaderhead pack](https://forums.civfanatics.com/threads/franklin-d-roosevelt-of-the-usa-3d-animated-era-specific-leaderhead-28-06-2005.122566/) (Hitler, Stalin, Churchill, Hirohito, and FDR)
     * All leaderheads can be found in his signature
