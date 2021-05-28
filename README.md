@@ -171,6 +171,7 @@ Credit goes to:
     * [the Musa leaderhead](https://forums.civfanatics.com/threads/mansa-musa-of-mali-june-2006.174352/)
     * [the Sitting Bull leaderhead](https://forums.civfanatics.com/threads/finally-sitting-bull-of-the-lakota.166623/)
     * [the Ashoka leaderhead](https://forums.civfanatics.com/threads/asoka-of-india.121147/)
+* Wikipedia for Civilopedia texts for entries or portions of entries that do not exist in the base game
 * Myself for:
     * Fixing transparency issues on some of the leaderheads
     * Color correction on some unit graphics

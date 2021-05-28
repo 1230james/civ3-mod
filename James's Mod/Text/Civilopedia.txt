@@ -8039,24 +8039,30 @@ the Russian territories and the Belorussian and Ukrainian regions. The ascension
 ushered in and established the social, political and intellectual trends that were to dominate Russia for the next 
 two centuries. The location of his capital, St. Petersburg, on the shores of the Gulf of Finland symbolized this 
 shift toward a European involvement. 
-^    {Catherine the Great} (1762-1796) would prove to be Peter's true intellectual and political heir. Catherine's 
-reign was notable for imperial expansion. Most important were the securing of the northern shore of the Black Sea, 
-the annexation of the Crimea, and the expansion into the steppes beyond the Urals. This permitted the protection of 
-Russian
+^    By the time of Nicholas II (1894-1917) Russia was in disarray, fighting an onerous war and plagued by internal 
+misery and oppression. The Kerensky provisional government, a moderate attempt to resolve the problems, collapsed in
+the face of the Bolshevik revolution. Given the Bolshevik desire to dominate the whole of Russia and the rest of the 
+former 
 
 #DESC_RACE_RUSSIAN
 ^
 ^
-^agricultural settlements in the south and the establishment of trade routes through the Black Sea. In the 
-process, the military democracies of the {Cossack} hosts along the Dnieper, Don and Volga rivers lost their autonomy 
-and special privileges; the wealthier officers became Russian nobles, receiving the right to own and settle serfs on 
-their own lands, while the fierce horsemen sank to the level of peasants with special military obligations.
-^    Despite the heritage of Peter and Catherine, by the time of Nicholas II (1894-1917) Russia was in disarray, 
-fighting an onerous war and plagued by internal misery and oppression. The Kerensky provisional government, a 
-moderate attempt to resolve the problems, collapsed in the face of the Bolshevik revolution. Given the Bolshevik 
-desire to dominate the whole of Russia and the rest of the former tsarist empire, civil war was inevitable. Stalin 
-would complete the consolidation of Communist power begun by Lenin. And he would lead Soviet Russia through the 
-greatest threat to its existence, and help it emerge as one of the world's superpowers following the Second World War. 
+^tsarist empire, civil war was inevitable. {Joseph Stalin} would complete the consolidation of Communist power begun by 
+Lenin. And he would lead Soviet Russia through the greatest threat to its existence, and help it emerge as one of the 
+world's superpowers following the Second World War. Widely considered one of the 20th century's most significant 
+figures, Stalin was the subject of a pervasive personality cult within the international Marxist–Leninist movement, 
+which revered him as a champion of the working class and socialism. Since the dissolution of the Soviet Union in 1991, 
+Stalin has retained popularity in Russia and Georgia as a victorious wartime leader who established the Soviet Union as 
+a major world power.
+^    After the war, Stalin sought to retain Soviet dominance across Eastern Europe while expanding its influence in 
+Asia. Cautiously regarding the responses from the Western Allies, Stalin avoided immediately installing Communist Party 
+governments across Eastern Europe, instead initially ensuring that Marxist-Leninists were placed in coalition 
+ministries. In contrast to his approach to the Baltic states, he rejected the proposal of merging the new communist 
+states into the Soviet Union, rather recognising them as independent nation-states. He was faced with the problem that 
+there were few Marxists left in Eastern Europe, with most having been killed by the Nazis. Aware that these countries 
+had been pushed toward socialism through invasion rather than by proletarian revolution, Stalin referred to them not as 
+"dictatorships of the proletariat" but as "people's democracies", suggesting that in these countries there was a 
+pro-socialist alliance combining the proletariat, peasantry, and lower middle-class.
 ^    But in the ensuing Cold War, Russia's economy tottered towards collapse. The people turned to Boris Yeltsin, 
 a liberal Party functionary. Elections to the Congress of People's Deputies in March 1989 saw him score a stunning 
 victory. He used his newfound legitimacy to promote Russian sovereignty, to advocate and adopt radical economic reform, 
