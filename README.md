@@ -171,6 +171,9 @@ Credit goes to:
     * [the Musa leaderhead](https://forums.civfanatics.com/threads/mansa-musa-of-mali-june-2006.174352/)
     * [the Sitting Bull leaderhead](https://forums.civfanatics.com/threads/finally-sitting-bull-of-the-lakota.166623/)
     * [the Ashoka leaderhead](https://forums.civfanatics.com/threads/asoka-of-india.121147/)
-* Myself for doing some of the work to fix up palette issues for some of the graphics used in this modpack
+* Myself for:
+    * Fixing transparency issues on some of the leaderheads
+    * Color correction on some unit graphics
+    * Combining the Atomic Bomb and Vuldacon's ICBM explosion & sounds
 
 You have my permission to use this modpack at your own discretion for any purpose except for commercial use unless you have explicit permission from all the content creators listed in the Credits section above to use their content for commercial purposes. You do not need to credit me, although linking back to this repository would be appreciated.
