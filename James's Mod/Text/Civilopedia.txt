@@ -6531,15 +6531,16 @@ in which there are a very small number of inbound targets to eliminate.
 ^	Some common elements of fascism include strong nationalist sentiment, xenophobia, subordination of individual interests to the community, militarism and glorification of the army, secret police forces that enforce secret laws, informer networks, suppression of civil liberties and independent media, and economic policies that tightly tie business and commerce to government. (Note that many of these features are common in communist states as well.)
 ^	Fascist states need not be authoritarian, although they usually are; when fascist leaders are democratically elected (as Adolf Hitler was), they often try to modify or abolish the democratic institutions that placed the leaders in power.
 
-#TECH_Machinery
+#TECH_Paper
 ^
 ^
 ^{Era Advance} Any civilization who masters this tech and its corresponding end-era prerequisites advances to the [Medieval Era.]
 
-#DESC_TECH_Machinery
+#DESC_TECH_Paper
 ^
 ^
-^A machine (or mechanical device) is a mechanical structure that uses power to apply forces and control movement to perform an intended action. Machines can be driven by animals and people, by natural forces such as wind and water, and by chemical, thermal, or electrical power, and include a system of mechanisms that shape the actuator input to achieve a specific application of output forces and movement. They can also include computers and sensors that monitor performance and plan movement, often called mechanical systems. Renaissance natural philosophers identified six simple machines which were the elementary devices that put a load into motion, and calculated the ratio of output force to input force, known today as mechanical advantage. As technology progressed, clever inventors often created new types of machines to simplify or enable tasks, increasing the output of existing work and opening the doors to new discoveries.
+^Paper is a thin nonwoven material traditionally made from a combination of milled plant and textile fibres. It is primarily used for writing, artwork, and packaging; it is commonly white. The first papermaking process was documented in China during the Eastern Han period (25–220 CE) traditionally attributed to the court official Cai Lun. During the 8th century, Chinese papermaking spread to the Islamic world, where pulp mills and paper mills were used for papermaking and money making. By the 11th century, papermaking was brought to Europe. By the 13th century, papermaking was refined with paper mills utilizing waterwheels in Spain. Later European improvements to the papermaking process came in the 19th century with the invention of wood-based papers.
+^	According to Timothy Hugh Barrett, paper played a pivotal role in early Chinese written culture, and a "strong reading culture seems to have developed quickly after its introduction, despite political fragmentation." Indeed, the introduction of paper had immense consequences for the book world. It meant books would no longer have to be circulated in small sections or bundles, but in their entirety. Books could now be carried by hand rather than transported by cart. As a result, individual collections of literary works increased in the following centuries.
 
 #TECH_Steam_Engine
 ^
@@ -6561,6 +6562,29 @@ in which there are a very small number of inbound targets to eliminate.
 ^
 ^
 ^A vacuum tube, also called a valve in British English, is an electronic device used in many older model radios, television sets, and amplifiers. The cathode is heated, as in a light bulb, so it will emit electrons. This is called thermionic emission. The anode is the part that accepts the emitted electrons. The device may have other parts. Vacuum tubes must be hot to work. Most are made of glass, thus are fragile and can break. Vacuum tubes were used in the first computers like the ENIAC, which were large and need much work to continue operating. Although the vacuum tube was invented by John Ambrose Fleming later, it was Thomas Edison who discovered the "Edison effect". The Edison effect states that electricity does not necessarily need a solid material to move through; it can move through gas or vacuums as well. Without this realization, vacuum tubes would never have been invented. John Ambrose Fleming invented the first vacuum tube, the diode, in 1904. Lee De Forest invented the "audion" in 1906 (which was improved by others as the triode in 1908) and used in the first telephone amplifiers. Many other kinds were invented for various purposes.
+
+#PRTO_Nuclear_Bomb
+^
+^
+^The [Atomic Bomb] has a short range but a very devastating effect. An Atomic bomb, when used, has
+a tremendous negative effect upon world opinion.
+^
+^The [Atomic Bomb] requires the completion of the $LINK<the Manhattan Project=BLDG_Manhattan_Project>.
+^
+^A city needs $LINK<uranium=GOOD_Uranium> and $LINK<oil=GOOD_OIL> in its $LINK<Strategic Resource=GCON_ResourcesS> box to
+build an atomic bomb.
+#DESC_PRTO_Nuclear_Bomb
+^
+^
+^The Atomic Bomb (or "A-Bomb") was developed and first used by the Americans during WWII under the
+auspices of $LINK<the Manhattan Project=BLDG_Manhattan_Project>, which produced two types of A-bombs
+that were ready for use by the end of July, 1945. The responsible scientists were more confident of
+the bomb they nicknamed "Little Boy", which depended upon an explosive device to ignite its deadly
+load of Uranium-235 to produce an explosion of immense proportions. They were less confident of their
+second bomb, "Fat Man", which depended on plutonium (Pu-239) to produce a massive implosion. As events
+turned out, when the bombs were delivered to their respective targets of Hiroshima and Nagasaki,
+both functioned with deadly precision. Shortly thereafter Japan -- acknowledging that continuation
+of the war against such destructive power would be foolish -- surrendered.
 
 #GOOD_Horses
 ^
@@ -7963,7 +7987,7 @@ Empire, one of the rise and fall of feuding principalities.
 ^    It would be a thousand years before Germany was again unified under a single ruler. Troubled by the mass 
 insurrections and diplomatic defeats that had followed the Napoleonic Wars, William I of Prussia (1861-1888) 
 considered abdicating in favor of his son, who was believed to have political views close to those of the liberal 
-opposition. He was persuaded, however, to consider forming a new government led by {Otto von Bismarck}, the 
+opposition. He was persuaded, however, to consider forming a new government led by Otto von Bismarck, the 
 Prussian ambassador to Paris.
 ^    In September 1862, Europe was startled by the news that a statesman with a reputation 
 for conservatism, nationalism and [realpolitik] had become the prime minister of Prussia. The new German Empire was
@@ -7978,7 +8002,7 @@ coalitions of German states. Bismarck had unified Germany.
 imposed by the Western Allies following World War I, the worldwide economic collapse that began in 1929 proved 
 the catalyst for political extremism. Although bitterly opposed to each other, the Nazis and Communists during 
 the next decade succeeded in mobilizing the political and economic resentments generated by defeat and depression.  
-When Hitler finally became chancellor in January 1933, it was not on the crest of a wave of popular support but as 
+When {Adolf Hitler} finally became chancellor in January 1933, it was not on the crest of a wave of popular support but as 
 the result of ruthless political intrigue.
 ^    World War II is appropriately called "Hitler's War." Spearheaded by {Panzer} 
 formations using revolutionary new tactics, Hitler came close to realizing his aim of establishing German hegemony in 
@@ -8015,24 +8039,28 @@ the Russian territories and the Belorussian and Ukrainian regions. The ascension
 ushered in and established the social, political and intellectual trends that were to dominate Russia for the next 
 two centuries. The location of his capital, St. Petersburg, on the shores of the Gulf of Finland symbolized this 
 shift toward a European involvement. 
-^    {Catherine the Great} (1762-1796) would prove to be Peter's true intellectual and political heir. Catherine's 
-reign was notable for imperial expansion. Most important were the securing of the northern shore of the Black Sea, 
-the annexation of the Crimea, and the expansion into the steppes beyond the Urals. This permitted the protection of 
-Russian
+^    By the time of Nicholas II (1894-1917) Russia was in disarray, fighting an onerous war and plagued by internal 
+misery and oppression. The Kerensky provisional government, a moderate attempt to resolve the problems, collapsed in
+the face of the Bolshevik revolution. Given the Bolshevik desire to dominate the whole of Russia and the rest of the 
+former 
 
 #DESC_RACE_RUSSIAN
 ^
 ^
-^agricultural settlements in the south and the establishment of trade routes through the Black Sea. In the 
-process, the military democracies of the {Cossack} hosts along the Dnieper, Don and Volga rivers lost their autonomy 
-and special privileges; the wealthier officers became Russian nobles, receiving the right to own and settle serfs on 
-their own lands, while the fierce horsemen sank to the level of peasants with special military obligations.
-^    Despite the heritage of Peter and Catherine, by the time of Nicholas II (1894-1917) Russia was in disarray, 
-fighting an onerous war and plagued by internal misery and oppression. The Kerensky provisional government, a 
-moderate attempt to resolve the problems, collapsed in the face of the Bolshevik revolution. Given the Bolshevik 
-desire to dominate the whole of Russia and the rest of the former tsarist empire, civil war was inevitable. Stalin 
-would complete the consolidation of Communist power begun by Lenin. And he would lead Soviet Russia through the 
-greatest threat to its existence, and help it emerge as one of the world's superpowers following the Second World War. 
+^tsarist empire, civil war was inevitable. {Joseph Stalin} would complete the consolidation of Communist power begun by 
+Lenin. And he would lead Soviet Russia through the greatest threat to its existence, and help it emerge as one of the 
+world's superpowers following the Second World War. Widely considered one of the 20th century's most significant 
+figures, Stalin was the subject of a pervasive personality cult within the international Marxist–Leninist movement, 
+which revered him as a champion of the working class and socialism.
+^    After the war, Stalin sought to retain Soviet dominance across Eastern Europe while expanding its influence in 
+Asia. Cautiously regarding the responses from the Western Allies, Stalin avoided immediately installing Communist Party 
+governments across Eastern Europe, instead initially ensuring that Marxist-Leninists were placed in coalition 
+ministries. In contrast to his approach to the Baltic states, he rejected the proposal of merging the new communist 
+states into the Soviet Union, rather recognising them as independent nation-states. He was faced with the problem that 
+there were few Marxists left in Eastern Europe, with most having been killed by the Nazis. Aware that these countries 
+had been pushed toward socialism through invasion rather than by proletarian revolution, Stalin referred to them not as 
+"dictatorships of the proletariat" but as "people's democracies", suggesting that in these countries there was a 
+pro-socialist alliance combining the proletariat, peasantry, and lower middle-class.
 ^    But in the ensuing Cold War, Russia's economy tottered towards collapse. The people turned to Boris Yeltsin, 
 a liberal Party functionary. Elections to the Congress of People's Deputies in March 1989 saw him score a stunning 
 victory. He used his newfound legitimacy to promote Russian sovereignty, to advocate and adopt radical economic reform, 
@@ -8101,7 +8129,7 @@ successfully from its motherland, and it was the first nation to be established 
 with its citizens and not with the government. In its first century and a half, the country was mainly preoccupied with 
 its own territorial exploration and expansion and with economic growth. American politics became increasingly democratic 
 during the 1820s and '30s. But a matter of freedom would bring the nation to its greatest crisis: the American Civil War. 
-On February 4, 1861 - a month before {Abraham Lincoln} (1860-1865) could be inaugurated in Washington - six Southern 
+On February 4, 1861 - a month before Abraham Lincoln (1860-1865) could be inaugurated in Washington - six Southern 
 states sent representatives to Montgomery to declare a new independent government. With Jefferson Davis at its head, the 
 Confederate States of America came into being, set up its own bureaus and offices, occupied federal buildings, issued its 
 own money, raised its own taxes, and flew its own flag.
@@ -8121,6 +8149,16 @@ Revolution
 itself, that their country should remain aloof from European affairs and offer an example of democracy and peace to 
 the rest of the world. But the United States had become a great power by virtue of its prodigious economic growth 
 since the Civil War; now many thought it ought to begin to act like one.
+^    In the 1932 presidential election, {Franklin D. Roosevelt} defeated Republican incumbent Herbert Hoover in a 
+landslide. Roosevelt took office in the midst of the Great Depression, the worst economic crisis in U.S. history. 
+During the first 100 days of the 73rd United States Congress, Roosevelt spearheaded unprecedented federal legislation 
+and issued a profusion of executive orders that instituted the New Deal — a variety of programs designed to produce 
+relief, recovery, and reform. He created numerous programs to provide relief to the unemployed and farmers while 
+seeking economic recovery with the National Recovery Administration and other programs. He also instituted major 
+regulatory reforms related to finance, communications, and labor, and presided over the end of Prohibition. He used 
+radio to speak directly to the American people, giving 30 "fireside chat" radio addresses during his presidency and 
+became the first American president to be televised. With the economy having improved rapidly from 1933 to 1936, 
+Roosevelt won a landslide reelection in 1936.
 ^    In World War I, and again in World War II, 
 American industrial might and military technology proved decisive. However, the debacle of Vietnam, set in the morass 
 of the Cold War, shook America's belief in its "victory culture" and "manifest destiny," a malaise that would not pass 
@@ -8164,13 +8202,16 @@ pride in their stoicism, developed a disciplined culture distinct from the earli
 court.
 ^    Under the growing influence of Zen Buddhism during the Muromachi period (1338-1573), the samurai culture produced 
 many uniquely Japanese arts that continue today. Eventually, from among these warring Samurai clans arose the able 
-{Tokugawa} Takechiyo, founder of the Edo shogunate (1603-1867 AD), which ended the incessant conflicts and brought 
+Tokugawa Takechiyo, founder of the Edo shogunate (1603-1867 AD), which ended the incessant conflicts and brought 
 reform and peace to the islands. Although Spanish and Portuguese traders and missionaries had been in Japan since 
 the mid-1500s, it was the arrival of a squadron of U.S. warships commanded by Commodore Matthew C. Perry in Uraga Bay 
 in July 1853 that finally opened the nation to Western influence - and brought pressure for political reforms and a 
 national identity. The Meiji government that followed the overthrow of the shogunate set about the task of 
 westernization and the creation of a modern state, and moved Japan onto the world stage.
-^    Ironically, Japan's new, influential role - marked by the ensuing Russo-Japanese War (1904-1905), 
+^    Emperor Showa, better known in English as {Hirohito}, ascended to the throne on December 25, 1926. At the start of 
+his reign, Japan was already one of the great powers—the ninth largest economy in the world, the third-largest naval 
+power, and one of the four permanent members of the council of the League of Nations.
+^    Ironically, Japan's new, influential role - marked by the Russo-Japanese War (1904-1905), 
 Japan's involvement in the First World War and in the Allied intervention in Siberia following the Bolshevik 
 Revolution of 1918 - led indirectly to the attack on Pearl Harbor and the horrors that followed. The summer of 
 1945 brought disaster for the Japanese: the Americans took Okinawa in a bloody invasion, in August the Soviet 
@@ -8448,7 +8489,7 @@ aristocracy, and the introduction of feudalism to the Isles.
 purely British line of kings, the Plantagenets. Three centuries later, the Wars of the Roses was the final struggle 
 between the Yorkist and Lancastrian descendants of the Plantagenets for control of the throne. When Henry Tudor, earl 
 of Richmond, seized the crown in 1485, leaving the Yorkist Richard III dead upon the field of battle, few Englishmen 
-would have predicted that 118 years of Tudor rule had begun. {Elizabeth} I (1558-1603) proved to be the most able Tudor 
+would have predicted that 118 years of Tudor rule had begun. Elizabeth I (1558-1603) proved to be the most able Tudor 
 monarch. No observer in 1558, any more than in 1485, would have predicted 
 that despite the social discord, political floundering, and international humiliation of the past decades, the kingdom 
 again stood on the threshold of an extraordinary age. Her reign ushered in two centuries of British exploration, 
@@ -8473,13 +8514,17 @@ shipbuilding, upon which British prosperity had been built, were now impoverishe
 foreign policy for much of the postwar period aimed at rehabilitating Germany, while domestic policy focused 
 on institutionalizing socialism to counter public concerns. In general, these movements were opposed by France 
 and resulted in a rupture between Britain and its wartime ally, forcing France into a position of isolation that 
-would have prodigious consequences for Europe with the rise of Hitler in the 1930s. Margaret Thatcher (1979-1990) 
-set out to end socialism in Britain. Her most dramatic acts consisted of a continuing series of statutes to 
-denationalize nearly every industry that Labour had brought into public ownership during the previous 40 years. 
-Promising that "we shall govern as New Labour," the Blair government installed in general elections in 1997 accepted 
-some of Thatcher's foreign policies but also carried out the economic reforms it promised in its manifesto. 
-In retrospect, the 1990s were a period of transition, controversy and continuity in the United Kingdom, and for the 
-royal family... Europe’s oldest surviving monarchy.
+would have prodigious consequences for Europe with the rise of Hitler in the 1930s.
+^    Out of government during his so-called "wilderness years" in the 1930s, {Winston Churchill} took the lead in 
+calling for British rearmament to counter the growing threat of militarism in Nazi Germany. At the outbreak of the 
+Second World War he was re-appointed First Lord of the Admiralty. In May 1940, he became Prime Minister, replacing 
+Neville Chamberlain. Churchill oversaw British involvement in the Allied war effort against the Axis powers, resulting 
+in victory in 1945. After the Conservatives' defeat in the 1945 general election, he became Leader of the Opposition. 
+Amid the developing Cold War with the Soviet Union, he publicly warned of an "iron curtain" of Soviet influence in 
+Europe and promoted European unity. He lost the 1950 election, but was returned to office the following year in the 
+1951 election. His second term was preoccupied with foreign affairs, especially Anglo-American relations and the 
+preservation of the British Empire. Domestically, his government emphasised house-building and developed a nuclear 
+weapon. In declining health, Churchill resigned as Prime Minister in 1955, although he remained an MP until 1964.
 
 #RACE_Mongols
 ^The Mongols are $LINK<expansionist and militaristic=GCON_Strengths>. They start the game with
