@@ -63,6 +63,7 @@ Compared to vanilla C3C, this mod does:
 * Adds new graphics for ICBMs and Tactical Nukes (they're minor changes)
 * Tactical Nuke launch animation now plays upon use
 * Frigates & Man-O-Wars upgrade to Destroyers instead of nothing
+* New civil disorder animation
 * And some other minor changes that are either not very noteworthy and/or that I've forgotten
 
 Almost all other behaviors are identical to vanilla C3C. You can consider this modpack a "vanilla-chocolate swirl" - that is, it's vanilla but with something extra; it's not a drastically different experience. If you are looking for a big modpack that really changes up the gameplay or dives in deep into a very specific scenario or something, this is *not* for you.
@@ -171,6 +172,7 @@ Credit goes to:
     * [the Musa leaderhead](https://forums.civfanatics.com/threads/mansa-musa-of-mali-june-2006.174352/)
     * [the Sitting Bull leaderhead](https://forums.civfanatics.com/threads/finally-sitting-bull-of-the-lakota.166623/)
     * [the Ashoka leaderhead](https://forums.civfanatics.com/threads/asoka-of-india.121147/)
+* [Pounder for his custom disorder animation](https://forums.civfanatics.com/threads/disorder-animation.225387/)
 * Wikipedia for Civilopedia texts for entries or portions of entries that do not exist in the base game
 * Myself for:
     * Fixing transparency issues on some of the leaderheads
