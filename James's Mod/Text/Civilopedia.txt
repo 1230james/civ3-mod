@@ -9313,7 +9313,7 @@ Cheyenne then moved west to the Powder River country, and the Lakota made the Bl
 
 #RACE_MAURYAN
 ^The Mauryans are $LINK<expansionist and agricultural=GCON_Strengths>. They start the game with
-$LINK<Alphabet=TECH_Alphabet> and $LINK<Pottery=TECH_Pottery> and build the $LINK<Fire Longbowman=PRTO_Fire_Longbowman> instead of $LINK<Longbowmen=PRTO_Longbowman>.
+$LINK<Masonry=TECH_Masonry> and $LINK<Pottery=TECH_Pottery> and build the $LINK<Fire Longbowman=PRTO_Fire_Longbowman> instead of $LINK<Longbowmen=PRTO_Longbowman>.
 ^
 ^The Maurya Empire (322 – 185 B.C.E.), ruled by the Mauryan dynasty, was a geographically extensive and powerful political and military 
 empire in ancient India. Originating from the kingdom of Magadha in the Indo-Gangetic plains of modern Bihar, Eastern Uttar Pradesh and 
