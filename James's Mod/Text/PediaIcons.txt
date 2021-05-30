@@ -1501,6 +1501,12 @@ Art\Civilopedia\Icons\Units\SunkaWakanSMALL.pcx
 #ICON_PRTO_Nuclear_Bomb
 art\civilopedia\icons\units\x2_A-bomb civpedia lg.pcx
 art\civilopedia\icons\units\x2_A-bomb civpedia sm.pcx
+#ICON_PRTO_SpaceMarine
+art\civilopedia\icons\units\SpaceMarine_lg.pcx
+art\civilopedia\icons\units\SpaceMarine_sm.pcx
+#ICON_PRTO_Dreadnought
+art\civilopedia\icons\units\Dreadnought_lg.pcx
+art\civilopedia\icons\units\Dreadnought_sm.pcx
 
 
 #Start buildings
@@ -2304,7 +2310,7 @@ Art\tech chooser\Icons\33-integratedDefense-small.pcx
 #TECH_Invention
 Art\tech chooser\Icons\34-Invention-bolt-small.pcx
 #TECH_Ironclads
-Art\tech chooser\Icons\NavalTactics-small.pcx
+Art\tech chooser\Icons\ironclad-small.pcx
 #TECH_Iron_Working
 Art\tech chooser\Icons\35-Ironworking-small.pcx
 #TECH_Literature
@@ -2413,8 +2419,14 @@ Art\tech chooser\Icons\Council-small.pcx
 Art\Tech Chooser\Icons\SteamEngineSmall.pcx
 #TECH_Vacuum_Tubes
 Art\tech chooser\Icons\21-Electronics-small.pcx
-#TECH_Machinery
-Art\tech chooser\Icons\Machinery-s.pcx
+#TECH_Nanotech
+Art\tech chooser\Icons\Nanotech-Small.pcx
+#TECH_Fusion
+Art\tech chooser\Icons\Fusion-Small.pcx
+#TECH_AdvArmor
+Art\tech chooser\Icons\AdvPowArmor-small.pcx
+#TECH_HeavyMechs
+Art\tech chooser\Icons\HeavyMechs-small.pcx
 
 # Large Tech Icons
 #TECH_Advanced_Flight_LARGE
@@ -2486,7 +2498,7 @@ Art\tech chooser\Icons\33-integratedDefense-large.pcx
 #TECH_Invention_LARGE
 Art\tech chooser\Icons\34-Invention-bolt-large.pcx
 #TECH_Ironclads_LARGE
-Art\tech chooser\Icons\NavalTactics-large.pcx
+Art\tech chooser\Icons\ironclad-large.pcx
 #TECH_Iron_Working_LARGE
 Art\tech chooser\Icons\35-Ironworking-large.pcx
 #TECH_Literature_LARGE
@@ -2597,8 +2609,14 @@ Art\tech chooser\Icons\Council-large.pcx
 Art\Tech Chooser\Icons\SteamEngineLarge.pcx
 #TECH_Vacuum_Tubes_LARGE
 Art\tech chooser\Icons\21-Electronics-large.pcx
-#TECH_Machinery_LARGE
-Art\tech chooser\Icons\Machinery-l.pcx
+#TECH_Nanotech_LARGE
+Art\tech chooser\Icons\Nanotech-Large.pcx
+#TECH_Fusion_LARGE
+Art\tech chooser\Icons\Fusion-Large.pcx
+#TECH_AdvArmor_LARGE
+Art\tech chooser\Icons\AdvPowArmor-large.pcx
+#TECH_HeavyMechs_LARGE
+Art\tech chooser\Icons\HeavyMechs-large.pcx
 
 ################################################################
 # Unit animations
@@ -2878,12 +2896,8 @@ TOW Infantry
 Flak
 #ANIMNAME_PRTO_Mobile_SAM
 Mobile SAM
-#ANIMNAME_PRTO_ItalInfantry
-ItalInfantry
 #ANIMNAME_PRTO_Engineer
 Engineer
-#ANIMNAME_PRTO_Tomahawk
-Tomahawk
 #ANIMNAME_PRTO_King
 King
 #ANIMNAME_PRTO_Mali_Worker
@@ -2896,6 +2910,10 @@ Fire Longbowman
 SunkaWakan
 #ANIMNAME_PRTO_Nuclear_Bomb
 Nuclear Bomb
+#ANIMNAME_PRTO_SpaceMarine
+SpaceMarine
+#ANIMNAME_PRTO_Dreadnought
+Dreadnought
 
 
 ################################################################

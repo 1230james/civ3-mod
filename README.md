@@ -1,12 +1,14 @@
-# James's Mod for Sid Meier's *Civilization III: Conquests*
+# James's Mod for Sid Meier's *Civilization III: Complete*
 
-This is a modpack for C3C that I put together containing some changes I personally find cool. Not really intended for public use, but if you want to play with it too, then feel free to.
+This is a modpack for Civ3: Complete that I put together containing some changes I personally find cool. Not really intended for public use, but if you want to play with it too, then feel free to.
 
 ## Contents
 
 * [Changes](#changes)
     * [Overview](#overview)
     * [New Civilizations](#new-civilizations)
+    * [New Units](#new-units)
+    * [New Technologies](#new-technologies)
     * [End-of-Era Technologies](#end-of-era-technologies)
     * [New Government: Fundamentalism](#new-government-fundamentalism)
 * [Installation](#installation)
@@ -16,7 +18,7 @@ This is a modpack for C3C that I put together containing some changes I personal
 
 ### Overview
 
-Compared to vanilla C3C, this mod does:
+Compared to vanilla Civ3, this mod:
 
 * Permits plagues (max 1)
 * Removes the following civs:
@@ -42,31 +44,27 @@ Compared to vanilla C3C, this mod does:
     * Sitting Bull of the Lakota
     * Ashoka of the Mauryans
 * Adds new government form: Fundamentalism
-* Adds four extra civilization advances:
+* Adds extra civilization advances:
     * Fundamentalism, which unlocks Fundamentalism as a form of government
-    * Paper, Steam Engine, and Vacuum Tube, which are end-of-era techs you must research to proceed to the next era
-* Workers tweaked & new unit: Engineer
-    * Engineers are identical to Workers, except they work twice as fast
-    * Workers no longer get an efficiency boost upon researching Replaceable Parts
-    * Engineers become available after researching Replaceable Parts and Workers can be upgraded to Engineers
-* New unit: Atomic Bomb
-    * Ported over Atomic Bomb unit from the *WWII in the Pacific* scenario
-    * Unlocked with Fission, requires Uranium + Oil and completed Manhattan Project to build
-    * Single use like other nukes, else behaves like any other air unit
-    * Included to give civilizations nuclear strike capability without Space Flight or in case they lack aluminum
-* Other new units:
+    * Paper, Steam Engine, and Vacuum Tubes, which are end-of-era techs you must research to proceed to the next era
+    * Nanotechnology, Fusion, Advanced Armor, and Heavy Mechanicals, new Modern Era technologies
+* Adds new units:
+    * Engineer (Workers get tweaked; see *New Units* section)
+    * Atomic Bomb
+    * Space Marine
+    * Mecha
     * Fire Longbowman for the Mauryans
     * Cuban FAR for Cuba
     * Malian Worker for Mali
     * Sunka Wakan for the Lakota
     * King for the four non-vanilla civs to use as their king unit in Regicide mode
 * Adds new graphics for ICBMs and Tactical Nukes (they're minor changes)
-* Tactical Nuke launch animation now plays upon use
-* Frigates & Man-O-Wars upgrade to Destroyers instead of nothing
-* New civil disorder animation
-* And some other minor changes that are either not very noteworthy and/or that I've forgotten
+* "Fixes" the previously unused Tactical Nuke launch animation so it plays upon use
+* Changed Frigates & Man-O-Wars to upgrade to Destroyers instead of nothing
+* Adds a new civil disorder animation
+* And adds some other minor changes that are either not very noteworthy and/or that I've forgotten
 
-Almost all other behaviors are identical to vanilla C3C. You can consider this modpack a "vanilla-chocolate swirl" - that is, it's vanilla but with something extra; it's not a drastically different experience. If you are looking for a big modpack that really changes up the gameplay or dives in deep into a very specific scenario or something, this is *not* for you.
+Almost all other behaviors are identical to vanilla Civ3. You can consider this modpack a "vanilla-chocolate swirl" - that is, it's vanilla but with something extra; it's not a drastically different experience. If you are looking for a big modpack that really changes up the gameplay or dives in deep into a very specific scenario or something, this is *not* for you.
 
 ### New Civilizations
 
@@ -112,11 +110,56 @@ Almost all other behaviors are identical to vanilla C3C. You can consider this m
 * 3/5 aggression
 * Asian culture
 * Favors Monarchy, shuns Republic
-* Begins with Pottery and Alphabet
+* Begins with Pottery and Masonry
 * Receives the Fire Longbowman as a special unit, replacing the Longbowman
     * 5/2/1
     * Differs from Longbowman by getting 5 attack instead of 4
     
+### New Units
+
+#### Engineer & Worker Tweaks
+* Engineers are identical to Workers, except they work twice as fast
+* Workers no longer get an efficiency boost upon researching Replaceable Parts
+* Engineers become available after researching Replaceable Parts and Workers can be upgraded to Engineers
+
+#### Atomic Bomb
+* Ported over Atomic Bomb unit from the *WWII in the Pacific* scenario
+* Unlocked with Fission, requires Uranium + Oil and completed Manhattan Project to build
+* Single use like other nukes, else behaves like any other air unit
+* Included to give civilizations nuclear strike capability without Space Flight or in case they lack aluminum
+
+#### Space Marine
+* 18(9)/20/1
+* Costs 150 shields
+* Upgrades from TOW Infantry
+* Requires Uranium and Aluminum
+
+#### Mecha
+* 40/22/2
+* Costs 400 shields
+* Requires Uranium, Aluminum, and Rubber
+
+### New Technologies
+* Fundamentalism
+    * Unlocks the Fundamentalism government
+    * Has Theology as a prerequisite
+* Nanotechnology
+    * Now the tech requirement for SS Exterior Casing
+    * Has Synthetic Fibers and Superconductor as prerequisites
+    * Is prerequisite for Advanced Armor
+* Fusion
+    * Now the tech requirement for SS Fuel Cells and SS Engine
+    * Has The Laser as a prerequisite
+    * Is prerequisite for Heavy Mechanicals
+* Advanced Armor
+    * Unlocks the Space Marine unit
+    * Has Nanotechnology and Smart Weapons as prerequisites
+* Heavy Mechanicals
+    * Unlocks the Mecha unit
+    * Has Fusion, Robotics, and Smart Weapons as prerequisites
+* Paper, Steam Engine, and Vacuum Tubes
+    * End-of-era technologies for the Ancient, Medieval, and Industrial Eras, respectively. See next section for more info.
+
 ### End-of-Era Technologies
 
 The Ancient, Medieval, and Industrial Eras all have one final tech to research before moving onto the next era. They were added to serve two purposes:
@@ -147,10 +190,16 @@ Brings back the Fundamentalism government from Civ2... but mostly just the conce
 
 ## Installation
 
-1. Clone this repository or [download the latest release](https://github.com/1230james/civ3-mod/releases).
-2. Copy both `James's Mod.biq` and `James's Mod` (the folder) to `(C3C root)/Conquests/Conquests`.
+### Requirements
 
-To play with this mod, start up C3C, select `Conquests!` from the main menu, then select `James's Mod.biq`.
+If you're using this mod with *Civilization III: Complete* (on Steam or other retailers), you're good to go. If for some reason you're not, you need both *Play the World* and *Conquests*, since this mod uses the `BIQ` format from *Conquests* and has units and civilizations found across both expansions.
+
+### Instructions
+
+1. Clone this repository or [download the latest release](https://github.com/1230james/civ3-mod/releases).
+2. Copy both `James's Mod.biq` and `James's Mod` (the folder) to `(Civ3 root)/Conquests/Conquests`.
+
+To play with this mod, start up Civ3, select `Conquests!` from the main menu, then select `James's Mod.biq`.
 
 ## Credits
 
@@ -173,6 +222,13 @@ Credit goes to:
     * [the Sitting Bull leaderhead](https://forums.civfanatics.com/threads/finally-sitting-bull-of-the-lakota.166623/)
     * [the Ashoka leaderhead](https://forums.civfanatics.com/threads/asoka-of-india.121147/)
 * [Pounder for his custom disorder animation](https://forums.civfanatics.com/threads/disorder-animation.225387/)
+* [muffins for his Space Marine and Dreadnought units](https://forums.civfanatics.com/threads/space-marine-battle-group-15-units-23march05.115031/)
+* AncientOne for his [Advanced Power Armors](https://forums.civfanatics.com/threads/advanced-powerarmors-tech-icon.212806/) and [Heavy Mechs](https://forums.civfanatics.com/threads/heavy-mechanical-battlewalkers-tech-icon.212795/) tech icons
+* [Storm Grunt for his Ironclads tech icon](https://forums.civfanatics.com/threads/storm-grunts-tech-icon-library.174426/)
+    * Included in the futuristic techs archive for some reason
+* Promotive at Dreamstime.com for the carbon nanotube illustration I used to create the Nanotechnology tech icon
+    * Retrieved from [this article](https://www.britannica.com/science/carbon-nanotube)
+* [Richard Kail for the illustration I used to create the Fusion tech icon](https://www.sciencephoto.com/media/702288/view/nuclear-fusion-conceptual-image)
 * Wikipedia for Civilopedia texts for entries or portions of entries that do not exist in the base game
 * Myself for:
     * Fixing transparency issues on some of the leaderheads
