@@ -2822,7 +2822,7 @@ Our space program continues to create benefits. We could develop {Satellites} to
 
 
 #SCIENCEADVICETECH75
-We could develop a new technology, {The Laser}. It involves using highly-focused light and has vast potential for many practical applications.
+We could develop a new technology, {Lasers}. It involves using highly-focused light and has vast potential for many practical applications.
 
 
 #SCIENCEADVICETECH76
@@ -2867,6 +2867,22 @@ Smart inventors are trying to put together a revolutionary machine: the {Steam E
 
 #SCIENCEADVICETECH86
 Clever engineers have theorized an amazing contraption: the {Vacuum Tube.} We could use them to create more sophisticated electronics to allow us to create amazing things, such as computing machines!
+
+
+#SCIENCEADVICETECH87
+Our deepened understanding of matter and composite materials is leading to {Nanotechnology}. We could create new materials with unimaginable properties.
+
+
+#SCIENCEADVICETECH88
+Fission has proven quite useful, but our physicists are looking into {Fusion} for cleaner, more powerful applications of nuclear technology.
+
+
+#SCIENCEADVICETECH89
+With our breakthroughs in material science and weapons, our military contractors want to create {Advanced Armor}, powering up our troops for battle on Earth and beyond.
+
+
+#SCIENCEADVICETECH90
+Two words: giant robots. Our generals and contractors want to take our knowledge of robotics and smart weapons to create {Heavy Mechanicals}. We could build super powerful mechas and dominate the military scene!
 
 
 

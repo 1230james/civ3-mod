@@ -1501,6 +1501,12 @@ Art\Civilopedia\Icons\Units\SunkaWakanSMALL.pcx
 #ICON_PRTO_Nuclear_Bomb
 art\civilopedia\icons\units\x2_A-bomb civpedia lg.pcx
 art\civilopedia\icons\units\x2_A-bomb civpedia sm.pcx
+#ICON_PRTO_SpaceMarine
+art\civilopedia\icons\units\SpaceMarine_lg.pcx
+art\civilopedia\icons\units\SpaceMarine_sm.pcx
+#ICON_PRTO_Dreadnought
+art\civilopedia\icons\units\Dreadnought_lg.pcx
+art\civilopedia\icons\units\Dreadnought_sm.pcx
 
 
 #Start buildings
@@ -2890,12 +2896,8 @@ TOW Infantry
 Flak
 #ANIMNAME_PRTO_Mobile_SAM
 Mobile SAM
-#ANIMNAME_PRTO_ItalInfantry
-ItalInfantry
 #ANIMNAME_PRTO_Engineer
 Engineer
-#ANIMNAME_PRTO_Tomahawk
-Tomahawk
 #ANIMNAME_PRTO_King
 King
 #ANIMNAME_PRTO_Mali_Worker
@@ -2908,6 +2910,10 @@ Fire Longbowman
 SunkaWakan
 #ANIMNAME_PRTO_Nuclear_Bomb
 Nuclear Bomb
+#ANIMNAME_PRTO_SpaceMarine
+SpaceMarine
+#ANIMNAME_PRTO_Dreadnought
+Dreadnought
 
 
 ################################################################

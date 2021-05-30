@@ -418,16 +418,17 @@ enemies that enter the zone of control without initiating a full battle.
 ^* $LINK<Aegis Cruisers=PRTO_AEGIS_Cruiser>
 ^* $LINK<Armies=PRTO_Army>
 ^* $LINK<Cavalry=PRTO_Cavalry>
+^* $LINK<Tanks=PRTO_Tank>
 ^* $LINK<German Panzers=PRTO_Panzer>
 ^* $LINK<Mechanized Infantry=PRTO_Mech_Infantry>
 ^* $LINK<Modern Armor=PRTO_Modern_Armor>
+^* $LINK<Mechas=PRTO_Dreadnought>
 ^* $LINK<Mongol Keshik=PRTO_Keshik>
 ^* $LINK<Ottoman Sipahi=PRTO_Sipahi>
 ^* $LINK<Modern Paratroops=PRTO_Paratrooper>
 ^* $LINK<Radar Artillery=PRTO_Radar_Artillery>
 ^* $LINK<Russian Cossacks=PRTO_Cossack>
 ^* $LINK<Spanish Conquistador=PRTO_Conquistador>
-^* $LINK<Tanks=PRTO_Tank>
 
 #GCON_Unit_Support
 Supporting Military Units
@@ -3991,6 +3992,7 @@ a tremendous negative effect upon world opinion.
 ^
 ^A city needs $LINK<uranium=GOOD_Uranium> and $LINK<oil=GOOD_OIL> in its $LINK<Strategic Resource=GCON_ResourcesS> box to
 build an atomic bomb.
+
 #DESC_PRTO_Nuclear_Bomb
 ^
 ^
@@ -4003,6 +4005,47 @@ second bomb, "Fat Man", which depended on plutonium (Pu-239) to produce a massiv
 turned out, when the bombs were delivered to their respective targets of Hiroshima and Nagasaki,
 both functioned with deadly precision. Shortly thereafter Japan -- acknowledging that continuation
 of the war against such destructive power would be foolish -- surrendered.
+
+#PRTO_SpaceMarine
+^
+^
+^[Space Marines] are futuristic infantry units, armed and trained to deal with threats both on Earth and in outer 
+space. They can [bombard] when attacked.
+^
+^A city must have $LINK<uranium=GOOD_Uranium> and $LINK<aluminum=GOOD_Aluminum> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build space marines.
+
+#DESC_PRTO_SpaceMarine
+^
+^
+^The space marine is a kind of soldier who operates in outer space or on alien worlds. Historical marines fulfill 
+multiple roles: ship defence, boarding actions, landing parties, and general-purpose high-mobility land deployments 
+that operate within a fixed distance of shore or ship. By analogy, hypothetical space marines would defend allied 
+spaceships, board enemy ships, land on planets and moons, and satisfy rapid-deployment needs throughout space. While 
+space marines do not exist yet in real life, they will likely become a feature of militaries in the future as humanity 
+makes further progress in colonizing outer space.
+
+#PRTO_Dreadnought
+^
+^
+^[Mechas] are futuristic giant military robots, armed with weapons that make them more powerful than even modern 
+armored units. These are truly awesome war machines that can [attack multiple times] in a single turn and [withdraw] 
+from combat if losing the fight (unless fighting another fast unit, of course).
+^
+^A city must have $LINK<uranium=GOOD_Uranium>, $LINK<aluminum=GOOD_Aluminum>, and $LINK<rubber=GOOD_Rubber> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build mechas.
+
+#DESC_PRTO_Dreadnought
+^
+^
+^In fiction, mechas, stemming from the Japanese word [meka], a shortening of "mechanism" from English, are typically 
+depicted as humanoid mobile robots. These machines vary greatly in size and shape, but are distinguished from vehicles 
+by their humanoid or biomorphic appearance and size—bigger than a human. Different subgenres exist, with varying 
+connotations of realism. The concept of "Super Robot" and "Real Robot" are two such examples found in Japanese anime 
+and manga. The term may also refer to real world piloted humanoid or non-humanoid robotic platforms, either currently 
+in existence or still on the drawing board (i.e. at the planning or design stage). Alternatively, in the original 
+Japanese context of the word, "mecha" may refer to mobile machinery/vehicles (including aircraft) in general, manned or 
+otherwise.
 
 #BLDG_Palace
 ^
@@ -6589,22 +6632,55 @@ in which there are a very small number of inbound targets to eliminate.
 #DESC_TECH_Nanotech
 ^
 ^
-^Placeholder
+^Nanotechnology, also shortened to nanotech, is the use of matter on an atomic, molecular, and supramolecular scale for 
+industrial purposes. The earliest, widespread description of nanotechnology referred to the particular technological 
+goal of precisely manipulating atoms and molecules for fabrication of macroscale products, also now referred to as 
+molecular nanotechnology.
+^    Nanotechnology as defined by size is naturally broad, including fields of science as diverse as surface science, 
+organic chemistry, molecular biology, semiconductor physics, energy storage, engineering, microfabrication, and 
+molecular engineering. The associated research and applications are equally diverse, ranging from extensions of 
+conventional device physics to completely new approaches based upon molecular self-assembly, from developing new 
+materials with dimensions on the nanoscale to direct control of matter on the atomic scale.
+^    Scientists currently debate the future implications of nanotechnology. Nanotechnology may be able to create many 
+new materials and devices with a vast range of applications, such as in nanomedicine, nanoelectronics, biomaterials 
+energy production, and consumer products. On the other hand, nanotechnology raises many of the same issues as any new 
+technology, including concerns about the toxicity and environmental impact of nanomaterials, and their potential 
+effects on global economics, as well as speculation about various doomsday scenarios. These concerns have led to a 
+debate among advocacy groups and governments on whether special regulation of nanotechnology is warranted. 
 
 #DESC_TECH_Fusion
 ^
 ^
-^Placeholder
+^Nuclear fusion is a reaction in which two or more atomic nuclei are combined to form one or more different atomic 
+nuclei and subatomic particles (neutrons or protons). The difference in mass between the reactants and products is 
+manifested as either the release or the absorption of energy. In 1920, Arthur Eddington suggested hydrogen-helium 
+fusion could be the primary source of stellar energy. Quantum tunneling was discovered by Friedrich Hund in 1929, and 
+shortly afterwards Robert Atkinson and Fritz Houtermans used the measured masses of light elements to show that large 
+amounts of energy could be released by fusing small nuclei. Building on the early experiments in artificial nuclear 
+transmutation by Patrick Blackett, laboratory fusion of hydrogen isotopes was accomplished by Mark Oliphant in 1932. 
+In the remainder of that decade, the theory of the main cycle of nuclear fusion in stars was worked out by Hans Bethe. 
+Research into fusion for military purposes began in the early 1940s as part of the Manhattan Project. Self-sustaining 
+nuclear fusion was first carried out on 1 November 1952, in the Ivy Mike hydrogen (thermonuclear) bomb test. 
 
 #DESC_TECH_AdvArmor
 ^
 ^
-^Placeholder
+^It is currently not known what future militaries will look like, but it is very likely that ground soldiers in future 
+militaries will receive high-tech armor or "power suits" to augment their strength and protect them from harsher 
+environments in the future in the event of catastrophe or in the face of the unknown in space. Certain examples in 
+fiction depict bulky suits of armor, powered using special engines fueled by nuclear fuel or a futuristic battery, and 
+equipped with strong weapons like cannons or machine guns, making the wearer akin to a walking tank.
 
 #DESC_TECH_HeavyMechs
 ^
 ^
-^Placeholder
+^Robots today serve many purposes, including doing work that would otherwise be dangerous for humans. With the rapid 
+development of computers in the modern day and its increasing prevalence in all aspects of human life, it should come 
+as no surprise that robots may one day make their way onto the battlefield in significant numbers. Works of science 
+fiction today have conjured everything from powered suits of armor to giant battle robots fighting wars that span 
+galaxies. Popular works starring giant robots include [Mobile Suit Gundam], [Neon Genesis Evangelion], and [Pacific 
+Rim]. Perhaps one day, wars will be less about boots on the ground with guns and tanks, and more epic clashes of 
+cutting edge machines sporting weapons with power unimaginable to today's humans.
 
 #GOOD_Horses
 ^
