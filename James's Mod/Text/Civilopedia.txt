@@ -588,6 +588,7 @@ scientific development:
 ^$LINK<Musketman=PRTO_Musketman>
 ^$LINK<Rifleman=PRTO_Rifleman>
 ^$LINK<Infantry=PRTO_Infantry>
+^$LINK<TOW Infantry=PRTO_TOW_Infantry>
 ^$LINK<Mech. Infantry=PRTO_Mech_Infantry>
 ^
 ^However, drafting citizens will cause unhappiness in the city.
