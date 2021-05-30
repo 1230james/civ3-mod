@@ -1,6 +1,6 @@
-# James's Mod for Sid Meier's *Civilization III: Conquests*
+# James's Mod for Sid Meier's *Civilization III: Complete*
 
-This is a modpack for C3C that I put together containing some changes I personally find cool. Not really intended for public use, but if you want to play with it too, then feel free to.
+This is a modpack for Civ3: Complete that I put together containing some changes I personally find cool. Not really intended for public use, but if you want to play with it too, then feel free to.
 
 ## Contents
 
@@ -8,7 +8,7 @@ This is a modpack for C3C that I put together containing some changes I personal
     * [Overview](#overview)
     * [New Civilizations](#new-civilizations)
     * [New Units](#new-units)
-    * [New Technologies](#new-Technologies)
+    * [New Technologies](#new-technologies)
     * [End-of-Era Technologies](#end-of-era-technologies)
     * [New Government: Fundamentalism](#new-government-fundamentalism)
 * [Installation](#installation)
@@ -18,7 +18,7 @@ This is a modpack for C3C that I put together containing some changes I personal
 
 ### Overview
 
-Compared to vanilla C3C, this mod:
+Compared to vanilla Civ3, this mod:
 
 * Permits plagues (max 1)
 * Removes the following civs:
@@ -46,7 +46,7 @@ Compared to vanilla C3C, this mod:
 * Adds new government form: Fundamentalism
 * Adds extra civilization advances:
     * Fundamentalism, which unlocks Fundamentalism as a form of government
-    * Paper, Steam Engine, and Vacuum Tube, which are end-of-era techs you must research to proceed to the next era
+    * Paper, Steam Engine, and Vacuum Tubes, which are end-of-era techs you must research to proceed to the next era
     * Nanotechnology, Fusion, Advanced Armor, and Heavy Mechanicals, new Modern Era technologies
 * Adds new units:
     * Engineer (Workers get tweaked; see *New Units* section)
@@ -64,7 +64,7 @@ Compared to vanilla C3C, this mod:
 * Adds a new civil disorder animation
 * And adds some other minor changes that are either not very noteworthy and/or that I've forgotten
 
-Almost all other behaviors are identical to vanilla C3C. You can consider this modpack a "vanilla-chocolate swirl" - that is, it's vanilla but with something extra; it's not a drastically different experience. If you are looking for a big modpack that really changes up the gameplay or dives in deep into a very specific scenario or something, this is *not* for you.
+Almost all other behaviors are identical to vanilla Civ3. You can consider this modpack a "vanilla-chocolate swirl" - that is, it's vanilla but with something extra; it's not a drastically different experience. If you are looking for a big modpack that really changes up the gameplay or dives in deep into a very specific scenario or something, this is *not* for you.
 
 ### New Civilizations
 
@@ -110,7 +110,7 @@ Almost all other behaviors are identical to vanilla C3C. You can consider this m
 * 3/5 aggression
 * Asian culture
 * Favors Monarchy, shuns Republic
-* Begins with Pottery and Alphabet
+* Begins with Pottery and Masonry
 * Receives the Fire Longbowman as a special unit, replacing the Longbowman
     * 5/2/1
     * Differs from Longbowman by getting 5 attack instead of 4
@@ -139,7 +139,7 @@ Almost all other behaviors are identical to vanilla C3C. You can consider this m
 * Costs 400 shields
 * Requires Uranium, Aluminum, and Rubber
 
-### New Civilization Advances
+### New Technologies
 * Fundamentalism
     * Unlocks the Fundamentalism government
     * Has Theology as a prerequisite
@@ -157,6 +157,8 @@ Almost all other behaviors are identical to vanilla C3C. You can consider this m
 * Heavy Mechanicals
     * Unlocks the Mecha unit
     * Has Fusion, Robotics, and Smart Weapons as prerequisites
+* Paper, Steam Engine, and Vacuum Tubes
+    * End-of-era technologies for the Ancient, Medieval, and Industrial Eras, respectively. See next section for more info.
 
 ### End-of-Era Technologies
 
@@ -188,10 +190,16 @@ Brings back the Fundamentalism government from Civ2... but mostly just the conce
 
 ## Installation
 
-1. Clone this repository or [download the latest release](https://github.com/1230james/civ3-mod/releases).
-2. Copy both `James's Mod.biq` and `James's Mod` (the folder) to `(C3C root)/Conquests/Conquests`.
+### Requirements
 
-To play with this mod, start up C3C, select `Conquests!` from the main menu, then select `James's Mod.biq`.
+If you're using this mod with *Civilization III: Complete* (on Steam or other retailers), you're good to go. If for some reason you're not, you need both *Play the World* and *Conquests*, since this mod uses the `BIQ` format from *Conquests* and has units and civilizations found across both expansions.
+
+### Instructions
+
+1. Clone this repository or [download the latest release](https://github.com/1230james/civ3-mod/releases).
+2. Copy both `James's Mod.biq` and `James's Mod` (the folder) to `(Civ3 root)/Conquests/Conquests`.
+
+To play with this mod, start up Civ3, select `Conquests!` from the main menu, then select `James's Mod.biq`.
 
 ## Credits
 
@@ -214,6 +222,7 @@ Credit goes to:
     * [the Sitting Bull leaderhead](https://forums.civfanatics.com/threads/finally-sitting-bull-of-the-lakota.166623/)
     * [the Ashoka leaderhead](https://forums.civfanatics.com/threads/asoka-of-india.121147/)
 * [Pounder for his custom disorder animation](https://forums.civfanatics.com/threads/disorder-animation.225387/)
+* [muffins for his Space Marine and Dreadnought units](https://forums.civfanatics.com/threads/space-marine-battle-group-15-units-23march05.115031/)
 * AncientOne for his [Advanced Power Armors](https://forums.civfanatics.com/threads/advanced-powerarmors-tech-icon.212806/) and [Heavy Mechs](https://forums.civfanatics.com/threads/heavy-mechanical-battlewalkers-tech-icon.212795/) tech icons
 * [Storm Grunt for his Ironclads tech icon](https://forums.civfanatics.com/threads/storm-grunts-tech-icon-library.174426/)
     * Included in the futuristic techs archive for some reason
