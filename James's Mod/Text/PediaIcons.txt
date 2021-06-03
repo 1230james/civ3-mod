@@ -1318,9 +1318,9 @@ art\civilopedia\icons\units\x_sipahi civpedia sm.pcx
 #ICON_PRTO_Libyan_Mercenary
 art\civilopedia\icons\units\x_Libyan Mercenary civpedia lg.pcx
 art\civilopedia\icons\units\x_Libyan Mercenary civpedia sm.pcx
-#ICON_PRTO_Hwacha
-art\civilopedia\icons\units\x_Hwacha civpedia lg.pcx
-art\civilopedia\icons\units\x_Hwacha civpedia sm.pcx
+#ICON_PRTO_Geobukseon
+art\civilopedia\icons\units\TurtleshipLarge.pcx
+art\civilopedia\icons\units\TurtleshipSmall.pcx
 #ICON_PRTO_Medieval_Infantry
 art\civilopedia\icons\units\x_Medieval Infantry civpedia lg.pcx
 art\civilopedia\icons\units\x_Medieval Infantry civpedia sm.pcx
@@ -2790,8 +2790,8 @@ gallic swordsman
 Sipahi
 #ANIMNAME_PRTO_Libyan_Mercenary
 Libyan Mercenary
-#ANIMNAME_PRTO_Hwacha
-Hwacha
+#ANIMNAME_PRTO_Geobukseon
+TurtleShip
 #ANIMNAME_PRTO_Medieval_Infantry
 Medieval Infantry
 #ANIMNAME_PRTO_Guerilla
