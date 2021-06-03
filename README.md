@@ -61,6 +61,7 @@ Compared to vanilla Civ3, this mod:
 * Adds new graphics for ICBMs and Tactical Nukes (they're minor changes)
 * "Fixes" the previously unused Tactical Nuke launch animation so it plays upon use
 * Changed Frigates & Man-O-Wars to upgrade to Destroyers instead of nothing
+* Changed Cavalry, Sipahi, and Cossacks to upgrade to Tanks instead of nothing
 * Adds a new civil disorder animation
 * And adds some other minor changes that are either not very noteworthy and/or that I've forgotten
 
