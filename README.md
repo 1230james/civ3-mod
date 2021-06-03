@@ -57,10 +57,12 @@ Compared to vanilla Civ3, this mod:
     * Cuban FAR for Cuba
     * Malian Worker for Mali
     * Sunka Wakan for the Lakota
+    * Turtle Ship for the Koreans
     * King for the four non-vanilla civs to use as their king unit in Regicide mode
 * Adds new graphics for ICBMs and Tactical Nukes (they're minor changes)
 * "Fixes" the previously unused Tactical Nuke launch animation so it plays upon use
 * Changed Frigates & Man-O-Wars to upgrade to Destroyers instead of nothing
+* Changed Cavalry, Sipahi, and Cossacks to upgrade to Tanks instead of nothing
 * Adds a new civil disorder animation
 * And adds some other minor changes that are either not very noteworthy and/or that I've forgotten
 
@@ -127,6 +129,13 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Unlocked with Fission, requires Uranium + Oil and completed Manhattan Project to build
 * Single use like other nukes, else behaves like any other air unit
 * Included to give civilizations nuclear strike capability without Space Flight or in case they lack aluminum
+
+#### Turtle Ship
+* 4(3)/4/5
+* Costs 70 shields
+* Requires Iron and Saltpeter
+* Unique unit for the Koreans; replaces the Hwach'a
+    * The Hwach'a has been completely removed from the game in this modpack
 
 #### Space Marine
 * 18(9)/20/1
@@ -229,6 +238,7 @@ Credit goes to:
 * Promotive at Dreamstime.com for the carbon nanotube illustration I used to create the Nanotechnology tech icon
     * Retrieved from [this article](https://www.britannica.com/science/carbon-nanotube)
 * [Richard Kail for the illustration I used to create the Fusion tech icon](https://www.sciencephoto.com/media/702288/view/nuclear-fusion-conceptual-image)
+* [aaglo for his Turtle Ship unit](https://forums.civfanatics.com/threads/updated-unit-korean-turtleship.80485/)
 * Wikipedia for Civilopedia texts for entries or portions of entries that do not exist in the base game
 * Myself for:
     * Fixing transparency issues on some of the leaderheads
