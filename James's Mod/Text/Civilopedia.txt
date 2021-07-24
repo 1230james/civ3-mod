@@ -3009,6 +3009,8 @@ the sea. If used, nuclear weapons have a tremendous negative effect upon world o
 ^
 ^The bombard range of a Tactical Nuke is 6 squares.
 ^
+^The Tactical Nuke requires the completion of the $LINK<the Manhattan Project=BLDG_Manhattan_Project>.
+^
 ^A city must have $LINK<aluminum=GOOD_Aluminum> and $LINK<uranium=GOOD_Uranium> in its
 $LINK<Strategic Resource=GCON_ResourcesS> box to build tactical nuclear missiles.
 
@@ -3029,6 +3031,8 @@ restricted deployment of these weapons, many world powers continue to investigat
 ^An [ICBM] (inter-continental ballistic missile) has an unlimited range, and like the tactical nuke, has a devastating effect. They cannot be moved from the
 city that builds them but can strike any target on the map. Nuclear weapons, if used, have a tremendous negative effect
 upon world opinion.
+^
+^The ICBM requires the completion of the $LINK<the Manhattan Project=BLDG_Manhattan_Project>.
 ^
 ^A city must have $LINK<aluminum=GOOD_Aluminum> and $LINK<uranium=GOOD_Uranium> in its
 $LINK<Strategic Resource=GCON_ResourcesS> box to build ICBMs.
@@ -3983,13 +3987,15 @@ of horse culture, Lakota society centered on the buffalo hunt on horseback.
 #PRTO_Nuclear_Bomb
 ^
 ^
-^The [Atomic Bomb] has a short range but a very devastating effect. An Atomic bomb, when used, has
+^The [Atomic Bomb] has a great range and a greater devastating effect. An Atomic Bomb, when used, has
 a tremendous negative effect upon world opinion.
 ^
-^The [Atomic Bomb] requires the completion of the $LINK<the Manhattan Project=BLDG_Manhattan_Project>.
+^The bombard range of an Atomic Bomb is 12 squares.
+^
+^The Atomic Bomb requires the completion of the $LINK<the Manhattan Project=BLDG_Manhattan_Project>.
 ^
 ^A city needs $LINK<uranium=GOOD_Uranium> and $LINK<oil=GOOD_OIL> in its $LINK<Strategic Resource=GCON_ResourcesS> box to
-build an atomic bomb.
+build an Atomic Bomb.
 
 #DESC_PRTO_Nuclear_Bomb
 ^
