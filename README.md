@@ -46,7 +46,7 @@ Compared to vanilla Civ3, this mod:
 * Adds new government form: Fundamentalism
 * Adds extra civilization advances:
     * Fundamentalism, which unlocks Fundamentalism as a form of government
-    * Paper, Steam Engine, and Vacuum Tubes, which are end-of-era techs you must research to proceed to the next era
+    * Milling, Steam Engine, and Vacuum Tubes, which are end-of-era techs you must research to proceed to the next era
     * Nanotechnology, Fusion, Advanced Armor, and Heavy Mechanicals, new Modern Era technologies
 * Adds new units:
     * Engineer (Workers get tweaked; see *New Units* section)
@@ -58,7 +58,7 @@ Compared to vanilla Civ3, this mod:
     * Malian Worker for Mali
     * Sunka Wakan for the Lakota
     * Turtle Ship for the Koreans
-    * King for the four non-vanilla civs to use as their king unit in Regicide mode
+    * King for the non-vanilla civs to use as their king unit in Regicide mode
 * Adds new graphics for ICBMs and Tactical Nukes (they're minor changes)
 * "Fixes" the previously unused Tactical Nuke launch animation so it plays upon use
 * Changed Frigates & Man-O-Wars to upgrade to Destroyers instead of nothing
@@ -72,15 +72,15 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 
 #### Austria
 
-* Led by Comandante Guevara
-* Militaristic and agricultural
-* 4/5 aggression
-* American culture
-* Favors Communism, shuns Democracy
-* Begins with Bronze Working and Pottery
-* Receives the Cuban FAR as a special unit, replacing the Guerilla
-    * 6(3)/6/2
-    * Differs from Guerilla by getting 2 movement instead of 1, and movement costs through Marsh, Forest, and Jungle are ignored
+* Led by Emperor Charles
+* Militaristic and industrious
+* 3/5 aggression
+* European culture
+* Favors Monarchy, shuns Communism
+* Begins with Warrior Code and Masonry
+* Receives the Hussar as a special unit, replacing the Cavalry
+    * 7/3/3
+    * Differs from Cavalry by getting 7 attack instead of 6
 
 #### Mali
 
@@ -167,7 +167,7 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Heavy Mechanicals
     * Unlocks the Mecha unit
     * Has Fusion, Robotics, and Smart Weapons as prerequisites
-* Mills, Steam Engine, and Vacuum Tubes
+* Milling, Steam Engine, and Vacuum Tubes
     * End-of-era technologies for the Ancient, Medieval, and Industrial Eras, respectively. See next section for more info.
 
 ### End-of-Era Technologies

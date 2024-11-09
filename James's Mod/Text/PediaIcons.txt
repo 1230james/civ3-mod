@@ -129,6 +129,9 @@ art\advisors\AS_all.pcx
 #RACE_LAKOTA
 art\leaderheads\SB.pcx
 art\advisors\SB_all.pcx
+#RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory neutral.pcx
+art\advisors\x2_Charles_V advisor.pcx
 
 
 
@@ -204,6 +207,8 @@ art\leaderheads\MM_HAP.pcx
 art\leaderheads\AS_HAP.pcx
 #HAPPY_RACE_LAKOTA
 art\leaderheads\SB_HAP.pcx
+#HAPPY_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory happy lg.pcx
 
 ####
 # Small Happy Icons  (defeat)
@@ -277,6 +282,8 @@ art\leaderheads\MM_SHAP.pcx
 art\leaderheads\AS_SHAP.pcx
 #SHAPP_RACE_LAKOTA
 art\leaderheads\SB_SHAP.pcx
+#SHAPP_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory happy sm.pcx
 
 ####
 # Large Kiss Icons  (Culture/diplomatic Winners)
@@ -350,6 +357,8 @@ art\leaderheads\MM_KIS.pcx
 art\leaderheads\AS_KIS.pcx
 #LKISS_RACE_LAKOTA
 art\leaderheads\SB_KIS.pcx
+#LKISS_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory kiss lg.pcx
 
 ####
 # Small Kiss Icons (diplomatic losers)
@@ -423,6 +432,8 @@ art\leaderheads\MM_SKIS.pcx
 art\leaderheads\AS_SKIS.pcx
 #SKISS_RACE_LAKOTA
 art\leaderheads\SB_SKIS.pcx
+#SKISS_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory kiss sm.pcx
 
 ####
 # Small Angry Icons (domination/space losers)
@@ -496,6 +507,8 @@ art\leaderheads\MM_ANG.pcx
 art\leaderheads\AS_ANG.pcx
 #ANGRY_RACE_LAKOTA
 art\leaderheads\SB_ANG.pcx
+#ANGRY_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory angry sm.pcx
 
 
 ####
@@ -570,6 +583,8 @@ art\leaderheads\MM_CULT.pcx
 art\leaderheads\AS_CULT.pcx
 #ILOVE_RACE_LAKOTA
 art\leaderheads\SB_CULT.pcx
+#ILOVE_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory heart sm.pcx
 
 ####
 # Small loved Icons (Cultural Victory Winner)
@@ -643,6 +658,8 @@ art\leaderheads\MM_CULTB.pcx
 art\leaderheads\AS_CULTB.pcx
 #LOVED_RACE_LAKOTA
 art\leaderheads\SB_CULTB.pcx
+#LOVED_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory heart tiny.pcx
 
 ####
 # Large Beaten-up Icons (defeat)
@@ -716,6 +733,8 @@ art\leaderheads\MM_CONQ_L.pcx
 art\leaderheads\AS_CONQ_L.pcx
 #LHURT_RACE_LAKOTA
 art\leaderheads\SB_CONQ_L.pcx
+#LHURT_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory beatup lg.pcx
 
 ####
 # Small Beaten-up Icons (conquered/eliminated)
@@ -789,6 +808,8 @@ art\leaderheads\MM_CONQ.pcx
 art\leaderheads\AS_CONQ.pcx
 #HURTN_RACE_LAKOTA
 art\leaderheads\SB_CONQ.pcx
+#HURTN_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory beatup sm.pcx
 
 #END LEADER/RACE ART
 
@@ -909,6 +930,9 @@ art\civilopedia\icons\races\AshokaSMALL.pcx
 #ICON_RACE_LAKOTA
 art\civilopedia\icons\races\SiouxLARGE.pcx
 art\civilopedia\icons\races\SiouxSMALL.pcx
+#ICON_RACE_AUSTRIA
+art\civilopedia\icons\races\x2_Charles_V civpedia lg.pcx
+art\civilopedia\icons\races\x2_Charles_V civpedia sm.pcx
 
 
 ###########################
@@ -1507,6 +1531,9 @@ art\civilopedia\icons\units\SpaceMarine_sm.pcx
 #ICON_PRTO_Dreadnought
 art\civilopedia\icons\units\Dreadnought_lg.pcx
 art\civilopedia\icons\units\Dreadnought_sm.pcx
+#ICON_PRTO_Charles_V
+art\civilopedia\icons\units\x2_Charles_V civpedia lg.pcx
+art\civilopedia\icons\units\x2_Charles_V civpedia sm.pcx
 
 
 #Start buildings
@@ -2914,6 +2941,8 @@ Nuclear Bomb
 SpaceMarine
 #ANIMNAME_PRTO_Dreadnought
 Dreadnought
+#ANIMNAME_PRTO_Hussar
+Hussar
 
 
 ################################################################
