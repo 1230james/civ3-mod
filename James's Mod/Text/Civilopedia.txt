@@ -3916,7 +3916,7 @@ $LINK<Short Game Mode=GCON_Short_Game_Modes>.
 ^
 ^The [Viet Cong] replaces the $LINK<Guerilla=PRTO_Guerilla> for the $LINK<Vietnamese=RACE_VIETNAMESE>. Nimble and accustomed to tropical environments, they ignore movements costs for $LINK<forests=TERR_Forest>, $LINK<marshes=TERR_Marsh>, and $LINK<jungles=TERR_Jungle>.
 ^
-^Additionally, as experts in tunnel warfare and guerilla war logistics, they are able to complete military-related $LINK<Worker Jobs=GCON_Worker_Jobs>. Specifically, they may construct $LINK<roads=TFRM_Road>, $LINK<fortresses=TFRM_Fortress>, and $LINK<barricades=TFRM_Barricades>, and they complete these tasks 50% quicker than normal $LINK<Workers=PRTO_Worker>.
+^Additionally, as experts in tunnel warfare and guerilla war logistics, they are able to perform military-related $LINK<Worker Jobs=GCON_Worker_Jobs>. Specifically, they may construct $LINK<roads=TFRM_Road>, $LINK<fortresses=TFRM_Fortress>, and $LINK<barricades=TFRM_Barricades>, and they complete these tasks 50% quicker than normal $LINK<Workers=PRTO_Worker>.
 
 #DESC_PRTO_Vietcong
 ^
@@ -3928,17 +3928,17 @@ $LINK<Short Game Mode=GCON_Short_Game_Modes>.
 #PRTO_Mali_Worker
 ^
 ^
-^{Building a Worker}: A city that builds a [worker] loses one citizen from its population.
+^{Building a Worker}: A $LINK<Malian=RACE_MALI> city that builds an ['Amil] loses one citizen from its population.
 ^
-^{Worker Jobs}: Workers can $LINK<improve=GCON_Worker_Jobs> the countryside to make it more productive.
-The efficiency of a worker (how quickly it works) depends upon its $LINK<government=GCON_Governments> type. In addition, 
-Malian Workers are 50% more efficient than $LINK<Workers=PRTO_Worker>.
+^{Worker Jobs}: An 'Amil can $LINK<improve=GCON_Worker_Jobs> the countryside to make it more productive.
+They are 50% faster than normal $LINK<Workers=PRTO_Worker>, and can work faster depending upon its 
+$LINK<government=GCON_Governments> type.
 ^
-^{Joining a City}: A worker may also be used to increase the population of an existing city; 
-when the worker is active on a city, click the "Join City" button. The worker disappears and 
+^{Joining a City}: An 'Amil may also be used to increase the population of an existing city; 
+when the 'Amil is active on a city, click the "Join City" button. The 'Amil disappears and 
 the city's population gains one citizen.
 ^
-^Note that workers may be captured and used by rival civilizations.
+^Note that they may be captured as $LINK<Workers=PRTO_Worker> and used by rivals.
 
 #DESC_PRTO_Mali_Worker
 ^
@@ -8299,11 +8299,10 @@ Tokugawa Takechiyo, founder of the Edo shogunate (1603-1867 AD), which ended the
 reform and peace to the islands. Although Spanish and Portuguese traders and missionaries had been in Japan since 
 the mid-1500s, it was the arrival of a squadron of U.S. warships commanded by Commodore Matthew C. Perry in Uraga Bay 
 in July 1853 that finally opened the nation to Western influence - and brought pressure for political reforms and a 
-national identity. The Meiji government that followed the overthrow of the shogunate set about the task of 
-westernization and the creation of a modern state, and moved Japan onto the world stage.
-^    Emperor Showa, better known in English as {Hirohito}, ascended to the throne on December 25, 1926. At the start of 
-his reign, Japan was already one of the great powers—the ninth largest economy in the world, the third-largest naval 
-power, and one of the four permanent members of the council of the League of Nations.
+national identity. This quickly led to the Boshin War, a civil war between the shogunate and the restorationists 
+seeking to restore the emperor to a position of power. The Meiji Restoration that followed the overthrow of the 
+shogunate restored the titular Emperor Mutushito, or Emperor {Meiji} as he was posthumously named, to power, and his 
+government set about the task of westernization and the creation of a modern state, moving Japan onto the world stage.
 ^    Ironically, Japan's new, influential role - marked by the Russo-Japanese War (1904-1905), 
 Japan's involvement in the First World War and in the Allied intervention in Siberia following the Bolshevik 
 Revolution of 1918 - led indirectly to the attack on Pearl Harbor and the horrors that followed. The summer of 
@@ -9320,7 +9319,7 @@ utilized the local hostile terrain and help from neighboring allies to their adv
 
 #RACE_MALI
 ^The Malians are $LINK<expansionist and commercial=GCON_Strengths>. They start the game with
-$LINK<Alphabet=TECH_Alphabet> and $LINK<Pottery=TECH_Pottery> and build the $LINK<Malian Worker=PRTO_Mali_Worker> instead of $LINK<Workers=PRTO_Worker>. 
+$LINK<Alphabet=TECH_Alphabet> and $LINK<Pottery=TECH_Pottery> and build the $LINK<'Amil=PRTO_Mali_Worker> instead of $LINK<Workers=PRTO_Worker>. 
 ^
 ^The empire began as a small Mandinka kingdom at the upper reaches of the Niger River, centred around the town of Niani 
 (the empire's namesake in Manding). During the 11th and 12th centuries, it began to develop as an empire following the 
@@ -9335,7 +9334,7 @@ Mansa Musa made a Hajj pilgrimage to Mecca during the reign of the Mamluk Sultan
 of usurpations of the throne of Mali, in c. 1285 Sakoura, a former royal court slave, became emperor and was one of its most 
 powerful rulers, greatly expanding the territories of Mali. He made a pilgrimage to Mecca during the reign of Mamluk Sultan 
 An-Nasir Muhammad (r. 1298–1308). Dying on his return, the throne reverted to the descendants of Sundiata Keita. After the 
-reigns of three more emperors, Musa Keita became emperor in c. 1312. Musa made a famous pilgrimage to Mecca from 1324 to 1326. 
+reigns of three more emperors, Musa Keita became emperor in c. 1312. {Musa} made a famous pilgrimage to Mecca from 1324 to 1326. 
 His generous gifts to Mamluk Egypt and his expenditure of gold caused gold to be greatly devalued, which gave rise to his fame 
 outside of Mali. In 1337, he was succeeded by his son Maghan I, who in 1341 was deposed by his uncle Suleyman. It was during 
 Suleyman's reign that Ibn Battuta visited Mali. Following this period, a period of weak emperors, conflicts and disunity began 

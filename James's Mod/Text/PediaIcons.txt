@@ -49,8 +49,8 @@ art\advisors\MO_all.pcx
 Art\Leaderheads\RooseveltNeutralLarge.pcx
 Art\Advisors\RooseveltAll.pcx
 #RACE_JAPANESE
-Art\Leaderheads\HirohitoNeutralLarge.pcx
-Art\Advisors\HirohitoAll.pcx
+Art\Leaderheads\Meiji.pcx
+Art\Advisors\Meiji_All.pcx
 #RACE_FRENCH
 art\leaderheads\JO.pcx
 art\advisors\JO_all.pcx
@@ -151,7 +151,7 @@ art\leaderheads\MO_HAP.pcx
 #HAPPY_RACE_AMERICAN
 art\leaderheads\RooseveltHappyLarge.pcx
 #HAPPY_RACE_JAPANESE
-art\leaderheads\HirohitoHappyLarge.pcx
+art\leaderheads\Meiji_HAP.pcx
 #HAPPY_RACE_FRENCH
 art\leaderheads\JO_HAP.pcx
 #HAPPY_RACE_INDIAN
@@ -224,7 +224,7 @@ art\leaderheads\MO_SHAP.pcx
 #SHAPP_RACE_AMERICAN
 art\leaderheads\RooseveltHappySmall.pcx
 #SHAPP_RACE_JAPANESE
-art\leaderheads\HirohitoHappySmall.pcx
+art\leaderheads\Meiji_SHAP.pcx
 #SHAPP_RACE_FRENCH
 art\leaderheads\JO_SHAP.pcx
 #SHAPP_RACE_INDIAN
@@ -297,7 +297,7 @@ art\leaderheads\MO_KIS.pcx
 #LKISS_RACE_AMERICAN
 art\leaderheads\RooseveltKissLarge.pcx
 #LKISS_RACE_JAPANESE
-art\leaderheads\HirohitoKissLarge.pcx
+art\leaderheads\Meiji_KIS.pcx
 #LKISS_RACE_FRENCH
 art\leaderheads\JO_KIS.pcx
 #LKISS_RACE_INDIAN
@@ -370,7 +370,7 @@ art\leaderheads\MO_SKIS.pcx
 #SKISS_RACE_AMERICAN
 art\leaderheads\RooseveltKissSmall.pcx
 #SKISS_RACE_JAPANESE
-art\leaderheads\HirohitoKissSmall.pcx
+art\leaderheads\Meiji_SKIS.pcx
 #SKISS_RACE_FRENCH
 art\leaderheads\JO_SKIS.pcx
 #SKISS_RACE_INDIAN
@@ -443,7 +443,7 @@ art\leaderheads\MO_ANG.pcx
 #ANGRY_RACE_AMERICAN
 art\leaderheads\RooseveltAngrySmall.pcx
 #ANGRY_RACE_JAPANESE
-art\leaderheads\HirohitoAngrySmall.pcx
+art\leaderheads\Meiji_ANG.pcx
 #ANGRY_RACE_FRENCH
 art\leaderheads\JO_ANG.pcx
 #ANGRY_RACE_INDIAN
@@ -517,7 +517,7 @@ art\leaderheads\MO_CULT.pcx
 #ILOVE_RACE_AMERICAN
 art\leaderheads\RooseveltHeartsSmall.pcx
 #ILOVE_RACE_JAPANESE
-art\leaderheads\HirohitoHeartsSmall.pcx
+art\leaderheads\Meiji_CULT.pcx
 #ILOVE_RACE_FRENCH
 art\leaderheads\JO_CULT.pcx
 #ILOVE_RACE_INDIAN
@@ -590,7 +590,7 @@ art\leaderheads\MO_CULTB.pcx
 #LOVED_RACE_AMERICAN
 art\leaderheads\RooseveltHeartsTiny.pcx
 #LOVED_RACE_JAPANESE
-art\leaderheads\HirohitoHeartsTiny.pcx
+art\leaderheads\Meiji_CULTB.pcx
 #LOVED_RACE_FRENCH
 art\leaderheads\JO_CULTB.pcx
 #LOVED_RACE_INDIAN
@@ -663,7 +663,7 @@ art\leaderheads\MO_CONQ_L.pcx
 #LHURT_RACE_AMERICAN
 art\leaderheads\RooseveltBeatenUpLarge.pcx
 #LHURT_RACE_JAPANESE
-art\leaderheads\HirohitoBeatenUpLarge.pcx
+art\leaderheads\Meiji_CONQ_L.pcx
 #LHURT_RACE_FRENCH
 art\leaderheads\JO_CONQ_L.pcx
 #LHURT_RACE_INDIAN
@@ -736,7 +736,7 @@ art\leaderheads\MO_CONQ.pcx
 #HURTN_RACE_AMERICAN
 art\leaderheads\RooseveltBeatenUpSmall.pcx
 #HURTN_RACE_JAPANESE
-art\leaderheads\HirohitoBeatenUpSmall.pcx
+art\leaderheads\Meiji_CONQ.pcx
 #HURTN_RACE_FRENCH
 art\leaderheads\JO_CONQ.pcx
 #HURTN_RACE_INDIAN
@@ -829,8 +829,8 @@ art\civilopedia\icons\races\Chinasmall.pcx
 Art\Civilopedia\Icons\Races\RooseveltLarge.pcx
 Art\Civilopedia\Icons\Races\RooseveltSmall.pcx
 #ICON_RACE_JAPANESE
-Art\Civilopedia\Icons\Races\HirohitoLarge.pcx
-Art\Civilopedia\Icons\Races\HirohitoSmall.pcx
+Art\Civilopedia\Icons\Races\MeijiLARGE.pcx
+Art\Civilopedia\Icons\Races\MeijiSMALL.pcx
 #ICON_RACE_FRENCH
 art\civilopedia\icons\races\francelarge.pcx
 art\civilopedia\icons\races\francesmall.pcx
