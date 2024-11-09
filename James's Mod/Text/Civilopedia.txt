@@ -6593,16 +6593,17 @@ in which there are a very small number of inbound targets to eliminate.
 ^	Some common elements of fascism include strong nationalist sentiment, xenophobia, subordination of individual interests to the community, militarism and glorification of the army, secret police forces that enforce secret laws, informer networks, suppression of civil liberties and independent media, and economic policies that tightly tie business and commerce to government. (Note that many of these features are common in communist states as well.)
 ^	Fascist states need not be authoritarian, although they usually are; when fascist leaders are democratically elected (as Adolf Hitler was), they often try to modify or abolish the democratic institutions that placed the leaders in power.
 
-#TECH_Paper
+#TECH_Milling
 ^
 ^
 ^{Era Advance} Any civilization who masters this tech and its corresponding end-era prerequisites advances to the [Medieval Era.]
 
-#DESC_TECH_Paper
+#DESC_TECH_Milling
 ^
 ^
-^Paper is a thin nonwoven material traditionally made from a combination of milled plant and textile fibres. It is primarily used for writing, artwork, and packaging; it is commonly white. The first papermaking process was documented in China during the Eastern Han period (25–220 CE) traditionally attributed to the court official Cai Lun. During the 8th century, Chinese papermaking spread to the Islamic world, where pulp mills and paper mills were used for papermaking and money making. By the 11th century, papermaking was brought to Europe. By the 13th century, papermaking was refined with paper mills utilizing waterwheels in Spain. Later European improvements to the papermaking process came in the 19th century with the invention of wood-based papers.
-^	According to Timothy Hugh Barrett, paper played a pivotal role in early Chinese written culture, and a "strong reading culture seems to have developed quickly after its introduction, despite political fragmentation." Indeed, the introduction of paper had immense consequences for the book world. It meant books would no longer have to be circulated in small sections or bundles, but in their entirety. Books could now be carried by hand rather than transported by cart. As a result, individual collections of literary works increased in the following centuries.
+^The development of watermills from their ancient origins was impressive, and extended from agriculture to sawmills both for timber and stone. By the late 11th century, most large villages had turnable mills, around 6,500 in England alone. Water-power was also widely used in mining for raising ore from shafts, crushing ore, and even powering bellows.
+^	Alongside watermills, windmills were also developed as early as the 7th century. The first practical windmills were panemone windmills, using sails that rotated in a horizontal plane, around a vertical axis. Made of six to 12 sails covered in reed matting or cloth material, these windmills were used to grind grain or draw up water. The horizontal-axis or vertical windmill (so called due to the plane of the movement of its sails) is a development of the 12th century, first used in northwestern Europe, in the triangle of northern France, eastern England and Flanders.
+^	While seemingly just a symbol of a more primitive past today, the impact of mills cannot be understated. Mills were an extremely important source of reliable power for pre-industrial societies, and thus were fairly widespread. By 1850, an estimated 200,000 windmills and 500,000 watermills existed in Europe alone. However, they quickly declined in popularity throughout the late 19th century and beyond as the advent of the steam engine during the Industrial Revolution meant traditional water and wind power were quickly supplanted by that of steam.
 
 #TECH_Steam_Engine
 ^
