@@ -3009,8 +3009,6 @@ the sea. If used, nuclear weapons have a tremendous negative effect upon world o
 ^
 ^The bombard range of a Tactical Nuke is 6 squares.
 ^
-^The Tactical Nuke requires the completion of the $LINK<the Manhattan Project=BLDG_Manhattan_Project>.
-^
 ^A city must have $LINK<aluminum=GOOD_Aluminum> and $LINK<uranium=GOOD_Uranium> in its
 $LINK<Strategic Resource=GCON_ResourcesS> box to build tactical nuclear missiles.
 
@@ -3031,8 +3029,6 @@ restricted deployment of these weapons, many world powers continue to investigat
 ^An [ICBM] (inter-continental ballistic missile) has an unlimited range, and like the tactical nuke, has a devastating effect. They cannot be moved from the
 city that builds them but can strike any target on the map. Nuclear weapons, if used, have a tremendous negative effect
 upon world opinion.
-^
-^The ICBM requires the completion of the $LINK<the Manhattan Project=BLDG_Manhattan_Project>.
 ^
 ^A city must have $LINK<aluminum=GOOD_Aluminum> and $LINK<uranium=GOOD_Uranium> in its
 $LINK<Strategic Resource=GCON_ResourcesS> box to build ICBMs.
@@ -3915,21 +3911,19 @@ $LINK<Short Game Mode=GCON_Short_Game_Modes>.
 ^
 ^The King is the King unit for some civilizations for James's Mod in the Regicide $LINK<Short Game Mode=GCON_Short_Game_Modes>.
 
-#PRTO_Cuban_FAR
+#PRTO_Vietcong
 ^
 ^
-^[Cuban FAR] infantry units are typically used to exert pressure on enemy units and civilizations. They are equipped 
-to act as both offensive and defensive units, possessing equal amounts of training in both. Additionally, they are nimble and accustomed to tropical environments, ignoring movements costs for $LINK<forests=TERR_Forest>, $LINK<marshes=TERR_Marsh>, and $LINK<jungles=TERR_Jungle>.
+^The [Viet Cong] replaces the $LINK<Guerilla=PRTO_Guerilla> for the $LINK<Vietnamese=RACE_VIETNAMESE>. Nimble and accustomed to tropical environments, they ignore movements costs for $LINK<forests=TERR_Forest>, $LINK<marshes=TERR_Marsh>, and $LINK<jungles=TERR_Jungle>.
+^
+^Additionally, as experts in tunnel warfare and guerilla war logistics, they are able to complete military-related $LINK<Worker Jobs=GCON_Worker_Jobs>. Specifically, they may construct $LINK<roads=TFRM_Road>, $LINK<fortresses=TFRM_Fortress>, and $LINK<barricades=TFRM_Barricades>, and they complete these tasks 50% quicker than normal $LINK<Workers=PRTO_Worker>.
 
-#DESC_PRTO_Cuban_FAR
+#DESC_PRTO_Vietcong
 ^
 ^
-^The Cuban Revolutionary Armed Forces (FAR) consist of ground forces, naval forces, air and air defence forces, and other paramilitary bodies 
-including the Territorial Troops Militia, Youth Labor Army, and the Defense and Production Brigades, plus the Civil Defense Organization and 
-the National Reserves Institution.
-^	The armed forces has long been the most powerful institution in Cuba. The military controls 60 percent of the economy through the management 
-of hundreds of enterprises in key economic sectors. The military has also served as Raúl Castro's base. In numerous speeches, Raúl Castro emphasized 
-the military's role as a people's partner.
+^"Viet Cong" was an epithet and umbrella term to refer to the communist-driven armed movement and united front organization in South Vietnam. Formally organized as the National Liberation Front, the movement fought under the direction of North Vietnam against the South Vietnamese and United States governments during the Vietnam War. The organization had both guerrilla and regular army units, as well as a network of cadres who organized and mobilized peasants in the territory the Viet Cong controlled.
+^    As a part of their military strategy, the North Vietnamese troops dug out an immense network of tunnels underneath much of South Vietnam. These tunnels were used by Viet Cong soldiers as hiding spots during combat, as well as serving as communication and supply routes, hospitals, food and weapon caches and living quarters for numerous North Vietnamese fighters. The tunnel systems were of great importance to the Viet Cong in their resistance to American and ARVN forces, and helped to counter the growing American military presence. In fact, the Viet Cong had been so well entrenched in tunnels around Saigon by 1965 that it was in the unique position of being able to control where and when battles would take place.
+^    By helping to covertly move supplies and house troops, the tunnels allowed North Vietnamese fighters in their areas of South Vietnam to survive, help prolong the war and increase American costs and casualties until their eventual withdrawal in 1973, and the final defeat of South Vietnam in 1975.
 
 #PRTO_Mali_Worker
 ^
@@ -3987,15 +3981,13 @@ of horse culture, Lakota society centered on the buffalo hunt on horseback.
 #PRTO_Nuclear_Bomb
 ^
 ^
-^The [Atomic Bomb] has a great range and a greater devastating effect. An Atomic Bomb, when used, has
+^The [Atomic Bomb] has a short range but a very devastating effect. An Atomic bomb, when used, has
 a tremendous negative effect upon world opinion.
 ^
-^The bombard range of an Atomic Bomb is 12 squares.
-^
-^The Atomic Bomb requires the completion of the $LINK<the Manhattan Project=BLDG_Manhattan_Project>.
+^The [Atomic Bomb] requires the completion of the $LINK<the Manhattan Project=BLDG_Manhattan_Project>.
 ^
 ^A city needs $LINK<uranium=GOOD_Uranium> and $LINK<oil=GOOD_OIL> in its $LINK<Strategic Resource=GCON_ResourcesS> box to
-build an Atomic Bomb.
+build an atomic bomb.
 
 #DESC_PRTO_Nuclear_Bomb
 ^
@@ -9275,52 +9267,55 @@ the 1970s, appropriately given the nation’s history, but a more conventional par
 Today the Netherlands, a thoroughly modern European nation, is best known for its hosting of international
 institutions such as the International Criminal Court in The Hague.
 
-#RACE_CUBAN
-^The Cubans are $LINK<militaristic and agricultural=GCON_Strengths>. They start the game with
-$LINK<Bronze Working=TECH_Bronze_Working> and $LINK<Pottery=TECH_Pottery> and build the $LINK<Cuban FAR=PRTO_Cuban_FAR> instead of $LINK<Guerillas=PRTO_Guerilla>. 
+#RACE_VIETNAMESE
+^The Vietnamese are $LINK<agricultural and religious=GCON_Strengths>. They start the game with
+$LINK<Bronze Working=TECH_Ceremonial_Burial> and $LINK<Pottery=TECH_Pottery> and build the $LINK<Viet Cong=PRTO_Vietcong> instead of $LINK<Guerillas=PRTO_Guerilla>. 
 ^
-^After the Spanish–American War, Spain and the United States signed the Treaty of Paris of 1898, by which Spain
-ceded Puerto Rico, the Philippines, and Guam to the United States for the sum of US$20 million and Cuba became
-a protectorate of the United States. Cuba gained formal independence from the U.S. on 20 May 1902, as the
-Republic of Cuba. Under Cuba's new constitution, the U.S. retained the right to intervene in Cuban affairs and
-to supervise its finances and foreign relations. Under the Platt Amendment, the U.S. leased the Guantánamo Bay
-Naval Base from Cuba.
-^	Following disputed elections in 1906, the first president, Tomás Estrada Palma, faced an armed revolt by independence
-war veterans who defeated the meager government forces. The U.S. intervened by occupying Cuba and named Charles Edward
-Magoon as Governor for three years. Cuban historians have characterized Magoon's governorship as having introduced
-political and social corruption. In 1908, self-government was restored when José Miguel Gómez was elected President,
-but the U.S. continued intervening in Cuban affairs. In 1912, the Partido Independiente de Color attempted to establish
-a separate black republic in Oriente Province, but was suppressed by General Monteagudo with considerable bloodshed.
-^	In 1924, Gerardo Machado was elected president. During his administration, tourism increased markedly, and
-American-owned hotels and restaurants were built to accommodate the influx of tourists. The tourist boom led to
-increases in gambling and prostitution in Cuba. The Wall Street Crash of 1929 led to a collapse in the price of sugar,
-political unrest, and repression. Protesting students, known as the Generation of 1930, turned to violence in opposition
-to the increasingly unpopular Machado. A general strike (in which the Communist Party sided with Machado), uprisings among
-sugar workers, and an army revolt forced Machado into exile in August 1933. He was replaced by Carlos Manuel de
-Céspedes y Quesada.
+^In AD 938, the Vietnamese lord Ngo Quyen defeated the forces of the Chinese Southern Han state at Bach Dang River and 
+achieved full independence for Vietnam in 939 after a millennium of Chinese domination. By the 960s, the dynastic 
+Dai Viet (Great Viet) kingdom was established, Vietnamese society enjoyed a golden era under the Ly and Tran dynasties. 
+During the rule of the Tran dynasty, Dai Viet repelled three Mongol invasions. Following the 1406–7 Ming–Ho War, which 
+overthrew the Ho dynasty, Vietnamese independence was interrupted briefly by the Chinese Ming dynasty, but was restored 
+by Le Loi, the founder of the Le dynasty. The Vietnamese polity reached their zenith in the Le dynasty of the 15th 
+century, especially during the reign of emperor Le Thanh Tong (1460–1497). Between the 11th and 18th centuries, the 
+Vietnamese polity expanded southward in a gradual process known as [Nam tien] ("Southward expansion"), eventually 
+conquering the kingdom of Champa and part of the Khmer Kingdom.
+^    From the 16th century onward, civil strife and frequent political infighting engulfed much of Ðai Viet. First, the 
+Chinese-supported Mac dynasty challenged the Le dynasty's power. After the Mac dynasty was defeated, the Le dynasty was 
+nominally reinstalled. Actual power, however, was divided between the northern Trinh lords and the southern Nguyen 
+lords, who engaged in a civil war for more than four decades before a truce was called in the 1670s. Vietnam was 
+divided into North (Trinh) and South (Nguyen) from 1600 to 1777. During this period, the Nguyen expanded southern 
+Vietnam into the Mekong Delta, annexing the Central Highlands and the Khmer lands in the Mekong Delta. The division of 
+the country ended a century later when the Tay Son brothers helped Trinh to end Nguyen. They also established new 
+dynasty and ended Trinh. However, their rule did not last long, and they were defeated by the remnants of the Nguyen 
+lords, led by Nguyen Anh. Nguyen Anh unified Vietnam, and established the Nguyen dynasty, ruling under the name Gia Long.
+^    By the 18th century, European traders, explorers, and missionaries had arrived in the region. France in particular 
+desired more trading
 
-#DESC_RACE_CUBAN
+#DESC_RACE_VIETNAMESE
 ^
-^In the 1950s, various organizations, including some advocating armed uprising, competed for public support in bringing
-about political change. In 1956, Fidel Castro and about 80 supporters landed from the yacht Granma in an attempt to start
-a rebellion against the Batista government. It was not until 1958 that Castro's July 26th Movement emerged as the leading
-revolutionary group.
-^	By late 1958 the rebels had broken out of the Sierra Maestra and launched a general popular insurrection. After Castro's
-fighters captured Santa Clara, Batista fled with his family to the Dominican Republic on 1 January 1959. Later he went
-into exile on the Portuguese island of Madeira and finally settled in Estoril, near Lisbon. Fidel Castro's forces entered
-the capital on 8 January 1959. The liberal Manuel Urrutia Lleó became the provisional president.
-^	From 1959 to 1966 Cuban insurgents fought a six-year rebellion in the Escambray Mountains against the Castro government.
-The government's vastly superior numbers eventually crushed the insurgency. The rebellion lasted longer and involved more
-soldiers than the Cuban Revolution. The U.S. State Department has estimated that 3,200 people were executed from 1959 to 1962.
-According to Amnesty International, official death sentences from 1959–87 numbered 237 of which all but 21 were actually
-carried out. Other estimates for the total number of political executions range from 4,000 to 33,000. The vast majority of
-those executed directly following the 1959 revolution were policemen, politicians, and informers of the Batista regime
-accused of crimes such as torture and murder, and their public trials and executions had widespread popular support among
-the Cuban population.
-^	Castro's rule was severely tested in the aftermath of the Soviet collapse in 1991 (known in Cuba as the Special Period).
-The country faced a severe economic downturn following the withdrawal of Soviet subsidies worth $4 billion to $6 billion
-annually, resulting in effects such as food and fuel shortages. The government did not accept American donations of food,
-medicines, and cash until 1993. On 5 August 1994, state security dispersed protesters in a spontaneous protest in Havana.
+^freedom in Vietnam, as well as wanting to bring more Catholic missionaries into the country. The 
+Nguyen dynasty disliked French involvement in Vietnam, however, and executed missionaries and Vietnamese coverts. This 
+spurred the then French Emperor, Napoleon III, to attack Vietnam in the early 1880s with the goal of turning them into 
+a French protectorate. In 1883, the French emerged victorious, dividing Vietnam into the French protectorates of Tonkin 
+in the north, Annam in central Vietnam, and Cochinchina in the southern tip. The Nguyen dynasty still nominally ruled 
+over much the Vietnamese portions of what came to be known as French Indochina, although the French held most of the 
+control.
+^    During World War II, French Indochina came under the administration of the Japanese Empire, nominally collaborating 
+with the Vichy French. It was during this period that the Viet Minh, a communist resistance movement, developed under 
+{Ho Chi Minh} in 1941. In March 1945, after the liberation of France and heavy setbacks in the war, the Japanese, in a 
+last ditch effort to gather support in Indochina, overthrew the French administration, imprisoned their civil servants 
+and proclaimed independence for Cambodia, Laos and Vietnam, which became the Empire of Vietnam, with Bao Dai, the final 
+monarch of the Nguyen dynasty, as its Emperor. After the surrender of Japan, Bao Dai abdicated on 25 August 1945 after 
+the Viet Minh launched the August Revolution, ending the 143-year reign of the Nguyen dynasty.
+^    The August Revolution was the start of a series of armed conflicts, culminating with the First Indochina War and 
+the independence of Cambodia, Laos, and Vietnam in 1954. Vietnam was partitioned into North and South Vietnam as a part 
+of an agreement to divide Vietnam along communist and non-communist-controlled lines. This split moved into open war 
+almost immediately, leading to an exchange called by the Americans the Vietnam War, and by the Vietnamese, the American 
+War. Despite the technological superiority of the American-backed South Vietnamese army, Ho and the Northern Vietnamese 
+forces were victorious, establishing the Socialist Republic of Vietnam following the war, which exists still today. A 
+large part of their victory can be accredited to the tenacious guerilla resistance put up by {Viet Cong} soldiers who 
+utilized the local hostile terrain and help from neighboring allies to their advantage.
 
 #RACE_MALI
 ^The Malians are $LINK<expansionist and commercial=GCON_Strengths>. They start the game with

@@ -117,9 +117,9 @@ art\advisors\x2_Smoke-Jaguar_advisor.pcx
 #RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory neutral.pcx
 art\advisors\x2_Theodora advisor.pcx
-#RACE_CUBAN
-art\leaderheads\guevara.pcx
-art\advisors\guevara_all.pcx
+#RACE_VIETNAMESE
+art\leaderheads\HO.pcx
+art\advisors\HO_ALL.pcx
 #RACE_MALI
 art\leaderheads\MM.pcx
 art\advisors\MM_all.pcx
@@ -196,8 +196,8 @@ art\leaderheads\x2_Pachacuti victory happy lg.pcx
 art\leaderheads\x2_Smoke-Jaguar victory happy lg.pcx
 #HAPPY_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory happy lg.pcx
-#HAPPY_RACE_CUBAN
-art\leaderheads\guevara_HAPL.pcx
+#HAPPY_RACE_VIETNAMESE
+art\leaderheads\HO_HAP.pcx
 #HAPPY_RACE_MALI
 art\leaderheads\MM_HAP.pcx
 #HAPPY_RACE_MAURYAN
@@ -269,8 +269,8 @@ art\leaderheads\x2_Pachacuti victory happy sm.pcx
 art\leaderheads\x2_Smoke-Jaguar victory happy sm.pcx
 #SHAPP_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory happy sm.pcx
-#SHAPP_RACE_CUBAN
-art\leaderheads\guevara_HAPS.pcx
+#SHAPP_RACE_VIETNAMESE
+art\leaderheads\HO_SHAP.pcx
 #SHAPP_RACE_MALI
 art\leaderheads\MM_SHAP.pcx
 #SHAPP_RACE_MAURYAN
@@ -342,8 +342,8 @@ art\leaderheads\x2_Pachacuti victory kiss lg.pcx
 art\leaderheads\x2_Smoke-Jaguar victory kiss lg.pcx
 #LKISS_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory kiss lg.pcx
-#LKISS_RACE_CUBAN
-art\leaderheads\guevara_KISL.pcx
+#LKISS_RACE_VIETNAMESE
+art\leaderheads\HO_KIS.pcx
 #LKISS_RACE_MALI
 art\leaderheads\MM_KIS.pcx
 #LKISS_RACE_MAURYAN
@@ -415,8 +415,8 @@ art\leaderheads\x2_Pachacuti victory kiss sm.pcx
 art\leaderheads\x2_Smoke-Jaguar victory kiss sm.pcx
 #SKISS_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory kiss sm.pcx
-#SKISS_RACE_CUBAN
-art\leaderheads\guevara_KISS.pcx
+#SKISS_RACE_VIETNAMESE
+art\leaderheads\HO_SKIS.pcx
 #SKISS_RACE_MALI
 art\leaderheads\MM_SKIS.pcx
 #SKISS_RACE_MAURYAN
@@ -488,8 +488,8 @@ art\leaderheads\x2_Pachacuti victory angry sm.pcx
 art\leaderheads\x2_Smoke-Jaguar victory angry sm.pcx
 #ANGRY_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory angry sm.pcx
-#ANGRY_RACE_CUBAN
-art\leaderheads\guevara_ANG.pcx
+#ANGRY_RACE_VIETNAMESE
+art\leaderheads\HO_ANG.pcx
 #ANGRY_RACE_MALI
 art\leaderheads\MM_ANG.pcx
 #ANGRY_RACE_MAURYAN
@@ -562,8 +562,8 @@ art\leaderheads\x2_Pachacuti victory heart sm.pcx
 art\leaderheads\x2_Smoke-Jaguar victory heart sm.pcx
 #ILOVE_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory heart sm.pcx
-#ILOVE_RACE_CUBAN
-art\leaderheads\guevara_CULTS.pcx
+#ILOVE_RACE_VIETNAMESE
+art\leaderheads\HO_CULT.pcx
 #ILOVE_RACE_MALI
 art\leaderheads\MM_CULT.pcx
 #ILOVE_RACE_MAURYAN
@@ -635,8 +635,8 @@ art\leaderheads\x2_Pachacuti victory heart tiny.pcx
 art\leaderheads\x2_Smoke-Jaguar victory heart tiny.pcx
 #LOVED_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory heart tiny.pcx
-#LOVED_RACE_CUBAN
-art\leaderheads\guevara_CULTI.pcx
+#LOVED_RACE_VIETNAMESE
+art\leaderheads\HO_CULTB.pcx
 #LOVED_RACE_MALI
 art\leaderheads\MM_CULTB.pcx
 #LOVED_RACE_MAURYAN
@@ -708,8 +708,8 @@ art\leaderheads\x2_Pachacuti victory beatup lg.pcx
 art\leaderheads\x2_Smoke-Jaguar victory beatup lg.pcx
 #LHURT_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory beatup lg.pcx
-#LHURT_RACE_CUBAN
-art\leaderheads\guevara_CONQL.pcx
+#LHURT_RACE_VIETNAMESE
+art\leaderheads\HO_CONQL.pcx
 #LHURT_RACE_MALI
 art\leaderheads\MM_CONQ_L.pcx
 #LHURT_RACE_MAURYAN
@@ -781,8 +781,8 @@ art\leaderheads\x2_Pachacuti victory beatup sm.pcx
 art\leaderheads\x2_Smoke-Jaguar victory beatup sm.pcx
 #HURTN_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory beatup sm.pcx
-#HURTN_RACE_CUBAN
-art\leaderheads\guevara_CONQS.pcx
+#HURTN_RACE_VIETNAMESE
+art\leaderheads\HO_CONQ.pcx
 #HURTN_RACE_MALI
 art\leaderheads\MM_CONQ.pcx
 #HURTN_RACE_MAURYAN
@@ -897,9 +897,9 @@ art\civilopedia\icons\races\x2_Smoke-Jaguar civpedia sm.pcx
 #ICON_RACE_BYZANTINES
 art\civilopedia\icons\races\x2_Theodora civpedia lg.pcx
 art\civilopedia\icons\races\x2_Theodora civpedia sm.pcx
-#ICON_RACE_CUBAN
-art\civilopedia\icons\races\guevaraLARGE.pcx
-art\civilopedia\icons\races\guevaraSMALL.pcx
+#ICON_RACE_VIETNAMESE
+art\civilopedia\icons\races\Ho_Chi_Minh_LARGE.pcx
+art\civilopedia\icons\races\Ho_Chi_Minh_SMALL.pcx
 #ICON_RACE_MALI
 art\civilopedia\icons\races\MaliLARGE.pcx
 art\civilopedia\icons\races\MaliSMALL.pcx
@@ -1486,9 +1486,9 @@ Art\Civilopedia\Icons\Units\EngineerSmall.pcx
 #ICON_PRTO_King
 Art\Civilopedia\Icons\Units\KingLarge.pcx
 Art\Civilopedia\Icons\Units\KingSmall.pcx
-#ICON_PRTO_Cuban_FAR
-Art\Civilopedia\Icons\Units\FARCLarge.pcx
-Art\Civilopedia\Icons\Units\FARCSmall.pcx
+#ICON_PRTO_Vietcong
+Art\Civilopedia\Icons\Units\Vietconglarge.pcx
+Art\Civilopedia\Icons\Units\Vietcongsmall.pcx
 #ICON_PRTO_Mali_Worker
 Art\Civilopedia\Icons\Units\AfricanWorkerLARGE.pcx
 Art\Civilopedia\Icons\Units\AfricanWorkerSMALL.pcx
@@ -2902,8 +2902,8 @@ Engineer
 King
 #ANIMNAME_PRTO_Mali_Worker
 African Worker
-#ANIMNAME_PRTO_Cuban_FAR
-FARC
+#ANIMNAME_PRTO_Vietcong
+Vietcong
 #ANIMNAME_PRTO_Fire_Longbowman
 Fire Longbowman
 #ANIMNAME_PRTO_Sunka_Wakan
