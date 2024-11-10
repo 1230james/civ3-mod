@@ -20,45 +20,46 @@ This is a modpack for Civ3: Complete that I put together containing some changes
 
 Compared to vanilla Civ3, this mod:
 
-* Permits plagues (max 1)
+* Permits plagues (max 2)
 * Removes the following civs:
-    * Persia
+    * Portugal
     * Zululand
     * Iroquois
     * Hittites
 * Adds the following civs:
-    * Cuba
+    * Austria
     * Mali
     * Lakota
-    * Mauryans
+    * Vietnam
 * Replaces the following leaders:
     * Bismarck of Germany -> Adolf Hitler
     * Catherine of Russia -> Joseph Stalin
     * Lincoln of America -> Franklin D. Roosevelt
-    * Tokugawa of Japan -> Hirohito
+    * Tokugawa of Japan -> Meiji
     * Elizabeth of England -> Winston Churchill
     * Wang Kon of Korea -> Sejong
 * Adds the following leaders:
-    * Che Guevara of Cuba
+    * Charles V of Austria
     * Mansa Musa of Mali
     * Sitting Bull of the Lakota
-    * Ashoka of the Mauryans
+    * Ho Chi Minh of Vietnam
 * Adds new government form: Fundamentalism
 * Adds extra civilization advances:
     * Fundamentalism, which unlocks Fundamentalism as a form of government
-    * Paper, Steam Engine, and Vacuum Tubes, which are end-of-era techs you must research to proceed to the next era
+    * Milling, Steam Engine, and Vacuum Tubes, which are end-of-era techs you must research to proceed to the next era
     * Nanotechnology, Fusion, Advanced Armor, and Heavy Mechanicals, new Modern Era technologies
 * Adds new units:
     * Engineer (Workers get tweaked; see *New Units* section)
     * Atomic Bomb
     * Space Marine
     * Mecha
-    * Fire Longbowman for the Mauryans
-    * Cuban FAR for Cuba
+    * Hussar for Austria
+    * Viet Cong for Vietnam
     * Malian Worker for Mali
     * Sunka Wakan for the Lakota
     * Turtle Ship for the Koreans
-    * King for the four non-vanilla civs to use as their king unit in Regicide mode
+    * King for the non-vanilla civs to use as their king unit in Regicide mode
+* Tweaks to Modern Era units
 * Adds new graphics for ICBMs and Tactical Nukes (they're minor changes)
 * "Fixes" the previously unused Tactical Nuke launch animation so it plays upon use
 * Changed Frigates & Man-O-Wars to upgrade to Destroyers instead of nothing
@@ -70,17 +71,17 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 
 ### New Civilizations
 
-#### Cuba
+#### Austria
 
-* Led by Comandante Guevara
-* Militaristic and agricultural
-* 4/5 aggression
-* American culture
-* Favors Communism, shuns Democracy
-* Begins with Bronze Working and Pottery
-* Receives the Cuban FAR as a special unit, replacing the Guerilla
-    * 6(3)/6/2
-    * Differs from Guerilla by getting 2 movement instead of 1, and movement costs through Marsh, Forest, and Jungle are ignored
+* Led by Emperor Charles
+* Militaristic and industrious
+* 3/5 aggression
+* European culture
+* Favors Monarchy, shuns Communism
+* Begins with Warrior Code and Masonry
+* Receives the Hussar as a special unit, replacing the Cavalry
+    * 7/3/3
+    * Differs from Cavalry by getting 7 attack instead of 6
 
 #### Mali
 
@@ -90,7 +91,7 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Mid East culture
 * Favors Monarchy, shuns Fascism
 * Begins with Pottery and Alphabet
-* Receives the Malian Worker as a special unit, replacing the Worker
+* Receives the 'Amil as a special unit, replacing the Worker
     * Differs from normal Workers by working 50% faster
 
 #### The Lakota
@@ -105,17 +106,18 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
     * 3/2/2
     * Differs from Horseman by getting 2 defense instead of 1 and getting 3 attack instead of 2
 
-#### The Mauryans
+#### Vietnam
 
-* Led by Emperor Ashoka
-* Expansionist and agricultural
-* 3/5 aggression
+* Led by President Ho Chi Minh
+* Religious and agricultural
+* 2/5 aggression
 * Asian culture
-* Favors Monarchy, shuns Republic
-* Begins with Pottery and Masonry
-* Receives the Fire Longbowman as a special unit, replacing the Longbowman
-    * 5/2/1
-    * Differs from Longbowman by getting 5 attack instead of 4
+* Favors Communism, shuns Despotism
+* Begins with Pottery and Ceremonial Burial
+* Receives the Viet Cong as a special unit, replacing the Guerilla
+    * 6(3)/6/2
+    * Differs from Guerilla by getting 2 movement instead of 1, and movement costs through Marsh, Forest, and Jungle are ignored
+    * Allowed to build roads, forts, and barricades
     
 ### New Units
 
@@ -148,6 +150,45 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Costs 400 shields
 * Requires Uranium, Aluminum, and Rubber
 
+### Modern Era Unit Tweaks & Balancing
+
+#### Cruise Missiles
+* Rate of fire raised from 3 to 4
+* Now classified as a Tactical Missile, allowing transport via AEGIS Cruiser (see below) and Nuclear Submarine
+
+#### Battleships
+* Bombard strength raised from 8 to 18, and rate of fire raised from 2 to 4
+    * Comparison: Bombers have 12 strength and 3 RoF
+* Air Defense strength lowered from 3 to 1
+* Moves raised to 6, matching Transports
+
+#### Cruisers
+* Bombard strength raised from 7 to 10
+* Air Defense strength raised from 1 to 3
+
+#### AEGIS Cruisers
+* Bombard strength raised from 6 to 9
+* Air Defense strength raised from 3 to 4
+* Can now transport Tactical Missiles (Cruise Missiles & Tactical Nukes), with room for up to 8 units
+
+#### Nuclear Submarines
+* Transport capacity raised from 1 to 3
+
+#### Carriers
+* Transport capacity raised from 4 to 12
+
+#### Paratroopers
+* Stats raised to 6/10/1 (up from 5/9/1, to match Infantry)
+* Production cost raised from 90 to 110 shields
+
+#### Modern Paratroopers
+* Stats raised to 12/14/1 (up from 6/11/1, to match TOW Infantry)
+* Production cost raised from 110 to 140
+
+#### Helicopters
+* Transport capacity raised from 3 to 4
+* Increased operational range from 6 to 8
+
 ### New Technologies
 * Fundamentalism
     * Unlocks the Fundamentalism government
@@ -166,7 +207,7 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Heavy Mechanicals
     * Unlocks the Mecha unit
     * Has Fusion, Robotics, and Smart Weapons as prerequisites
-* Paper, Steam Engine, and Vacuum Tubes
+* Milling, Steam Engine, and Vacuum Tubes
     * End-of-era technologies for the Ancient, Medieval, and Industrial Eras, respectively. See next section for more info.
 
 ### End-of-Era Technologies
@@ -184,10 +225,11 @@ Brings back the Fundamentalism government from Civ2... but mostly just the conce
 
 * Worker Efficiency: 100%
 * Hurry Method: Forced Labor
-* Corruption: Nuisance
+* Corruption: Problematic
 * Military Police Cap: 4
-* Unit Support: 2/5/10
+* Unit Support: 2/5/8
 * Draft Limit: 2
+* Xenophobic (population of city must have a majority of your nationality before it can grow)
 * Forced Resettlement (population in cities decrease when switching to this government, like how Fascism does)
 * Despotism Penalty (Any tile producing more than 2 food, shields, or commerce produces 1 less)
 * No maintenance payments on improvements
@@ -215,30 +257,31 @@ To play with this mod, start up Civ3, select `Conquests!` from the main menu, th
 Credit goes to:
 
 * [Vuldacon for the new ICBM graphics and sounds](https://forums.civfanatics.com/threads/new-icbm-with-animated-default-and-fortify-3-14-2021.668342/)
-* [King of Camelot for the Fire Longbowman unit](https://forums.civfanatics.com/threads/unit-fire-longbowman.15485/)
 * [Plotinus for the African Worker](https://forums.civfanatics.com/threads/workers-of-the-world.224817/)
-* [utahjazz7 for the FARC unit](https://forums.civfanatics.com/threads/new-unit-farc.45825/)
 * [CivArmy for the Sunka Wakan unit](https://forums.civfanatics.com/threads/units-of-the-american-continent.103999/page-2#post-2373109)
 * [Rufus T. Firefly for the Engineer unit](https://forums.civfanatics.com/threads/engineer-c-p-11-7-04.93597/)
 * [Aluminium for the King unit](https://forums.civfanatics.com/threads/the-new-aok-conversion-collection.81218/#post-1658325)
 * [LMR for the Steam Engines tech icon](https://forums.civfanatics.com/threads/lmrs-graphics-library.177408/) used for the Railroads tech
 * [Olexeii Sokolovskyi for the steam engine render](https://touch3d.net/en/double_acting_steam_engine) used for the Steam Engine tech icon I made
-* [jorde for his WW2 leaderhead pack](https://forums.civfanatics.com/threads/franklin-d-roosevelt-of-the-usa-3d-animated-era-specific-leaderhead-28-06-2005.122566/) (Hitler, Stalin, Churchill, Hirohito, and FDR)
-    * All leaderheads can be found in his signature
+* [renatodalle for the water mill render](https://www.renderhub.com/renatodalle/medieval-water-wheel)
+* [jorde for their WW2 leaderhead pack](https://forums.civfanatics.com/threads/franklin-d-roosevelt-of-the-usa-3d-animated-era-specific-leaderhead-28-06-2005.122566/) (Hitler, Stalin, Churchill, and FDR)
+    * All leaderheads can be found in their signature
 * ShiroKobbure for:
     * [the Sejong leaderhead](https://forums.civfanatics.com/threads/sejong-of-korea.311301/)
     * [the Musa leaderhead](https://forums.civfanatics.com/threads/mansa-musa-of-mali-june-2006.174352/)
     * [the Sitting Bull leaderhead](https://forums.civfanatics.com/threads/finally-sitting-bull-of-the-lakota.166623/)
-    * [the Ashoka leaderhead](https://forums.civfanatics.com/threads/asoka-of-india.121147/)
-* [Pounder for his custom disorder animation](https://forums.civfanatics.com/threads/disorder-animation.225387/)
-* [muffins for his Space Marine and Dreadnought units](https://forums.civfanatics.com/threads/space-marine-battle-group-15-units-23march05.115031/)
-* AncientOne for his [Advanced Power Armors](https://forums.civfanatics.com/threads/advanced-powerarmors-tech-icon.212806/) and [Heavy Mechs](https://forums.civfanatics.com/threads/heavy-mechanical-battlewalkers-tech-icon.212795/) tech icons
-* [Storm Grunt for his Ironclads tech icon](https://forums.civfanatics.com/threads/storm-grunts-tech-icon-library.174426/)
+    * [the Meiji leaderhead](https://forums.civfanatics.com/threads/mutsuhito-meiji-tennou-4-0.219768/)
+    * [the Viet Cong unit](https://forums.civfanatics.com/resources/vietcong-2-0.23540/)
+* [Partizanac for their Ho Chi Minh leaderhead](https://forums.civfanatics.com/resources/ho-chi-mihn.3287/)
+* [Pounder for their custom disorder animation](https://forums.civfanatics.com/threads/disorder-animation.225387/)
+* [muffins for their Space Marine and Dreadnought units](https://forums.civfanatics.com/threads/space-marine-battle-group-15-units-23march05.115031/)
+* AncientOne for their [Advanced Power Armors](https://forums.civfanatics.com/threads/advanced-powerarmors-tech-icon.212806/) and [Heavy Mechs](https://forums.civfanatics.com/threads/heavy-mechanical-battlewalkers-tech-icon.212795/) tech icons
+* [Storm Grunt for their Ironclads tech icon](https://forums.civfanatics.com/threads/storm-grunts-tech-icon-library.174426/)
     * Included in the futuristic techs archive for some reason
 * Promotive at Dreamstime.com for the carbon nanotube illustration I used to create the Nanotechnology tech icon
     * Retrieved from [this article](https://www.britannica.com/science/carbon-nanotube)
 * [Richard Kail for the illustration I used to create the Fusion tech icon](https://www.sciencephoto.com/media/702288/view/nuclear-fusion-conceptual-image)
-* [aaglo for his Turtle Ship unit](https://forums.civfanatics.com/threads/updated-unit-korean-turtleship.80485/)
+* [aaglo for their Turtle Ship unit](https://forums.civfanatics.com/threads/updated-unit-korean-turtleship.80485/)
 * Wikipedia for Civilopedia texts for entries or portions of entries that do not exist in the base game
 * Myself for:
     * Fixing transparency issues on some of the leaderheads

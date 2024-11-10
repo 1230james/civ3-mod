@@ -49,8 +49,8 @@ art\advisors\MO_all.pcx
 Art\Leaderheads\RooseveltNeutralLarge.pcx
 Art\Advisors\RooseveltAll.pcx
 #RACE_JAPANESE
-Art\Leaderheads\HirohitoNeutralLarge.pcx
-Art\Advisors\HirohitoAll.pcx
+Art\Leaderheads\Meiji.pcx
+Art\Advisors\Meiji_All.pcx
 #RACE_FRENCH
 art\leaderheads\JO.pcx
 art\advisors\JO_all.pcx
@@ -117,18 +117,18 @@ art\advisors\x2_Smoke-Jaguar_advisor.pcx
 #RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory neutral.pcx
 art\advisors\x2_Theodora advisor.pcx
-#RACE_CUBAN
-art\leaderheads\guevara.pcx
-art\advisors\guevara_all.pcx
+#RACE_VIETNAMESE
+art\leaderheads\HO.pcx
+art\advisors\HO_ALL.pcx
 #RACE_MALI
 art\leaderheads\MM.pcx
 art\advisors\MM_all.pcx
-#RACE_MAURYAN
-art\leaderheads\AS.pcx
-art\advisors\AS_all.pcx
 #RACE_LAKOTA
 art\leaderheads\SB.pcx
 art\advisors\SB_all.pcx
+#RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory neutral.pcx
+art\advisors\x2_Charles_V advisor.pcx
 
 
 
@@ -151,7 +151,7 @@ art\leaderheads\MO_HAP.pcx
 #HAPPY_RACE_AMERICAN
 art\leaderheads\RooseveltHappyLarge.pcx
 #HAPPY_RACE_JAPANESE
-art\leaderheads\HirohitoHappyLarge.pcx
+art\leaderheads\Meiji_HAP.pcx
 #HAPPY_RACE_FRENCH
 art\leaderheads\JO_HAP.pcx
 #HAPPY_RACE_INDIAN
@@ -196,14 +196,14 @@ art\leaderheads\x2_Pachacuti victory happy lg.pcx
 art\leaderheads\x2_Smoke-Jaguar victory happy lg.pcx
 #HAPPY_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory happy lg.pcx
-#HAPPY_RACE_CUBAN
-art\leaderheads\guevara_HAPL.pcx
+#HAPPY_RACE_VIETNAMESE
+art\leaderheads\HO_HAP.pcx
 #HAPPY_RACE_MALI
 art\leaderheads\MM_HAP.pcx
-#HAPPY_RACE_MAURYAN
-art\leaderheads\AS_HAP.pcx
 #HAPPY_RACE_LAKOTA
 art\leaderheads\SB_HAP.pcx
+#HAPPY_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory happy lg.pcx
 
 ####
 # Small Happy Icons  (defeat)
@@ -224,7 +224,7 @@ art\leaderheads\MO_SHAP.pcx
 #SHAPP_RACE_AMERICAN
 art\leaderheads\RooseveltHappySmall.pcx
 #SHAPP_RACE_JAPANESE
-art\leaderheads\HirohitoHappySmall.pcx
+art\leaderheads\Meiji_SHAP.pcx
 #SHAPP_RACE_FRENCH
 art\leaderheads\JO_SHAP.pcx
 #SHAPP_RACE_INDIAN
@@ -269,14 +269,14 @@ art\leaderheads\x2_Pachacuti victory happy sm.pcx
 art\leaderheads\x2_Smoke-Jaguar victory happy sm.pcx
 #SHAPP_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory happy sm.pcx
-#SHAPP_RACE_CUBAN
-art\leaderheads\guevara_HAPS.pcx
+#SHAPP_RACE_VIETNAMESE
+art\leaderheads\HO_SHAP.pcx
 #SHAPP_RACE_MALI
 art\leaderheads\MM_SHAP.pcx
-#SHAPP_RACE_MAURYAN
-art\leaderheads\AS_SHAP.pcx
 #SHAPP_RACE_LAKOTA
 art\leaderheads\SB_SHAP.pcx
+#SHAPP_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory happy sm.pcx
 
 ####
 # Large Kiss Icons  (Culture/diplomatic Winners)
@@ -297,7 +297,7 @@ art\leaderheads\MO_KIS.pcx
 #LKISS_RACE_AMERICAN
 art\leaderheads\RooseveltKissLarge.pcx
 #LKISS_RACE_JAPANESE
-art\leaderheads\HirohitoKissLarge.pcx
+art\leaderheads\Meiji_KIS.pcx
 #LKISS_RACE_FRENCH
 art\leaderheads\JO_KIS.pcx
 #LKISS_RACE_INDIAN
@@ -342,14 +342,14 @@ art\leaderheads\x2_Pachacuti victory kiss lg.pcx
 art\leaderheads\x2_Smoke-Jaguar victory kiss lg.pcx
 #LKISS_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory kiss lg.pcx
-#LKISS_RACE_CUBAN
-art\leaderheads\guevara_KISL.pcx
+#LKISS_RACE_VIETNAMESE
+art\leaderheads\HO_KIS.pcx
 #LKISS_RACE_MALI
 art\leaderheads\MM_KIS.pcx
-#LKISS_RACE_MAURYAN
-art\leaderheads\AS_KIS.pcx
 #LKISS_RACE_LAKOTA
 art\leaderheads\SB_KIS.pcx
+#LKISS_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory kiss lg.pcx
 
 ####
 # Small Kiss Icons (diplomatic losers)
@@ -370,7 +370,7 @@ art\leaderheads\MO_SKIS.pcx
 #SKISS_RACE_AMERICAN
 art\leaderheads\RooseveltKissSmall.pcx
 #SKISS_RACE_JAPANESE
-art\leaderheads\HirohitoKissSmall.pcx
+art\leaderheads\Meiji_SKIS.pcx
 #SKISS_RACE_FRENCH
 art\leaderheads\JO_SKIS.pcx
 #SKISS_RACE_INDIAN
@@ -415,14 +415,14 @@ art\leaderheads\x2_Pachacuti victory kiss sm.pcx
 art\leaderheads\x2_Smoke-Jaguar victory kiss sm.pcx
 #SKISS_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory kiss sm.pcx
-#SKISS_RACE_CUBAN
-art\leaderheads\guevara_KISS.pcx
+#SKISS_RACE_VIETNAMESE
+art\leaderheads\HO_SKIS.pcx
 #SKISS_RACE_MALI
 art\leaderheads\MM_SKIS.pcx
-#SKISS_RACE_MAURYAN
-art\leaderheads\AS_SKIS.pcx
 #SKISS_RACE_LAKOTA
 art\leaderheads\SB_SKIS.pcx
+#SKISS_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory kiss sm.pcx
 
 ####
 # Small Angry Icons (domination/space losers)
@@ -443,7 +443,7 @@ art\leaderheads\MO_ANG.pcx
 #ANGRY_RACE_AMERICAN
 art\leaderheads\RooseveltAngrySmall.pcx
 #ANGRY_RACE_JAPANESE
-art\leaderheads\HirohitoAngrySmall.pcx
+art\leaderheads\Meiji_ANG.pcx
 #ANGRY_RACE_FRENCH
 art\leaderheads\JO_ANG.pcx
 #ANGRY_RACE_INDIAN
@@ -488,14 +488,14 @@ art\leaderheads\x2_Pachacuti victory angry sm.pcx
 art\leaderheads\x2_Smoke-Jaguar victory angry sm.pcx
 #ANGRY_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory angry sm.pcx
-#ANGRY_RACE_CUBAN
-art\leaderheads\guevara_ANG.pcx
+#ANGRY_RACE_VIETNAMESE
+art\leaderheads\HO_ANG.pcx
 #ANGRY_RACE_MALI
 art\leaderheads\MM_ANG.pcx
-#ANGRY_RACE_MAURYAN
-art\leaderheads\AS_ANG.pcx
 #ANGRY_RACE_LAKOTA
 art\leaderheads\SB_ANG.pcx
+#ANGRY_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory angry sm.pcx
 
 
 ####
@@ -517,7 +517,7 @@ art\leaderheads\MO_CULT.pcx
 #ILOVE_RACE_AMERICAN
 art\leaderheads\RooseveltHeartsSmall.pcx
 #ILOVE_RACE_JAPANESE
-art\leaderheads\HirohitoHeartsSmall.pcx
+art\leaderheads\Meiji_CULT.pcx
 #ILOVE_RACE_FRENCH
 art\leaderheads\JO_CULT.pcx
 #ILOVE_RACE_INDIAN
@@ -562,14 +562,14 @@ art\leaderheads\x2_Pachacuti victory heart sm.pcx
 art\leaderheads\x2_Smoke-Jaguar victory heart sm.pcx
 #ILOVE_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory heart sm.pcx
-#ILOVE_RACE_CUBAN
-art\leaderheads\guevara_CULTS.pcx
+#ILOVE_RACE_VIETNAMESE
+art\leaderheads\HO_CULT.pcx
 #ILOVE_RACE_MALI
 art\leaderheads\MM_CULT.pcx
-#ILOVE_RACE_MAURYAN
-art\leaderheads\AS_CULT.pcx
 #ILOVE_RACE_LAKOTA
 art\leaderheads\SB_CULT.pcx
+#ILOVE_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory heart sm.pcx
 
 ####
 # Small loved Icons (Cultural Victory Winner)
@@ -590,7 +590,7 @@ art\leaderheads\MO_CULTB.pcx
 #LOVED_RACE_AMERICAN
 art\leaderheads\RooseveltHeartsTiny.pcx
 #LOVED_RACE_JAPANESE
-art\leaderheads\HirohitoHeartsTiny.pcx
+art\leaderheads\Meiji_CULTB.pcx
 #LOVED_RACE_FRENCH
 art\leaderheads\JO_CULTB.pcx
 #LOVED_RACE_INDIAN
@@ -635,14 +635,14 @@ art\leaderheads\x2_Pachacuti victory heart tiny.pcx
 art\leaderheads\x2_Smoke-Jaguar victory heart tiny.pcx
 #LOVED_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory heart tiny.pcx
-#LOVED_RACE_CUBAN
-art\leaderheads\guevara_CULTI.pcx
+#LOVED_RACE_VIETNAMESE
+art\leaderheads\HO_CULTB.pcx
 #LOVED_RACE_MALI
 art\leaderheads\MM_CULTB.pcx
-#LOVED_RACE_MAURYAN
-art\leaderheads\AS_CULTB.pcx
 #LOVED_RACE_LAKOTA
 art\leaderheads\SB_CULTB.pcx
+#LOVED_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory heart tiny.pcx
 
 ####
 # Large Beaten-up Icons (defeat)
@@ -663,7 +663,7 @@ art\leaderheads\MO_CONQ_L.pcx
 #LHURT_RACE_AMERICAN
 art\leaderheads\RooseveltBeatenUpLarge.pcx
 #LHURT_RACE_JAPANESE
-art\leaderheads\HirohitoBeatenUpLarge.pcx
+art\leaderheads\Meiji_CONQ_L.pcx
 #LHURT_RACE_FRENCH
 art\leaderheads\JO_CONQ_L.pcx
 #LHURT_RACE_INDIAN
@@ -708,14 +708,14 @@ art\leaderheads\x2_Pachacuti victory beatup lg.pcx
 art\leaderheads\x2_Smoke-Jaguar victory beatup lg.pcx
 #LHURT_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory beatup lg.pcx
-#LHURT_RACE_CUBAN
-art\leaderheads\guevara_CONQL.pcx
+#LHURT_RACE_VIETNAMESE
+art\leaderheads\HO_CONQL.pcx
 #LHURT_RACE_MALI
 art\leaderheads\MM_CONQ_L.pcx
-#LHURT_RACE_MAURYAN
-art\leaderheads\AS_CONQ_L.pcx
 #LHURT_RACE_LAKOTA
 art\leaderheads\SB_CONQ_L.pcx
+#LHURT_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory beatup lg.pcx
 
 ####
 # Small Beaten-up Icons (conquered/eliminated)
@@ -736,7 +736,7 @@ art\leaderheads\MO_CONQ.pcx
 #HURTN_RACE_AMERICAN
 art\leaderheads\RooseveltBeatenUpSmall.pcx
 #HURTN_RACE_JAPANESE
-art\leaderheads\HirohitoBeatenUpSmall.pcx
+art\leaderheads\Meiji_CONQ.pcx
 #HURTN_RACE_FRENCH
 art\leaderheads\JO_CONQ.pcx
 #HURTN_RACE_INDIAN
@@ -781,14 +781,14 @@ art\leaderheads\x2_Pachacuti victory beatup sm.pcx
 art\leaderheads\x2_Smoke-Jaguar victory beatup sm.pcx
 #HURTN_RACE_BYZANTINES
 art\leaderheads\x2_Theodora victory beatup sm.pcx
-#HURTN_RACE_CUBAN
-art\leaderheads\guevara_CONQS.pcx
+#HURTN_RACE_VIETNAMESE
+art\leaderheads\HO_CONQ.pcx
 #HURTN_RACE_MALI
 art\leaderheads\MM_CONQ.pcx
-#HURTN_RACE_MAURYAN
-art\leaderheads\AS_CONQ.pcx
 #HURTN_RACE_LAKOTA
 art\leaderheads\SB_CONQ.pcx
+#HURTN_RACE_AUSTRIA
+art\leaderheads\x2_Charles_V victory beatup sm.pcx
 
 #END LEADER/RACE ART
 
@@ -829,8 +829,8 @@ art\civilopedia\icons\races\Chinasmall.pcx
 Art\Civilopedia\Icons\Races\RooseveltLarge.pcx
 Art\Civilopedia\Icons\Races\RooseveltSmall.pcx
 #ICON_RACE_JAPANESE
-Art\Civilopedia\Icons\Races\HirohitoLarge.pcx
-Art\Civilopedia\Icons\Races\HirohitoSmall.pcx
+Art\Civilopedia\Icons\Races\MeijiLARGE.pcx
+Art\Civilopedia\Icons\Races\MeijiSMALL.pcx
 #ICON_RACE_FRENCH
 art\civilopedia\icons\races\francelarge.pcx
 art\civilopedia\icons\races\francesmall.pcx
@@ -897,18 +897,18 @@ art\civilopedia\icons\races\x2_Smoke-Jaguar civpedia sm.pcx
 #ICON_RACE_BYZANTINES
 art\civilopedia\icons\races\x2_Theodora civpedia lg.pcx
 art\civilopedia\icons\races\x2_Theodora civpedia sm.pcx
-#ICON_RACE_CUBAN
-art\civilopedia\icons\races\guevaraLARGE.pcx
-art\civilopedia\icons\races\guevaraSMALL.pcx
+#ICON_RACE_VIETNAMESE
+art\civilopedia\icons\races\Ho_Chi_Minh_LARGE.pcx
+art\civilopedia\icons\races\Ho_Chi_Minh_SMALL.pcx
 #ICON_RACE_MALI
 art\civilopedia\icons\races\MaliLARGE.pcx
 art\civilopedia\icons\races\MaliSMALL.pcx
-#ICON_RACE_MAURYAN
-art\civilopedia\icons\races\AshokaLARGE.pcx
-art\civilopedia\icons\races\AshokaSMALL.pcx
 #ICON_RACE_LAKOTA
 art\civilopedia\icons\races\SiouxLARGE.pcx
 art\civilopedia\icons\races\SiouxSMALL.pcx
+#ICON_RACE_AUSTRIA
+art\civilopedia\icons\races\x2_Charles_V civpedia lg.pcx
+art\civilopedia\icons\races\x2_Charles_V civpedia sm.pcx
 
 
 ###########################
@@ -1486,15 +1486,12 @@ Art\Civilopedia\Icons\Units\EngineerSmall.pcx
 #ICON_PRTO_King
 Art\Civilopedia\Icons\Units\KingLarge.pcx
 Art\Civilopedia\Icons\Units\KingSmall.pcx
-#ICON_PRTO_Cuban_FAR
-Art\Civilopedia\Icons\Units\FARCLarge.pcx
-Art\Civilopedia\Icons\Units\FARCSmall.pcx
+#ICON_PRTO_Vietcong
+Art\Civilopedia\Icons\Units\Vietconglarge.pcx
+Art\Civilopedia\Icons\Units\Vietcongsmall.pcx
 #ICON_PRTO_Mali_Worker
 Art\Civilopedia\Icons\Units\AfricanWorkerLARGE.pcx
 Art\Civilopedia\Icons\Units\AfricanWorkerSMALL.pcx
-#ICON_PRTO_Fire_Longbowman
-Art\Civilopedia\Icons\Units\67FireLongbowmanlarge.pcx
-Art\Civilopedia\Icons\Units\67FireLongbowmansmall.pcx
 #ICON_PRTO_Sunka_Wakan
 Art\Civilopedia\Icons\Units\SunkaWakanLARGE.pcx
 Art\Civilopedia\Icons\Units\SunkaWakanSMALL.pcx
@@ -1507,6 +1504,9 @@ art\civilopedia\icons\units\SpaceMarine_sm.pcx
 #ICON_PRTO_Dreadnought
 art\civilopedia\icons\units\Dreadnought_lg.pcx
 art\civilopedia\icons\units\Dreadnought_sm.pcx
+#ICON_PRTO_Charles_V
+art\civilopedia\icons\units\x2_Charles_V civpedia lg.pcx
+art\civilopedia\icons\units\x2_Charles_V civpedia sm.pcx
 
 
 #Start buildings
@@ -2413,8 +2413,8 @@ Art\tech chooser\icons\BloodCult-small.pcx
 Art\tech chooser\Icons\Fascism-small.pcx
 #TECH_Fundamentalism
 Art\tech chooser\Icons\DivineRight-small.pcx
-#TECH_Paper
-Art\tech chooser\Icons\Council-small.pcx
+#TECH_Milling
+Art\tech chooser\Icons\WaterMillSmall.pcx
 #TECH_Steam_Engine
 Art\Tech Chooser\Icons\SteamEngineSmall.pcx
 #TECH_Vacuum_Tubes
@@ -2603,8 +2603,8 @@ Art\tech chooser\Icons\Fascism-large.pcx
 Art\Tech Chooser\Icons\SocialismLarge.pcx
 #TECH_Fundamentalism_LARGE
 Art\tech chooser\Icons\DivineRight-large.pcx
-#TECH_Paper_LARGE
-Art\tech chooser\Icons\Council-large.pcx
+#TECH_Milling_LARGE
+Art\tech chooser\Icons\WaterMillLarge.pcx
 #TECH_Steam_Engine_LARGE
 Art\Tech Chooser\Icons\SteamEngineLarge.pcx
 #TECH_Vacuum_Tubes_LARGE
@@ -2902,10 +2902,8 @@ Engineer
 King
 #ANIMNAME_PRTO_Mali_Worker
 African Worker
-#ANIMNAME_PRTO_Cuban_FAR
-FARC
-#ANIMNAME_PRTO_Fire_Longbowman
-Fire Longbowman
+#ANIMNAME_PRTO_Vietcong
+Vietcong
 #ANIMNAME_PRTO_Sunka_Wakan
 SunkaWakan
 #ANIMNAME_PRTO_Nuclear_Bomb
@@ -2914,6 +2912,8 @@ Nuclear Bomb
 SpaceMarine
 #ANIMNAME_PRTO_Dreadnought
 Dreadnought
+#ANIMNAME_PRTO_Hussar
+Hussar
 
 
 ################################################################
