@@ -2985,7 +2985,8 @@ targeting of enemies at any time of day, in any weather condition.
 ^
 ^
 ^Cruise missiles are long-range, fire-and-forget weapons that can find the target on their own. Like all artillery-type
-units, cruise missiles have no attack or defense values, only bombardment.
+units, cruise missiles have no attack or defense values, only bombardment. They can also be loaded onto 
+$LINK<AEGIS cruisers=PRTO_AEGIS_Cruiser> or $LINK<nuclear subs=PRTO_Nuclear_Submarine> and launched from the sea.
 ^
 ^
 ^The Cruise Missle has both Lethal Land and Sea Bombardment. 
@@ -3001,18 +3002,19 @@ to avoid radar and other means of detection, and hitting their target with unner
 be used against short-range, tactical targets such as ships. In this role, it is often possible for a single, 
 one million dollar missile to seriously damage or even destroy 80 million dollar warships.
 
-#PRTO_Nuke
+#PRTO_NUKE
 ^
 ^
-^Tactical nuclear missiles have a long range and devastating effect. They can be loaded onto nuclear subs and launched from
-the sea. If used, nuclear weapons have a tremendous negative effect upon world opinion.
+^Tactical nuclear missiles have a long range and devastating effect. They can be loaded onto $LINK<nuclear subs=PRTO_Nuclear_Submarine> 
+or $LINK<AEGIS cruisers=PRTO_AEGIS_Cruiser> and launched from the sea. If used, nuclear weapons have a tremendous 
+negative effect upon world opinion.
 ^
 ^The bombard range of a Tactical Nuke is 6 squares.
 ^
 ^A city must have $LINK<aluminum=GOOD_Aluminum> and $LINK<uranium=GOOD_Uranium> in its
 $LINK<Strategic Resource=GCON_ResourcesS> box to build tactical nuclear missiles.
 
-#DESC_PRTO_Nuke
+#DESC_PRTO_NUKE
 ^
 ^
 ^Tactical nuclear weapons are those whose payload is typically less than five kilotons. These weapons are designed to be used
@@ -3308,9 +3310,10 @@ remodeled and re-commissioned in the 1980s.
 #PRTO_AEGIS_Cruiser
 ^
 ^
-^[AEGIS Cruisers] are nimble and lethal. They can bombard up to two squares away; they have [radar] so they can see two squares
-regardless of blocking terrain; and they can see $LINK<submarines=PRTO_Submarine> when within their radar range.
-All in all the AEGIS Cruiser is a formidable warship.
+^[AEGIS Cruisers] are nimble and lethal. They can bombard up to two squares away; they can transport and fire 
+$LINK<missiles=PRTO_Cruise_Missile>; they have [radar] so they can see two squares regardless of blocking terrain; and 
+they can see $LINK<submarines=PRTO_Submarine> when within their radar range. All in all the AEGIS Cruiser is a 
+formidable warship.
 ^
 ^A coastal city needs $LINK<aluminum=GOOD_Aluminum> and $LINK<uranium=GOOD_Uranium> in its
 $LINK<Strategic Resource=GCON_ResourcesS> box to build an AEGIS Cruiser.
@@ -3329,8 +3332,9 @@ aircraft, and missiles.
 #PRTO_Nuclear_Submarine
 ^
 ^
-^[Nuclear Submarines] are faster than normal subs and have the ability to carry a Tactical Nuclear Missile on board.
-They can launch these from the sea. In addition, Nuclear Submarines have $LINK<Stealth Attack=GCON_Stealth_Attack>.
+^[Nuclear Submarines] are faster than normal subs and have the ability to carry $LINK<Cruise Missiles=PRTO_Cruise_Missile>
+and $LINK<Tactical Nuclear Missiles=PRTO_NUKE> on board. They can launch these from the sea. In addition, Nuclear 
+Submarines have $LINK<Stealth Attack=GCON_Stealth_Attack>.
 ^
 ^A coastal city needs $LINK<uranium=GOOD_Uranium> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Nuclear Submarine.
 
@@ -3362,7 +3366,8 @@ waters never before seen by European eyes -- and to carry back goods and maps fr
 
 #PRTO_Cruiser
 ^
-[Cruisers] are fast surface warships that can bombard one square away; they are stronger and more heavily armed than a $LINK<destroyer=PRTO_Destroyer>. They have [radar] so they can see two squares regardless of blocking terrain.
+^
+^[Cruisers] are fast surface warships that can bombard one square away; they are stronger and more heavily armed than a $LINK<destroyer=PRTO_Destroyer>. They have [radar] so they can see two squares regardless of blocking terrain.
 ^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a cruiser.
 
@@ -3948,21 +3953,6 @@ center of learning Sankore Madrasah (or University of Sankore) was constructed d
 level of urban living in the major centers of the Mali. Sergio Domian, an Italian scholar of art and architecture, wrote of this period: 
 "Thus was laid the foundation of an urban civilization. At the height of its power, Mali had at least 400 cities, and the interior of the 
 Niger Delta was very densely populated." It is clear that the workers of Mali may have been some of the hardest working of the time.
-
-#PRTO_Fire_Longbowman
-^
-^
-^[Fire Longbowmen] are excellent attackers in the middle ages.
-
-#DESC_PRTO_Fire_Longbowman
-^
-^
-^Fire arrows were one of the earliest forms of weaponized gunpowder, being used from the 9th century onward. Not to be confused with 
-earlier incendiary arrow projectiles, the fire arrow was a gunpowder weapon which receives its name from the translated Chinese term "huojiàn", 
-which literally means fire arrow.
-^
-^	Fire arrows were used as a sort of early siege weapon and a powerful weapon against enemies. As the name suggests, the tip of the arrow was set 
-on fire. Anything the arrow landed on would likely catch on fire, making it extremely effective against undefended wooden structures.
 
 #PRTO_Sunka_Wakan
 ^
@@ -6603,7 +6593,7 @@ in which there are a very small number of inbound targets to eliminate.
 ^
 ^The development of watermills from their ancient origins was impressive, and extended from agriculture to sawmills both for timber and stone. By the late 11th century, most large villages had turnable mills, around 6,500 in England alone. Water-power was also widely used in mining for raising ore from shafts, crushing ore, and even powering bellows.
 ^	Alongside watermills, windmills were also developed as early as the 7th century. The first practical windmills were panemone windmills, using sails that rotated in a horizontal plane, around a vertical axis. Made of six to 12 sails covered in reed matting or cloth material, these windmills were used to grind grain or draw up water. The horizontal-axis or vertical windmill (so called due to the plane of the movement of its sails) is a development of the 12th century, first used in northwestern Europe, in the triangle of northern France, eastern England and Flanders.
-^	While seemingly just a symbol of a more primitive past today, the impact of mills cannot be understated. Mills were an extremely important source of reliable power for pre-industrial societies, and thus were fairly widespread. By 1850, an estimated 200,000 windmills and 500,000 watermills existed in Europe alone. However, they quickly declined in popularity throughout the late 19th century and beyond as the advent of the steam engine during the Industrial Revolution meant traditional water and wind power were quickly supplanted by that of steam.
+^	Mills were an extremely important source of reliable power for pre-industrial machinery, enabling greater access to early processed goods, such as flour or lumber from gristmills and sawmills, becoming a seemingly mundane yet still very crucial cornerstone of the growing societies of the Middle Ages. By 1850, an estimated 200,000 windmills and 500,000 watermills existed in Europe alone. However, they quickly declined in popularity throughout the late 19th century and beyond as the advent of the steam engine during the Industrial Revolution meant traditional water and wind power were quickly supplanted by that of steam.
 
 #TECH_Steam_Engine
 ^
@@ -9385,39 +9375,5 @@ the High Plains. These newcomers were the Saône, well-mounted and increasingly c
 and raiding party led by Chief Standing Bear discovered the Black Hills (the Paha Sapa), then the territory of the Cheyenne. Ten years later, 
 the Oglála and Brulé also crossed the river. In 1776, the Lakota defeated the Cheyenne, who had earlier taken the region from the Kiowa. The 
 Cheyenne then moved west to the Powder River country, and the Lakota made the Black Hills their home.
-
-#RACE_MAURYAN
-^The Mauryans are $LINK<expansionist and agricultural=GCON_Strengths>. They start the game with
-$LINK<Masonry=TECH_Masonry> and $LINK<Pottery=TECH_Pottery> and build the $LINK<Fire Longbowman=PRTO_Fire_Longbowman> instead of $LINK<Longbowmen=PRTO_Longbowman>.
-^
-^The Maurya Empire (322 – 185 B.C.E.), ruled by the Mauryan dynasty, was a geographically extensive and powerful political and military 
-empire in ancient India. Originating from the kingdom of Magadha in the Indo-Gangetic plains of modern Bihar, Eastern Uttar Pradesh and 
-Bengal, the empire's capital city was at Pataliputra near modern Patna. Chandragupta Maurya founded the Empire in 322 B.C.E. after overthrowing 
-the Nanda Dynasty. He began rapidly expanding his power westward across central and western India. Local powers had been disrupted by the 
-westward withdrawal of Alexander the Great's and his Macedonian and Persian armies. By 316 B.C.E. the empire had fully occupied Northwestern 
-India, defeating and conquering the satraps left by Alexander.
-^	At its zenith, the Empire stretched to the northern natural boundaries of the Himalaya Mountains, and to the east into Assam. To the west, 
-it reached beyond modern Pakistan and significant portions of Afghanistan, including the modern Herat and Kandahar provinces and Balochistan. 
-Emperor Bindusara expanded the Empire into India's central and southern regions, but it excluded a small portion of unexplored tribal and 
-forested regions near Kalinga, India.
-^	The Mauryan Empire was arguably the largest empire to rule the Indian subcontinent. Its decline began fifty years after Ashoka's rule ended, 
-and it dissolved in 185 B.C.E. with the rise of the Sunga Dynasty in Magadha. Under Chandragupta, the Mauryan Empire conquered the trans-Indus 
-region, defeating its Macedonian rulers. Chandragupta then defeated the invasion led by Seleucus I, a Greek general from Alexander's army. Under 
-Chandragupta and his successors internal and external trade, and agriculture and economic activities, all thrived and expanded across India. 
-Chadragupta created a single and efficient system of finance, administration, and security. The Mauryan empire stands as one of the most significant 
-periods in Indian history.
-
-#DESC_RACE_MAURYAN
-^
-^After the Kalinga War, the Empire experienced a half century of peace and security under Ashoka. India was a prosperous and stable empire 
-of great economic and military power. Its political and trade influence extended across Western and Central Asia into Europe. During that 
-time Mauryan India also enjoyed an era of social harmony, religious transformation, and expansion of learning and the sciences. Chandragupta 
-Maurya's embrace of Jainism increased social and religious renewal and reform across his society. Ashoka's embrace of Buddhism was the 
-foundation of social and political peace and non-violence across all of India. The era fostered the spread of Buddhist ideals into Sri Lanka, 
-Southeast Asia, West Asia, and Mediterranean Europe.
-^	Chandragupta's minister Kautilya Chanakya wrote the Arthashastra, considered one of the greatest treatises on economics, politics, 
-foreign affairs, administration, military arts, war, and religion ever produced. Archaeologically, the period of Mauryan rule in Southern Asia 
-falls into the era of Northern Black Polished Ware (NBPW). The Arthashastra and the Edicts of Ashoka serve as primary sources of written records 
-of the Mauryan times. The Lion Capital of Asoka at Sarnath, remains the emblem of India.
 
 #EOF

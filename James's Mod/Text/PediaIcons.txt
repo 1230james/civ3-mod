@@ -123,9 +123,6 @@ art\advisors\HO_ALL.pcx
 #RACE_MALI
 art\leaderheads\MM.pcx
 art\advisors\MM_all.pcx
-#RACE_MAURYAN
-art\leaderheads\AS.pcx
-art\advisors\AS_all.pcx
 #RACE_LAKOTA
 art\leaderheads\SB.pcx
 art\advisors\SB_all.pcx
@@ -203,8 +200,6 @@ art\leaderheads\x2_Theodora victory happy lg.pcx
 art\leaderheads\HO_HAP.pcx
 #HAPPY_RACE_MALI
 art\leaderheads\MM_HAP.pcx
-#HAPPY_RACE_MAURYAN
-art\leaderheads\AS_HAP.pcx
 #HAPPY_RACE_LAKOTA
 art\leaderheads\SB_HAP.pcx
 #HAPPY_RACE_AUSTRIA
@@ -278,8 +273,6 @@ art\leaderheads\x2_Theodora victory happy sm.pcx
 art\leaderheads\HO_SHAP.pcx
 #SHAPP_RACE_MALI
 art\leaderheads\MM_SHAP.pcx
-#SHAPP_RACE_MAURYAN
-art\leaderheads\AS_SHAP.pcx
 #SHAPP_RACE_LAKOTA
 art\leaderheads\SB_SHAP.pcx
 #SHAPP_RACE_AUSTRIA
@@ -353,8 +346,6 @@ art\leaderheads\x2_Theodora victory kiss lg.pcx
 art\leaderheads\HO_KIS.pcx
 #LKISS_RACE_MALI
 art\leaderheads\MM_KIS.pcx
-#LKISS_RACE_MAURYAN
-art\leaderheads\AS_KIS.pcx
 #LKISS_RACE_LAKOTA
 art\leaderheads\SB_KIS.pcx
 #LKISS_RACE_AUSTRIA
@@ -428,8 +419,6 @@ art\leaderheads\x2_Theodora victory kiss sm.pcx
 art\leaderheads\HO_SKIS.pcx
 #SKISS_RACE_MALI
 art\leaderheads\MM_SKIS.pcx
-#SKISS_RACE_MAURYAN
-art\leaderheads\AS_SKIS.pcx
 #SKISS_RACE_LAKOTA
 art\leaderheads\SB_SKIS.pcx
 #SKISS_RACE_AUSTRIA
@@ -503,8 +492,6 @@ art\leaderheads\x2_Theodora victory angry sm.pcx
 art\leaderheads\HO_ANG.pcx
 #ANGRY_RACE_MALI
 art\leaderheads\MM_ANG.pcx
-#ANGRY_RACE_MAURYAN
-art\leaderheads\AS_ANG.pcx
 #ANGRY_RACE_LAKOTA
 art\leaderheads\SB_ANG.pcx
 #ANGRY_RACE_AUSTRIA
@@ -579,8 +566,6 @@ art\leaderheads\x2_Theodora victory heart sm.pcx
 art\leaderheads\HO_CULT.pcx
 #ILOVE_RACE_MALI
 art\leaderheads\MM_CULT.pcx
-#ILOVE_RACE_MAURYAN
-art\leaderheads\AS_CULT.pcx
 #ILOVE_RACE_LAKOTA
 art\leaderheads\SB_CULT.pcx
 #ILOVE_RACE_AUSTRIA
@@ -654,8 +639,6 @@ art\leaderheads\x2_Theodora victory heart tiny.pcx
 art\leaderheads\HO_CULTB.pcx
 #LOVED_RACE_MALI
 art\leaderheads\MM_CULTB.pcx
-#LOVED_RACE_MAURYAN
-art\leaderheads\AS_CULTB.pcx
 #LOVED_RACE_LAKOTA
 art\leaderheads\SB_CULTB.pcx
 #LOVED_RACE_AUSTRIA
@@ -729,8 +712,6 @@ art\leaderheads\x2_Theodora victory beatup lg.pcx
 art\leaderheads\HO_CONQL.pcx
 #LHURT_RACE_MALI
 art\leaderheads\MM_CONQ_L.pcx
-#LHURT_RACE_MAURYAN
-art\leaderheads\AS_CONQ_L.pcx
 #LHURT_RACE_LAKOTA
 art\leaderheads\SB_CONQ_L.pcx
 #LHURT_RACE_AUSTRIA
@@ -804,8 +785,6 @@ art\leaderheads\x2_Theodora victory beatup sm.pcx
 art\leaderheads\HO_CONQ.pcx
 #HURTN_RACE_MALI
 art\leaderheads\MM_CONQ.pcx
-#HURTN_RACE_MAURYAN
-art\leaderheads\AS_CONQ.pcx
 #HURTN_RACE_LAKOTA
 art\leaderheads\SB_CONQ.pcx
 #HURTN_RACE_AUSTRIA
@@ -924,9 +903,6 @@ art\civilopedia\icons\races\Ho_Chi_Minh_SMALL.pcx
 #ICON_RACE_MALI
 art\civilopedia\icons\races\MaliLARGE.pcx
 art\civilopedia\icons\races\MaliSMALL.pcx
-#ICON_RACE_MAURYAN
-art\civilopedia\icons\races\AshokaLARGE.pcx
-art\civilopedia\icons\races\AshokaSMALL.pcx
 #ICON_RACE_LAKOTA
 art\civilopedia\icons\races\SiouxLARGE.pcx
 art\civilopedia\icons\races\SiouxSMALL.pcx
@@ -1516,9 +1492,6 @@ Art\Civilopedia\Icons\Units\Vietcongsmall.pcx
 #ICON_PRTO_Mali_Worker
 Art\Civilopedia\Icons\Units\AfricanWorkerLARGE.pcx
 Art\Civilopedia\Icons\Units\AfricanWorkerSMALL.pcx
-#ICON_PRTO_Fire_Longbowman
-Art\Civilopedia\Icons\Units\67FireLongbowmanlarge.pcx
-Art\Civilopedia\Icons\Units\67FireLongbowmansmall.pcx
 #ICON_PRTO_Sunka_Wakan
 Art\Civilopedia\Icons\Units\SunkaWakanLARGE.pcx
 Art\Civilopedia\Icons\Units\SunkaWakanSMALL.pcx
@@ -2931,8 +2904,6 @@ King
 African Worker
 #ANIMNAME_PRTO_Vietcong
 Vietcong
-#ANIMNAME_PRTO_Fire_Longbowman
-Fire Longbowman
 #ANIMNAME_PRTO_Sunka_Wakan
 SunkaWakan
 #ANIMNAME_PRTO_Nuclear_Bomb
