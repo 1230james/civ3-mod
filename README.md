@@ -20,7 +20,7 @@ This is a modpack for Civ3: Complete that I put together containing some changes
 
 Compared to vanilla Civ3, this mod:
 
-* Permits plagues (max 1)
+* Permits plagues (max 2)
 * Removes the following civs:
     * Portugal
     * Zululand
@@ -59,6 +59,7 @@ Compared to vanilla Civ3, this mod:
     * Sunka Wakan for the Lakota
     * Turtle Ship for the Koreans
     * King for the non-vanilla civs to use as their king unit in Regicide mode
+* Tweaks to Modern Era units
 * Adds new graphics for ICBMs and Tactical Nukes (they're minor changes)
 * "Fixes" the previously unused Tactical Nuke launch animation so it plays upon use
 * Changed Frigates & Man-O-Wars to upgrade to Destroyers instead of nothing
@@ -148,6 +149,45 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * 40/22/2
 * Costs 400 shields
 * Requires Uranium, Aluminum, and Rubber
+
+### Modern Era Unit Tweaks & Balancing
+
+#### Cruise Missiles
+* Rate of fire raised from 3 to 4
+* Now classified as a Tactical Missile, allowing transport via AEGIS Cruiser (see below) and Nuclear Submarine
+
+#### Battleships
+* Bombard strength raised from 8 to 18, and rate of fire raised from 2 to 4
+    * Comparison: Bombers have 12 strength and 3 RoF
+* Air Defense strength lowered from 3 to 1
+* Moves raised to 6, matching Transports
+
+#### Cruisers
+* Bombard strength raised from 7 to 10
+* Air Defense strength raised from 1 to 3
+
+#### AEGIS Cruisers
+* Bombard strength raised from 6 to 9
+* Air Defense strength raised from 3 to 4
+* Can now transport Tactical Missiles (Cruise Missiles & Tactical Nukes), with room for up to 8 units
+
+#### Nuclear Submarines
+* Transport capacity raised from 1 to 3
+
+#### Carriers
+* Transport capacity raised from 4 to 12
+
+#### Paratroopers
+* Stats raised to 6/10/1 (up from 5/9/1, to match Infantry)
+* Production cost raised from 90 to 110 shields
+
+#### Modern Paratroopers
+* Stats raised to 12/14/1 (up from 6/11/1, to match TOW Infantry)
+* Production cost raised from 110 to 140
+
+#### Helicopters
+* Transport capacity raised from 3 to 4
+* Increased operational range from 6 to 8
 
 ### New Technologies
 * Fundamentalism
