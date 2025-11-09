@@ -176,7 +176,16 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Moves increased from 3 to 6
 * Now has +1 HP bonus
 
+#### Transports
+* Graphics replaced to swap the Higgins boat with a larger landing ship
+* Transport capacity increased from 6 to 12
+* Moves raised from 6 to 8
+* Defense strength increased from 2 to 3
+* Now has Air Defense Strength of 1
+* Now has +1 HP bonus
+
 #### Destroyers
+* Moves raised from 8 to 10
 * Now has +1 HP bonus
 
 #### Battleships

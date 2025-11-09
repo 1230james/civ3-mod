@@ -1202,8 +1202,8 @@ art\civilopedia\icons\units\32galleonsmall.pcx
 art\civilopedia\icons\units\ErzherzogFerdinandMax_LG.pcx
 art\civilopedia\icons\units\ErzherzogFerdinandMax_SM.pcx
 #ICON_PRTO_Transport
-art\civilopedia\icons\units\34transportlarge.pcx
-art\civilopedia\icons\units\34transportsmall.pcx
+art\civilopedia\icons\units\Alligator_LG.pcx
+art\civilopedia\icons\units\Alligator_SM.pcx
 #ICON_PRTO_Carrier
 art\civilopedia\icons\units\35nimitzlarge.pcx
 art\civilopedia\icons\units\35nimitzsmall.pcx
@@ -2702,7 +2702,7 @@ Galleon
 #ANIMNAME_PRTO_Ironclad
 ErzherzogFerdinandMaxIronclad
 #ANIMNAME_PRTO_Transport
-Transport
+Alligator Class LST
 #ANIMNAME_PRTO_Carrier
 Carrier
 #ANIMNAME_PRTO_Submarine

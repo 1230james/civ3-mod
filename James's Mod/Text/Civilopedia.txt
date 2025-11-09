@@ -3274,6 +3274,8 @@ the coast of an enemy country.
 ^
 ^[Destroyers] are fast surface warships capable of bombardment and normal naval combat. They can also detect invisible units, such as $LINK<Submarines=PRTO_Submarine>.
 ^
+^Due to its metal construction, the Destroyer receives an additional Hit Point on its Health Bar.
+^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a destroyer.
 
 #DESC_PRTO_Destroyer
