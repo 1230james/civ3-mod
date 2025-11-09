@@ -49,6 +49,7 @@ Compared to vanilla Civ3, this mod:
     * Milling, Steam Engine, and Vacuum Tubes, which are end-of-era techs you must research to proceed to the next era
     * Nanotechnology, Fusion, Advanced Armor, and Heavy Mechanicals, new Modern Era technologies
 * Adds new units:
+    * Ironclads (Graphics replaced & stats tweaked; see *New Units* section)
     * Engineer (Workers get tweaked; see *New Units* section)
     * Atomic Bomb
     * Space Marine
@@ -62,7 +63,7 @@ Compared to vanilla Civ3, this mod:
 * Tweaks to Modern Era units
 * Adds new graphics for ICBMs and Tactical Nukes (they're minor changes)
 * "Fixes" the previously unused Tactical Nuke launch animation so it plays upon use
-* Changed Frigates & Man-O-Wars to upgrade to Destroyers instead of nothing
+* Changed Frigates & Man-O-Wars to upgrade to Ironclads instead of nothing
 * Changed Cavalry, Sipahi, and Cossacks to upgrade to Tanks instead of nothing
 * Adds a new civil disorder animation
 * And adds some other minor changes that are either not very noteworthy and/or that I've forgotten
@@ -121,6 +122,11 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
     
 ### New Units
 
+#### Ironclads
+* Graphics replaced to swap the Monitor-style ironclad out for an armored frigate
+* Attack strength increased from 5 to 6
+* Moves increased from 3 to 5
+
 #### Engineer & Worker Tweaks
 * Engineers are identical to Workers, except they work twice as fast
 * Workers no longer get an efficiency boost upon researching Replaceable Parts
@@ -133,7 +139,7 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Included to give civilizations nuclear strike capability without Space Flight or in case they lack aluminum
 
 #### Turtle Ship
-* 4(3)/4/5
+* 4(3)/4/4
 * Costs 70 shields
 * Requires Iron and Saltpeter
 * Unique unit for the Koreans; replaces the Hwach'a
@@ -161,6 +167,7 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
     * Comparison: Bombers have 12 strength and 3 RoF
 * Air Defense strength lowered from 3 to 1
 * Moves raised to 6, matching Transports
+* Now has Lethal Land & Air Bombard
 
 #### Cruisers
 * Bombard strength raised from 7 to 10
@@ -282,10 +289,12 @@ Credit goes to:
     * Retrieved from [this article](https://www.britannica.com/science/carbon-nanotube)
 * [Richard Kail for the illustration I used to create the Fusion tech icon](https://www.sciencephoto.com/media/702288/view/nuclear-fusion-conceptual-image)
 * [aaglo for their Turtle Ship unit](https://forums.civfanatics.com/threads/updated-unit-korean-turtleship.80485/)
+* [Wyrmshadow et al. for the Ironclad unit](https://forums.civfanatics.com/resources/erzherzog-ferdinand-max-class-ironclad.26867/)
 * Wikipedia for Civilopedia texts for entries or portions of entries that do not exist in the base game
 * Myself for:
     * Fixing transparency issues on some of the leaderheads
     * Color correction on some unit graphics
     * Combining the Atomic Bomb and Vuldacon's ICBM explosion & sounds
+    * Creating run sounds for the replacement Ironclad graphics
 
 You have my permission to use this modpack at your own discretion for any purpose except for commercial use unless you have explicit permission from all the content creators listed in the Credits section above to use their content for commercial purposes. You do not need to credit me, although linking back to this repository would be appreciated.

@@ -1199,8 +1199,8 @@ art\civilopedia\icons\units\31frigatesmall.pcx
 art\civilopedia\icons\units\32galleonlarge.pcx
 art\civilopedia\icons\units\32galleonsmall.pcx
 #ICON_PRTO_Ironclad
-art\civilopedia\icons\units\33ironcladlarge.pcx
-art\civilopedia\icons\units\33ironcladsmall.pcx
+art\civilopedia\icons\units\ErzherzogFerdinandMax_LG.pcx
+art\civilopedia\icons\units\ErzherzogFerdinandMax_SM.pcx
 #ICON_PRTO_Transport
 art\civilopedia\icons\units\34transportlarge.pcx
 art\civilopedia\icons\units\34transportsmall.pcx
@@ -2697,7 +2697,7 @@ Frigate
 #ANIMNAME_PRTO_Galleon
 Galleon
 #ANIMNAME_PRTO_Ironclad
-Ironclad
+ErzherzogFerdinandMaxIronclad
 #ANIMNAME_PRTO_Transport
 Transport
 #ANIMNAME_PRTO_Carrier
