@@ -194,21 +194,37 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Air Defense strength lowered from 3 to 1
 * Moves raised to 6, matching Transports
 * Now has Lethal Land & Air Bombard
+* Now has +2 HP bonus
 
 #### Cruisers
 * Bombard strength raised from 7 to 10
 * Air Defense strength raised from 1 to 3
+* Moves raised from 6 to 8
+* Now has +1 HP bonus
 
 #### AEGIS Cruisers
 * Bombard strength raised from 6 to 9
 * Air Defense strength raised from 3 to 4
 * Can now transport Tactical Missiles (Cruise Missiles & Tactical Nukes), with room for up to 8 units
+* Moves raised from 7 to 9
+* Now has +1 HP bonus
+
+#### Submarines
+* Attack strength increased from 8 to 16
+* Moves raised from 4 to 6
+* Now upgrades to Nuclear Submarines
+* Now has +1 HP bonus
 
 #### Nuclear Submarines
+* Attack strength increased from 8 to 16
 * Transport capacity raised from 1 to 3
+* Moves raised from 5 to 8
+* Now has +1 HP bonus
 
 #### Carriers
 * Transport capacity raised from 4 to 12
+* Moves raised from 7 to 8
+* Now has +1 HP bonus
 
 #### Paratroopers
 * Stats raised to 6/10/1 (up from 5/9/1, to match Infantry)

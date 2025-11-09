@@ -3219,6 +3219,8 @@ the "Merrimack" was forced to withdraw.
 the bounding main. A transport carrying $LINK<Marines=PRTO_Marine> can be a significant off-shore
 threat to any nation.
 ^
+^Due to its metal construction, the Transport receives an additional Hit Point on its Health Bar.
+^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a transport.
 
 #DESC_PRTO_Transport
@@ -3235,6 +3237,8 @@ for smoother deployment from the vessel after it arrives off the coast of a land
 ^[Aircraft Carriers] carry air units and are legitimate airbases. Air units may $LINK<re-base=GCON_Air_Missions>
 to carriers, and can launch missions from them. Carriers are equipped with [Radar], so they can see two squares in all directions,
 regardless of any blocking terrain.
+^
+^Due to its metal construction, the Carrier receives an additional Hit Point on its Health Bar.
 ^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a carrier.
 
@@ -3254,6 +3258,8 @@ the other's visual range, ending the dominance of the battleship as the stronges
 ^[Submarines] can operate invisibly to enemy units because they travel beneath the waves. They remain
 invisible until they attack a surface ship, after which they again disappear. However, other submarines
 and $LINK<AEGIS Cruisers=PRTO_AEGIS_Cruiser> and $LINK<Destroyers=PRTO_Destroyer> can see them plainly. In addition, Submarines have $LINK<Stealth Attack=GCON_Stealth_Attack>.
+^
+^Due to its metal construction, the Submarine receives an additional Hit Point on its Health Bar.
 ^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a sub.
 
@@ -3296,9 +3302,9 @@ defense against anti-ship missiles.
 ^"The Queen of the seas," the [Battleship] has a bombardment range of two and packs a terrific punch both in
 traditional naval engagements and in offshore bombardment.
 ^
+^Due to its metal construction and heavy armor, the Battleship receives an additional 2 Hit Points on its Health Bar.
 ^
 ^The Battleship has both Lethal Land and Sea Bombardment. 
-^
 ^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a battleship.
 
@@ -3322,6 +3328,8 @@ $LINK<missiles=PRTO_Cruise_Missile>; they have [radar] so they can see two squar
 they can see $LINK<submarines=PRTO_Submarine> when within their radar range. All in all the AEGIS Cruiser is a 
 formidable warship.
 ^
+^Due to its metal construction, the AEGIS Cruiser receives an additional Hit Point on its Health Bar.
+^
 ^A coastal city needs $LINK<aluminum=GOOD_Aluminum> and $LINK<uranium=GOOD_Uranium> in its
 $LINK<Strategic Resource=GCON_ResourcesS> box to build an AEGIS Cruiser.
 
@@ -3342,6 +3350,8 @@ aircraft, and missiles.
 ^[Nuclear Submarines] are faster than normal subs and have the ability to carry $LINK<Cruise Missiles=PRTO_Cruise_Missile>
 and $LINK<Tactical Nuclear Missiles=PRTO_NUKE> on board. They can launch these from the sea. In addition, Nuclear 
 Submarines have $LINK<Stealth Attack=GCON_Stealth_Attack>.
+^
+^Due to its metal construction, the Nuclear Submarine receives an additional Hit Point on its Health Bar.
 ^
 ^A coastal city needs $LINK<uranium=GOOD_Uranium> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Nuclear Submarine.
 
@@ -3375,6 +3385,8 @@ waters never before seen by European eyes -- and to carry back goods and maps fr
 ^
 ^
 ^[Cruisers] are fast surface warships that can bombard one square away; they are stronger and more heavily armed than a $LINK<destroyer=PRTO_Destroyer>. They have [radar] so they can see two squares regardless of blocking terrain.
+^
+^Due to its metal construction, the Cruiser receives an additional Hit Point on its Health Bar.
 ^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a cruiser.
 
