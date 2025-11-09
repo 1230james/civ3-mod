@@ -3196,6 +3196,8 @@ Ships of this type served European nations well into the 1700s.
 ^
 ^The forerunner of the modern battleship, the [Ironclad] is a tough defender against anything but more modern warships.
 ^
+^Due to its metal construction, the Ironclad receives an additional Hit Point on its Health Bar.
+^
 ^A coastal city needs $LINK<coal=GOOD_Coal> and $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS>
 box to build an ironclad.
 
@@ -3217,16 +3219,17 @@ the "Merrimack" was forced to withdraw.
 the bounding main. A transport carrying $LINK<Marines=PRTO_Marine> can be a significant off-shore
 threat to any nation.
 ^
+^Due to its metal construction, the Transport receives an additional Hit Point on its Health Bar.
+^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a transport.
 
 #DESC_PRTO_Transport
 ^
 ^
-^The troop transport ship, which in peacetime serves as a cargo or passenger vessel, is the principle means 
-used by modern powers to move large quantities of military equipment and personnel over long distances. 
-Because transports lack offensive weaponry, they require armed vessels as escorts during times of war. A 
-properly escorted transport can move large military forces to a new area quickly to act as reinforcements 
-or as an attacking force.
+^An attack transport is a navy ship classification for a variant of ocean-going troopship adapted to or purpose-built 
+for transporting invasion forces ashore. Unlike standard troopships, which are often drafted from the merchant 
+fleet and rely on either a quay or tenders, attack transports carry their own fleet of landing craft, allowing 
+for smoother deployment from the vessel after it arrives off the coast of a landing target.
 
 #PRTO_Carrier
 ^
@@ -3234,6 +3237,8 @@ or as an attacking force.
 ^[Aircraft Carriers] carry air units and are legitimate airbases. Air units may $LINK<re-base=GCON_Air_Missions>
 to carriers, and can launch missions from them. Carriers are equipped with [Radar], so they can see two squares in all directions,
 regardless of any blocking terrain.
+^
+^Due to its metal construction, the Carrier receives an additional Hit Point on its Health Bar.
 ^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a carrier.
 
@@ -3254,6 +3259,8 @@ the other's visual range, ending the dominance of the battleship as the stronges
 invisible until they attack a surface ship, after which they again disappear. However, other submarines
 and $LINK<AEGIS Cruisers=PRTO_AEGIS_Cruiser> and $LINK<Destroyers=PRTO_Destroyer> can see them plainly. In addition, Submarines have $LINK<Stealth Attack=GCON_Stealth_Attack>.
 ^
+^Due to its metal construction, the Submarine receives an additional Hit Point on its Health Bar.
+^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a sub.
 
 #DESC_PRTO_Submarine
@@ -3272,6 +3279,8 @@ the coast of an enemy country.
 ^
 ^
 ^[Destroyers] are fast surface warships capable of bombardment and normal naval combat. They can also detect invisible units, such as $LINK<Submarines=PRTO_Submarine>.
+^
+^Due to its metal construction, the Destroyer receives an additional Hit Point on its Health Bar.
 ^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a destroyer.
 
@@ -3293,9 +3302,9 @@ defense against anti-ship missiles.
 ^"The Queen of the seas," the [Battleship] has a bombardment range of two and packs a terrific punch both in
 traditional naval engagements and in offshore bombardment.
 ^
+^Due to its metal construction and heavy armor, the Battleship receives an additional 2 Hit Points on its Health Bar.
 ^
 ^The Battleship has both Lethal Land and Sea Bombardment. 
-^
 ^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a battleship.
 
@@ -3319,6 +3328,8 @@ $LINK<missiles=PRTO_Cruise_Missile>; they have [radar] so they can see two squar
 they can see $LINK<submarines=PRTO_Submarine> when within their radar range. All in all the AEGIS Cruiser is a 
 formidable warship.
 ^
+^Due to its metal construction, the AEGIS Cruiser receives an additional Hit Point on its Health Bar.
+^
 ^A coastal city needs $LINK<aluminum=GOOD_Aluminum> and $LINK<uranium=GOOD_Uranium> in its
 $LINK<Strategic Resource=GCON_ResourcesS> box to build an AEGIS Cruiser.
 
@@ -3339,6 +3350,8 @@ aircraft, and missiles.
 ^[Nuclear Submarines] are faster than normal subs and have the ability to carry $LINK<Cruise Missiles=PRTO_Cruise_Missile>
 and $LINK<Tactical Nuclear Missiles=PRTO_NUKE> on board. They can launch these from the sea. In addition, Nuclear 
 Submarines have $LINK<Stealth Attack=GCON_Stealth_Attack>.
+^
+^Due to its metal construction, the Nuclear Submarine receives an additional Hit Point on its Health Bar.
 ^
 ^A coastal city needs $LINK<uranium=GOOD_Uranium> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Nuclear Submarine.
 
@@ -3372,6 +3385,8 @@ waters never before seen by European eyes -- and to carry back goods and maps fr
 ^
 ^
 ^[Cruisers] are fast surface warships that can bombard one square away; they are stronger and more heavily armed than a $LINK<destroyer=PRTO_Destroyer>. They have [radar] so they can see two squares regardless of blocking terrain.
+^
+^Due to its metal construction, the Cruiser receives an additional Hit Point on its Health Bar.
 ^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a cruiser.
 
@@ -4036,6 +4051,26 @@ and manga. The term may also refer to real world piloted humanoid or non-humanoi
 in existence or still on the drawing board (i.e. at the planning or design stage). Alternatively, in the original 
 Japanese context of the word, "mecha" may refer to mobile machinery/vehicles (including aircraft) in general, manned or 
 otherwise.
+
+#PRTO_Troopship
+^
+^
+^Taking advantage of new steam power & shipbuilding technologies, the [Troopship] can move numerous units over the ocean 
+at faster speeds. They are unarmed, however, and are thus vulnerable to enemy warships looking to intercept convoys.
+^
+^Due to its metal construction, the Troopship receives an additional Hit Point on its Health Bar.
+^
+^A coastal city needs $LINK<coal=GOOD_Coal> and $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS>
+box to build a troopship.
+
+#DESC_PRTO_Troopship
+^
+^
+^The troop transport ship, which in peacetime serves as a cargo or passenger vessel, is the principle means 
+used by modern powers to move large quantities of military equipment and personnel over long distances. 
+Because transports lack offensive weaponry, they require armed vessels as escorts during times of war. A 
+properly escorted transport can move large military forces to a new area quickly to act as reinforcements 
+or as an attacking force.
 
 #BLDG_Palace
 ^

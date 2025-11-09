@@ -1202,8 +1202,8 @@ art\civilopedia\icons\units\32galleonsmall.pcx
 art\civilopedia\icons\units\ErzherzogFerdinandMax_LG.pcx
 art\civilopedia\icons\units\ErzherzogFerdinandMax_SM.pcx
 #ICON_PRTO_Transport
-art\civilopedia\icons\units\34transportlarge.pcx
-art\civilopedia\icons\units\34transportsmall.pcx
+art\civilopedia\icons\units\Alligator_LG.pcx
+art\civilopedia\icons\units\Alligator_SM.pcx
 #ICON_PRTO_Carrier
 art\civilopedia\icons\units\35nimitzlarge.pcx
 art\civilopedia\icons\units\35nimitzsmall.pcx
@@ -1507,6 +1507,9 @@ art\civilopedia\icons\units\Dreadnought_sm.pcx
 #ICON_PRTO_Charles_V
 art\civilopedia\icons\units\x2_Charles_V civpedia lg.pcx
 art\civilopedia\icons\units\x2_Charles_V civpedia sm.pcx
+#ICON_PRTO_Troopship
+Art\Civilopedia\Icons\Units\CargoShipWWII_LG.pcx
+Art\Civilopedia\Icons\Units\CargoShipWWII_SM.pcx
 
 
 #Start buildings
@@ -2699,7 +2702,7 @@ Galleon
 #ANIMNAME_PRTO_Ironclad
 ErzherzogFerdinandMaxIronclad
 #ANIMNAME_PRTO_Transport
-Transport
+Alligator Class LST
 #ANIMNAME_PRTO_Carrier
 Carrier
 #ANIMNAME_PRTO_Submarine
@@ -2914,6 +2917,8 @@ SpaceMarine
 Dreadnought
 #ANIMNAME_PRTO_Hussar
 Hussar
+#ANIMNAME_PRTO_Troopship
+Cargo Ship WWII
 
 
 ################################################################

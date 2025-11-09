@@ -49,8 +49,8 @@ Compared to vanilla Civ3, this mod:
     * Milling, Steam Engine, and Vacuum Tubes, which are end-of-era techs you must research to proceed to the next era
     * Nanotechnology, Fusion, Advanced Armor, and Heavy Mechanicals, new Modern Era technologies
 * Adds new units:
-    * Ironclads (Graphics replaced & stats tweaked; see *New Units* section)
     * Engineer (Workers get tweaked; see *New Units* section)
+    * Troopship
     * Atomic Bomb
     * Space Marine
     * Mecha
@@ -60,7 +60,7 @@ Compared to vanilla Civ3, this mod:
     * Sunka Wakan for the Lakota
     * Turtle Ship for the Koreans
     * King for the non-vanilla civs to use as their king unit in Regicide mode
-* Tweaks to Modern Era units
+* Tweaks to Industrial & Modern Era units
 * Adds new graphics for ICBMs and Tactical Nukes (they're minor changes)
 * "Fixes" the previously unused Tactical Nuke launch animation so it plays upon use
 * Changed Frigates & Man-O-Wars to upgrade to Ironclads instead of nothing
@@ -122,15 +122,19 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
     
 ### New Units
 
-#### Ironclads
-* Graphics replaced to swap the Monitor-style ironclad out for an armored frigate
-* Attack strength increased from 5 to 6
-* Moves increased from 3 to 5
-
 #### Engineer & Worker Tweaks
 * Engineers are identical to Workers, except they work twice as fast
 * Workers no longer get an efficiency boost upon researching Replaceable Parts
 * Engineers become available after researching Replaceable Parts and Workers can be upgraded to Engineers
+
+#### Troopship
+* 1/1/6
+* +1 HP bonus
+* Costs 75 shields
+* Upgrades from Galleons and to Transports
+* Requires Iron and Coal
+* Transports 8 units
+* New early Industrial Era naval transport unit to match late-game naval unit balancing
 
 #### Atomic Bomb
 * Ported over Atomic Bomb unit from the *WWII in the Pacific* scenario
@@ -156,11 +160,33 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Costs 400 shields
 * Requires Uranium, Aluminum, and Rubber
 
-### Modern Era Unit Tweaks & Balancing
+### Industrial & Modern Era Unit Tweaks & Balancing
 
 #### Cruise Missiles
+* Bombard range increased from 4 to 5
 * Rate of fire raised from 3 to 4
 * Now classified as a Tactical Missile, allowing transport via AEGIS Cruiser (see below) and Nuclear Submarine
+
+#### Bombers
+* Now have Collateral Damage
+
+#### Ironclads
+* Graphics replaced to swap the Monitor-style ironclad out for an armored frigate
+* Attack strength increased from 5 to 6
+* Moves increased from 3 to 6
+* Now has +1 HP bonus
+
+#### Transports
+* Graphics replaced to swap the Higgins boat with a larger landing ship
+* Transport capacity increased from 6 to 12
+* Moves raised from 6 to 8
+* Defense strength increased from 2 to 3
+* Now has Air Defense Strength of 1
+* Now has +1 HP bonus
+
+#### Destroyers
+* Moves raised from 8 to 10
+* Now has +1 HP bonus
 
 #### Battleships
 * Bombard strength raised from 8 to 18, and rate of fire raised from 2 to 4
@@ -168,21 +194,37 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Air Defense strength lowered from 3 to 1
 * Moves raised to 6, matching Transports
 * Now has Lethal Land & Air Bombard
+* Now has +2 HP bonus
 
 #### Cruisers
 * Bombard strength raised from 7 to 10
 * Air Defense strength raised from 1 to 3
+* Moves raised from 6 to 8
+* Now has +1 HP bonus
 
 #### AEGIS Cruisers
 * Bombard strength raised from 6 to 9
 * Air Defense strength raised from 3 to 4
 * Can now transport Tactical Missiles (Cruise Missiles & Tactical Nukes), with room for up to 8 units
+* Moves raised from 7 to 9
+* Now has +1 HP bonus
+
+#### Submarines
+* Attack strength increased from 8 to 16
+* Moves raised from 4 to 6
+* Now upgrades to Nuclear Submarines
+* Now has +1 HP bonus
 
 #### Nuclear Submarines
+* Attack strength increased from 8 to 16
 * Transport capacity raised from 1 to 3
+* Moves raised from 5 to 8
+* Now has +1 HP bonus
 
 #### Carriers
 * Transport capacity raised from 4 to 12
+* Moves raised from 7 to 8
+* Now has +1 HP bonus
 
 #### Paratroopers
 * Stats raised to 6/10/1 (up from 5/9/1, to match Infantry)
@@ -193,8 +235,21 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Production cost raised from 110 to 140
 
 #### Helicopters
-* Transport capacity raised from 3 to 4
+* Transport capacity raised from 3 to 8
 * Increased operational range from 6 to 8
+
+#### Fighters
+* Attack strength raised from 4 to 6
+
+#### Jet Fighters & F-15
+* Attack strength raised from 8 to 10
+
+#### Stealth Fighter
+* Attack strength raised from 8 to 10
+
+#### Stealth Bombers
+* Production cost reduced from 240 to 180
+* Defense strength raised from 5 to 6
 
 ### New Technologies
 * Fundamentalism
@@ -289,7 +344,10 @@ Credit goes to:
     * Retrieved from [this article](https://www.britannica.com/science/carbon-nanotube)
 * [Richard Kail for the illustration I used to create the Fusion tech icon](https://www.sciencephoto.com/media/702288/view/nuclear-fusion-conceptual-image)
 * [aaglo for their Turtle Ship unit](https://forums.civfanatics.com/threads/updated-unit-korean-turtleship.80485/)
-* [Wyrmshadow et al. for the Ironclad unit](https://forums.civfanatics.com/resources/erzherzog-ferdinand-max-class-ironclad.26867/)
+* Wyrmshadow et al. for:
+    * [the Ironclad unit](https://forums.civfanatics.com/resources/erzherzog-ferdinand-max-class-ironclad.26867/)
+    * [the Troopship unit](https://forums.civfanatics.com/resources/generic-wwii-cargo-ship.28673/)
+    * [the Transport unit](https://forums.civfanatics.com/resources/alligator-class-landing-ship.26404/)
 * Wikipedia for Civilopedia texts for entries or portions of entries that do not exist in the base game
 * Myself for:
     * Fixing transparency issues on some of the leaderheads
