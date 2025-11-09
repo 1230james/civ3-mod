@@ -235,7 +235,7 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Production cost raised from 110 to 140
 
 #### Helicopters
-* Transport capacity raised from 3 to 4
+* Transport capacity raised from 3 to 8
 * Increased operational range from 6 to 8
 
 ### New Technologies
