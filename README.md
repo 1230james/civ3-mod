@@ -238,6 +238,19 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Transport capacity raised from 3 to 8
 * Increased operational range from 6 to 8
 
+#### Fighters
+* Attack strength raised from 4 to 6
+
+#### Jet Fighters & F-15
+* Attack strength raised from 8 to 10
+
+#### Stealth Fighter
+* Attack strength raised from 8 to 10
+
+#### Stealth Bombers
+* Production cost reduced from 240 to 180
+* Defense strength raised from 5 to 6
+
 ### New Technologies
 * Fundamentalism
     * Unlocks the Fundamentalism government
@@ -331,7 +344,10 @@ Credit goes to:
     * Retrieved from [this article](https://www.britannica.com/science/carbon-nanotube)
 * [Richard Kail for the illustration I used to create the Fusion tech icon](https://www.sciencephoto.com/media/702288/view/nuclear-fusion-conceptual-image)
 * [aaglo for their Turtle Ship unit](https://forums.civfanatics.com/threads/updated-unit-korean-turtleship.80485/)
-* [Wyrmshadow et al. for the Ironclad unit](https://forums.civfanatics.com/resources/erzherzog-ferdinand-max-class-ironclad.26867/)
+* Wyrmshadow et al. for:
+    * [the Ironclad unit](https://forums.civfanatics.com/resources/erzherzog-ferdinand-max-class-ironclad.26867/)
+    * [the Troopship unit](https://forums.civfanatics.com/resources/generic-wwii-cargo-ship.28673/)
+    * [the Transport unit](https://forums.civfanatics.com/resources/alligator-class-landing-ship.26404/)
 * Wikipedia for Civilopedia texts for entries or portions of entries that do not exist in the base game
 * Myself for:
     * Fixing transparency issues on some of the leaderheads
