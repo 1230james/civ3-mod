@@ -60,7 +60,7 @@ Compared to vanilla Civ3, this mod:
     * Sunka Wakan for the Lakota
     * Turtle Ship for the Koreans
     * King for the non-vanilla civs to use as their king unit in Regicide mode
-* Tweaks to Modern Era units
+* Tweaks to Industrial & Modern Era units
 * Adds new graphics for ICBMs and Tactical Nukes (they're minor changes)
 * "Fixes" the previously unused Tactical Nuke launch animation so it plays upon use
 * Changed Frigates & Man-O-Wars to upgrade to Ironclads instead of nothing
@@ -159,8 +159,12 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 ### Modern Era Unit Tweaks & Balancing
 
 #### Cruise Missiles
+* Bombard range increased from 4 to 5
 * Rate of fire raised from 3 to 4
 * Now classified as a Tactical Missile, allowing transport via AEGIS Cruiser (see below) and Nuclear Submarine
+
+#### Bombers
+* Now have Collateral Damage
 
 #### Battleships
 * Bombard strength raised from 8 to 18, and rate of fire raised from 2 to 4
