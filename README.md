@@ -49,8 +49,8 @@ Compared to vanilla Civ3, this mod:
     * Milling, Steam Engine, and Vacuum Tubes, which are end-of-era techs you must research to proceed to the next era
     * Nanotechnology, Fusion, Advanced Armor, and Heavy Mechanicals, new Modern Era technologies
 * Adds new units:
-    * Ironclads (Graphics replaced & stats tweaked; see *New Units* section)
     * Engineer (Workers get tweaked; see *New Units* section)
+    * Troopship
     * Atomic Bomb
     * Space Marine
     * Mecha
@@ -122,15 +122,19 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
     
 ### New Units
 
-#### Ironclads
-* Graphics replaced to swap the Monitor-style ironclad out for an armored frigate
-* Attack strength increased from 5 to 6
-* Moves increased from 3 to 5
-
 #### Engineer & Worker Tweaks
 * Engineers are identical to Workers, except they work twice as fast
 * Workers no longer get an efficiency boost upon researching Replaceable Parts
 * Engineers become available after researching Replaceable Parts and Workers can be upgraded to Engineers
+
+#### Troopship
+* 1/1/6
+* +1 HP bonus
+* Costs 75 shields
+* Upgrades from Galleons and to Transports
+* Requires Iron and Coal
+* Transports 8 units
+* New early Industrial Era naval transport unit to match late-game naval unit balancing
 
 #### Atomic Bomb
 * Ported over Atomic Bomb unit from the *WWII in the Pacific* scenario
@@ -156,7 +160,7 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 * Costs 400 shields
 * Requires Uranium, Aluminum, and Rubber
 
-### Modern Era Unit Tweaks & Balancing
+### Industrial & Modern Era Unit Tweaks & Balancing
 
 #### Cruise Missiles
 * Bombard range increased from 4 to 5
@@ -165,6 +169,15 @@ Almost all other behaviors are identical to vanilla Civ3. You can consider this 
 
 #### Bombers
 * Now have Collateral Damage
+
+#### Ironclads
+* Graphics replaced to swap the Monitor-style ironclad out for an armored frigate
+* Attack strength increased from 5 to 6
+* Moves increased from 3 to 6
+* Now has +1 HP bonus
+
+#### Destroyers
+* Now has +1 HP bonus
 
 #### Battleships
 * Bombard strength raised from 8 to 18, and rate of fire raised from 2 to 4

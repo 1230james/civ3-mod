@@ -3196,6 +3196,8 @@ Ships of this type served European nations well into the 1700s.
 ^
 ^The forerunner of the modern battleship, the [Ironclad] is a tough defender against anything but more modern warships.
 ^
+^Due to its metal construction, the Ironclad receives an additional Hit Point on its Health Bar.
+^
 ^A coastal city needs $LINK<coal=GOOD_Coal> and $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS>
 box to build an ironclad.
 
@@ -3222,11 +3224,10 @@ threat to any nation.
 #DESC_PRTO_Transport
 ^
 ^
-^The troop transport ship, which in peacetime serves as a cargo or passenger vessel, is the principle means 
-used by modern powers to move large quantities of military equipment and personnel over long distances. 
-Because transports lack offensive weaponry, they require armed vessels as escorts during times of war. A 
-properly escorted transport can move large military forces to a new area quickly to act as reinforcements 
-or as an attacking force.
+^An attack transport is a navy ship classification for a variant of ocean-going troopship adapted to or purpose-built 
+for transporting invasion forces ashore. Unlike standard troopships, which are often drafted from the merchant 
+fleet and rely on either a quay or tenders, attack transports carry their own fleet of landing craft, allowing 
+for smoother deployment from the vessel after it arrives off the coast of a landing target.
 
 #PRTO_Carrier
 ^
@@ -4036,6 +4037,26 @@ and manga. The term may also refer to real world piloted humanoid or non-humanoi
 in existence or still on the drawing board (i.e. at the planning or design stage). Alternatively, in the original 
 Japanese context of the word, "mecha" may refer to mobile machinery/vehicles (including aircraft) in general, manned or 
 otherwise.
+
+#PRTO_Troopship
+^
+^
+^Taking advantage of new steam power & shipbuilding technologies, the [Troopship] can move numerous units over the ocean 
+at faster speeds. They are unarmed, however, and are thus vulnerable to enemy warships looking to intercept convoys.
+^
+^Due to its metal construction, the Troopship receives an additional Hit Point on its Health Bar.
+^
+^A coastal city needs $LINK<coal=GOOD_Coal> and $LINK<iron=GOOD_Iron> in its $LINK<Strategic Resource=GCON_ResourcesS>
+box to build a troopship.
+
+#DESC_PRTO_Troopship
+^
+^
+^The troop transport ship, which in peacetime serves as a cargo or passenger vessel, is the principle means 
+used by modern powers to move large quantities of military equipment and personnel over long distances. 
+Because transports lack offensive weaponry, they require armed vessels as escorts during times of war. A 
+properly escorted transport can move large military forces to a new area quickly to act as reinforcements 
+or as an attacking force.
 
 #BLDG_Palace
 ^
