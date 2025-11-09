@@ -3293,6 +3293,10 @@ defense against anti-ship missiles.
 ^"The Queen of the seas," the [Battleship] has a bombardment range of two and packs a terrific punch both in
 traditional naval engagements and in offshore bombardment.
 ^
+^
+^The Battleship has both Lethal Land and Sea Bombardment. 
+^
+^
 ^A coastal city needs $LINK<oil=GOOD_Oil> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a battleship.
 
 #DESC_PRTO_Battleship
@@ -7693,7 +7697,7 @@ governing system in the modern world because of the personal and economic freedo
 #GOVT_Fundamentalism
 ^
 ^
-^Under Fundamentalism, as the Mullah of a religious theocracy, you lead your people through the strict adherance to religious dogma. Through centralized control by the church, $LINK<corruption=GCON_Corruption> is quite low, and there is no improvement maintenance. $LINK<Research=GCON_Research>, however, is limited under fundamentalist regimes because it brings secularism and questioning of religious belief. Additionally, your cities lose population points upon changing to a fundamentalist government, and newly conquered cities will also lose population.
+^Under Fundamentalism, as the Mullah of a religious theocracy, you lead your people through the strict adherance to religious dogma. Through centralized control by the church, $LINK<corruption=GCON_Corruption> is quite low, and there is no improvement maintenance, but $LINK<research=GCON_Research> spending is limited. Additionally, your cities lose population points upon changing to a fundamentalist government. Newly conquered cities will also lose population, and do not generate culture until a popular majority has been assimilated.
 ^
 ^Worker efficiency				100%
 ^Hurry Method					Forced Labor
