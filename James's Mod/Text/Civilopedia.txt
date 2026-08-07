@@ -8204,11 +8204,12 @@ were soon absorbed into the fabric of Chinese culture. The casting of bronze and
 from the period of the Shang dynasty - China's first, believed to have dominated north China from the mid-16th to 
 mid-11th century BC. The overthrow of the Shang dynasty by the Chou (1111-255 BC) spanned three generations; although 
 the vibrant Chou culture produced some of history's greatest philosophers and artists, among them Confucius and Lao-zi, 
-it was eventually supplanted by a "barbarian" invasion that established the brief Ch'in Empire (221-206 BC). 
-The subsequent Han dynasty was founded by Liu Pang, who assumed the title of emperor in 202 BC. The four centuries of 
-the Han was one of considerable changes in imperial, political, cultural and social development, as well as massive 
-engineering projects (including the Great Wall), and established a Chinese identity that would survive until the 
-advent of Communism.
+it was eventually supplanted by a "barbarian" invasion that established the brief Qin dynasty (221-206 BC). The first
+monarch of this dynasty, {Qin Shi Huang}, was the first in China to style himself as "Emperor", thus officially forming
+the Empire of China and marking the start of what would become 2,100 years of Imperial Chinese dynasties. The subsequent
+Han dynasty was founded by Liu Pang, who assumed the title of emperor in 202 BC. The four centuries of the Han was one
+of considerable changes in imperial, political, cultural and social development, as well as massive engineering projects 
+(including the Great Wall), and established a Chinese identity that would survive until the advent of Communism.
 ^    By the end of the 2nd century AD the Han Empire had virtually ceased to exist, followed by a lengthy period of
 rival kingdoms that did not end until 618 AD, when the T'ang dynasty came to power. The T'ang were followed by the
 Sung dynasties (960-1279 AD), which collapsed in the face of the Mongol invasions. By securing the allegiance of
@@ -8235,7 +8236,7 @@ Chinese Communist Party (CCP), erupted. Although united against the Japanese inv
 civil war raged in China. Nationalists and Communists raced to take over Japanese-held territories, built up their
 forces, and fought limited engagements while still conducting negotiations; during 1947-1948, after initial Nationalist
 victories, the strategic balance shifted in favor of the Communists. Four years after Japan's surrender, a profound
-and popularly based revolution had swept China, and, in October 1949 {Mao Tse-tung} proclaimed the People's Republic
+and popularly based revolution had swept China, and, in October 1949 Mao Tse-tung proclaimed the People's Republic
 of China. In 1966, the Communists launched the disastrous "Cultural Revolution," a ten-year assault on "traditional
 values" and "bourgeois thinking" which ultimately left the country in disarray. After Mao's death in 1976, his rival
 Deng Xiaopeng assumed power and began social and economic reforms that would see China return to world prominence.

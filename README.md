@@ -38,6 +38,7 @@ Compared to vanilla Civ3, this mod:
     * Tokugawa of Japan -> Meiji
     * Elizabeth of England -> Winston Churchill
     * Wang Kon of Korea -> Sejong
+    * Mao of China -> Qin Shi Huang
 * Adds the following leaders:
     * Charles V of Austria
     * Mansa Musa of Mali
@@ -333,6 +334,7 @@ Credit goes to:
     * [the Musa leaderhead](https://forums.civfanatics.com/threads/mansa-musa-of-mali-june-2006.174352/)
     * [the Sitting Bull leaderhead](https://forums.civfanatics.com/threads/finally-sitting-bull-of-the-lakota.166623/)
     * [the Meiji leaderhead](https://forums.civfanatics.com/threads/mutsuhito-meiji-tennou-4-0.219768/)
+    * [the Qin Shi Huang leaderhead](https://forums.civfanatics.com/threads/qin-shi-huang-of-the-chin-chinese.319526/)
     * [the Viet Cong unit](https://forums.civfanatics.com/resources/vietcong-2-0.23540/)
 * [Partizanac for their Ho Chi Minh leaderhead](https://forums.civfanatics.com/resources/ho-chi-mihn.3287/)
 * [Pounder for their custom disorder animation](https://forums.civfanatics.com/threads/disorder-animation.225387/)
