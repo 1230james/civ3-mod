@@ -43,8 +43,8 @@ Art\Advisors\HitlerAll.pcx
 Art\Leaderheads\StalinNeutralLarge.pcx
 Art\Advisors\StalinAll.pcx
 #RACE_CHINESE
-art\leaderheads\MO.pcx
-art\advisors\MO_all.pcx
+art\leaderheads\Shi.pcx
+art\advisors\Shi_All.pcx
 #RACE_AMERICAN
 Art\Leaderheads\RooseveltNeutralLarge.pcx
 Art\Advisors\RooseveltAll.pcx
@@ -147,7 +147,7 @@ art\leaderheads\HitlerHappyLarge.pcx
 #HAPPY_RACE_RUSSIAN
 art\leaderheads\StalinHappyLarge.pcx
 #HAPPY_RACE_CHINESE
-art\leaderheads\MO_HAP.pcx
+art\leaderheads\Shi_HAP.pcx
 #HAPPY_RACE_AMERICAN
 art\leaderheads\RooseveltHappyLarge.pcx
 #HAPPY_RACE_JAPANESE
@@ -220,7 +220,7 @@ art\leaderheads\HitlerHappySmall.pcx
 #SHAPP_RACE_RUSSIAN
 art\leaderheads\StalinHappySmall.pcx
 #SHAPP_RACE_CHINESE
-art\leaderheads\MO_SHAP.pcx
+art\leaderheads\Shi_SHAP.pcx
 #SHAPP_RACE_AMERICAN
 art\leaderheads\RooseveltHappySmall.pcx
 #SHAPP_RACE_JAPANESE
@@ -293,7 +293,7 @@ art\leaderheads\HitlerKissLarge.pcx
 #LKISS_RACE_RUSSIAN
 art\leaderheads\StalinKissLarge.pcx
 #LKISS_RACE_CHINESE
-art\leaderheads\MO_KIS.pcx
+art\leaderheads\Shi_KIS.pcx
 #LKISS_RACE_AMERICAN
 art\leaderheads\RooseveltKissLarge.pcx
 #LKISS_RACE_JAPANESE
@@ -366,7 +366,7 @@ art\leaderheads\HitlerKissSmall.pcx
 #SKISS_RACE_RUSSIAN
 art\leaderheads\StalinKissSmall.pcx
 #SKISS_RACE_CHINESE
-art\leaderheads\MO_SKIS.pcx
+art\leaderheads\Shi_SKIS.pcx
 #SKISS_RACE_AMERICAN
 art\leaderheads\RooseveltKissSmall.pcx
 #SKISS_RACE_JAPANESE
@@ -439,7 +439,7 @@ art\leaderheads\HitlerAngrySmall.pcx
 #ANGRY_RACE_RUSSIAN
 art\leaderheads\StalinAngrySmall.pcx
 #ANGRY_RACE_CHINESE
-art\leaderheads\MO_ANG.pcx
+art\leaderheads\Shi_ANG.pcx
 #ANGRY_RACE_AMERICAN
 art\leaderheads\RooseveltAngrySmall.pcx
 #ANGRY_RACE_JAPANESE
@@ -513,7 +513,7 @@ art\leaderheads\HitlerHeartsSmall.pcx
 #ILOVE_RACE_RUSSIAN
 art\leaderheads\StalinHeartsSmall.pcx
 #ILOVE_RACE_CHINESE
-art\leaderheads\MO_CULT.pcx
+art\leaderheads\Shi_CULT.pcx
 #ILOVE_RACE_AMERICAN
 art\leaderheads\RooseveltHeartsSmall.pcx
 #ILOVE_RACE_JAPANESE
@@ -586,7 +586,7 @@ art\leaderheads\HitlerHeartsTiny.pcx
 #LOVED_RACE_RUSSIAN
 art\leaderheads\StalinHeartsTiny.pcx
 #LOVED_RACE_CHINESE
-art\leaderheads\MO_CULTB.pcx
+art\leaderheads\Shi_CULTB.pcx
 #LOVED_RACE_AMERICAN
 art\leaderheads\RooseveltHeartsTiny.pcx
 #LOVED_RACE_JAPANESE
@@ -659,7 +659,7 @@ art\leaderheads\HitlerBeatenUpLarge.pcx
 #LHURT_RACE_RUSSIAN
 art\leaderheads\StalinBeatenUpLarge.pcx
 #LHURT_RACE_CHINESE
-art\leaderheads\MO_CONQ_L.pcx
+art\leaderheads\Shi_CONQ_L.pcx
 #LHURT_RACE_AMERICAN
 art\leaderheads\RooseveltBeatenUpLarge.pcx
 #LHURT_RACE_JAPANESE
@@ -732,7 +732,7 @@ art\leaderheads\HitlerBeatenUpSmall.pcx
 #HURTN_RACE_RUSSIAN
 art\leaderheads\StalinBeatenUpSmall.pcx
 #HURTN_RACE_CHINESE
-art\leaderheads\MO_CONQ.pcx
+art\leaderheads\Shi_CONQ.pcx
 #HURTN_RACE_AMERICAN
 art\leaderheads\RooseveltBeatenUpSmall.pcx
 #HURTN_RACE_JAPANESE
@@ -823,8 +823,8 @@ Art\Civilopedia\Icons\Races\HitlerSmall.pcx
 Art\Civilopedia\Icons\Races\StalinLarge.pcx
 Art\Civilopedia\Icons\Races\StalinSmall.pcx
 #ICON_RACE_CHINESE
-art\civilopedia\icons\races\Chinalarge.pcx
-art\civilopedia\icons\races\Chinasmall.pcx
+art\civilopedia\icons\races\Shi_LARGE.pcx
+art\civilopedia\icons\races\Shi_SMALL.pcx
 #ICON_RACE_AMERICAN
 Art\Civilopedia\Icons\Races\RooseveltLarge.pcx
 Art\Civilopedia\Icons\Races\RooseveltSmall.pcx
